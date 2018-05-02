@@ -1,0 +1,3 @@
+.key lang/a
+flexcat aweb.cd ct/<lang>/aweb.ct catalog catalogs/<lang>/aweb.catalog warnctgaps
+flexcat awebcfg.cd ct/<lang>/awebcfg.ct catalog catalogs/<lang>/awebcfg.catalog warnctgaps

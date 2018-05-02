@@ -1,0 +1,94 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Network settings: Privacy
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Network settings: Privacy</h1>
+
+<h2>Suppress Referer while browsing<br>
+<font size=-2>(Previously called: Browse anonymously)</font>
+</h2>
+Normally, if you follow a hyperlink, AWeb sends the address of the page
+that link appeared on to the server (the "Referer"). This allows servers to generate lists
+of back-links for interest, logging, optimized caching, tracing obsolete
+or mistyped links, etc. Some servers, like chat servers, actually need this
+information to let you get the page.
+<p>
+Because the source of a link may be private information, or may reveal
+an otherwise private information source, AWeb allows you to disable this
+feature. If the checkbox is selected, AWeb doesn't send this address.
+
+<h2><a name=formwarn>Warn before sending unsecure form data</a></h2>
+If this checkbox is checked, a warning requester is given every time you
+have submitted a form over an <a href="../secure.html">unsecure connection</a>.
+
+<h2><a name=spamblock>Activate spamblock when posting news</a></h2>
+Spammers (senders of unsolicited commercial e-mail) often scan all articles
+in <a href="../news.html">newsgroups</a> for e-mail addresses. If you
+check this checkbox, the articles you post will contain modified addresses
+to protect you against this practice.
+
+<h2><a name=ftpemail>Use e-mail address as FTP anon password</a></h2>
+FTP servers usually require a userid and password to obtain access. Most
+links to FTP sites don't contain this details because most FTP sites can
+be accessed via <em>anonymous FTP.</em> By convention, the word "<code>anonymous</code>"
+is used as userid, and your e-mail address is used as password in this case.
+<p>
+If you check this option, and you have configured your
+<a href="nwmail.html#email">e-mail address</a>, it is sent as password
+for anonymous FTP. Otherwise the string "<code>anonymous@anonymous</code>"
+is used.
+
+<h2><a name=cookie>Use cookies</a></h2>
+Use this chooser to select the protection level against privacy violation
+by <a href="../cookies.html">cookies</a>.
+
+<h2><a name=rfc2109>RFC 2109</a></h2>
+The new standard (RFC 2109) for cookies provides a better
+<a href="../cookies.html#rfc2109">privacy protection</a> than the original
+NetScape cookie mechanism. Unfortunately, not all servers are compatible
+with the new standard. Uncheck this checkbox to turn the new mechanism off,
+in case you have problems with a specific site.
+
+<h2><a name=nocookie>No cookies for domains</a></h2>
+If this list contains full or partial <em>domain names</em>, then AWeb
+will never remember or save cookies set by these domains, and never
+send cookies to these domains. The <em>domain</em> name is checked against
+the domain as it is defined in the <a href="../cookies.html">cookie</a>
+definition.
+<p>
+Use the <b>Add</b> button to add a new entry, and the <b>Del</b> button to
+delete the currently selected entry. Double-click on an entry to edit
+the name <em>in place</em>.
+<p>
+You can also add a domain in this list by clicking the <b>Never</b> button
+in the <a href="../cookies.html#alert">cookie alert requester</a>.
+
+<p>
+<hr>
+<a href=nwcache.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Cache</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=nwmail.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Mail/News</a>
+
+</body>
+</html>

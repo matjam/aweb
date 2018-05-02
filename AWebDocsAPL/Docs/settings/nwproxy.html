@@ -1,0 +1,95 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Network settings: Proxy
+</title>
+<meta name="keywords" content="http,ftp,gopher,telnet">
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Network settings: Proxy</h1>
+
+<h2>Proxy servers</h2>
+A proxy server is a special server, that acts as a gateway between your
+computer and the Internet. Instead of having to establish a connection
+to a server possibly on the other end of the world, a browser only connects
+to the proxy. The proxy server has a cache of the most popular pages, so
+there is a chance the page you requested is already there. If not, the
+proxy server retrieves the document for you. This will decrease the traffic
+on the network, thus speeding up websurfing.
+<p>
+Sometimes, the proxy server is the <em>only</em> way to connect to your
+provider, thereby acting as a firewall.
+
+<h2>Configuring a proxy</h2>
+First, choose the protocol you want to define the proxy for. Use the
+chooser for this, it has 4 options:
+<ul>
+<li>HTTP
+<li>FTP
+<li>Gopher
+<li>Telnet
+</ul>
+
+Then type in the address of the proxy in the <em>proxy</em> field. Make sure
+it is in one of these two forms:
+<pre><b>
+   http://proxy.foo.bar
+   http://proxy.foo.bar:8080
+</b></pre>
+where the name and port number may differ, of course.
+<p>
+If the address doesn't start with "<code>http://</code>",
+AWeb will prepend this to the address.
+
+<h2>Limited proxy usage</h2>
+Some proxies can't handle submitting forms with <code>METHOD=POST</code>, or
+<a href=../authorize.html>authorized</a> pages correctly. If you have
+problems with such pages, try selecting this checkbox. It makes AWeb handle
+these pages directly, without going through the proxy.
+
+<h2><a name="passiveftp">Passive FTP</a></h2>
+If you are working from behind a firewall, and you experience problems using
+FTP, try selecting this checkbox. It tells AWeb to use a different way of
+making the necessary FTP connections, that will more likely work from behind
+a firewall.
+
+<h2>No proxy for these sites</a></h2>
+If this list contains <em>site names</em> (also known as <em>locations</em> or 
+<em>host names</em>), then documents and images from these sites will never
+be retrieved through the proxy.
+<p>
+Use the <b>Add</b> button to add a new entry, and the <b>Del</b> button to
+delete the currently selected entry. Double-click on an entry to edit
+the name <em>in place</em>.
+<p>
+You may type simple host names, or use pattern matching. If a string contains
+pattern matching characters, it's matched against the full url, not only the
+host name. This enables you to selectively use the proxy for files from a
+server.
+
+<p>
+<hr>
+<a href=nwprograms.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Programs</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=nwcache.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Cache</a>
+
+</body>
+</html>

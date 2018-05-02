@@ -1,0 +1,104 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Using your own transfer animation
+</title>
+</head>
+<body background=awebbg.iff>
+<h1><img src=aweb.iff alt=(logo) width=192 height=93 >&nbsp; Using your own transfer animation</h1>
+
+<h2>Configurable animation</h2>
+The transfer animation in AWeb's main window is fully user-configurable. It is
+read from the file <code>Images/def_transferanim</code>. This must be a
+picture file, but the exact format isn't relevant as long as you have a
+datatype installed that can read the file.
+<p>
+The icon that goes with the file is important. The tooltypes in the icon
+contain vital information, without this information AWeb cannot use the
+file.
+<p>
+The animation is shown in the <em>background status</em> gadget. this gadget
+will be sized according to the size of the animation. For the best look, you
+should use an animation that is about twice as high as your
+<a href=buttons.html>button images</a>.
+
+<h2>Installing your own animation</h2>
+The <code>Storage/Animations</code> drawer contains a few alternate animations, and
+it is a good place to store new animations.
+<p>
+To install a new animation, open AWeb's drawer
+on your Workbench. Now you can double-click the <em>Install_Animation</em>
+icon. It will open a file requester from which you can pick your animation.
+The install procedure will then copy the selected file to your <code>Images</code>
+drawer.
+<p>
+Alternatively, you can click the <em>Install_Animation</em> icon once, hold
+the shift key and double-click on the icon of the animation you want to
+install.
+<p>
+<strong>NOTE:</strong> You cannot install a new animation while AWeb is running.
+
+<h2>Creating your own animation file</h2>
+Use an ordinary paint program to design your animation. Create one
+picture that contains all animation frames. Make sure all button images are
+equal in size. Also every next frame must be at the same horizontal and/or vertical
+distance from the previous. Save the
+picture in the <code>Storage/Animations</code> drawer. Save it with icon,
+or add an icon later.
+<p>
+It is a good idea to keep the picture file as small as possible.
+The larger the file is, the longer it will take to load at startup
+time of AWeb.
+
+<p>
+Then add some tooltypes to the icon. The tooltypes
+tell AWeb where in your picture to look for the animation frames. Use the
+following tooltypes:
+<table>
+<tr valign=top>
+   <th align=left valign=top>SIZE=<i>width,height</i>
+   <td>This defines the width and height of each animation frame, in pixels.
+<tr valign=top>
+   <th align=left valign=top>FIRST=<i>left,top</i>
+   <td>Defines the top left corner of the first animation frame.
+<tr valign=top>
+   <th align=left valign=top>FRAMES=<i>number</i>
+   <td>This is the total number of frames in the animation. After the last frame
+      the first one is used again.
+<tr valign=top>
+   <th align=left valign=top>DELTA=<i>delta_x,delta_y</i>
+   <td>This is the amount to add to the current x and y coordinates to get
+      to the next frame.
+<tr valign=top>
+   <th align=left valign=top>REST=<i>left,top</i>
+   <td>Defines the top left corner of the <em>rest</em> image, that is displayed
+      if no transfer is going on.<br>
+      This tooltype is optional. If you don't specify it, the animation gadget
+      will be empty at rest.
+</table>
+
+<p>
+<hr>
+<a href=aweb.html><img src=back.gif width=32 height=16 alt="<-" border=0></a> Back to
+<a href=aweb.html>index</a>.
+
+</body>
+</html>

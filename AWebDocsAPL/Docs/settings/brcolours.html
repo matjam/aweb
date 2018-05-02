@@ -1,0 +1,75 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Browser settings: Colours
+</title>
+<meta name="keywords" content="colors">
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Browser settings: Colours</h1>
+
+<h2>Change the default colours</h2>
+To change the colour of a link, text or background, select the appropriate row in the list.
+There are different colour settings for:
+<table>
+<tr valign=top>
+   <th align=left valign=top>New link
+   <td>This colour is used for links to pages that you haven't visited yet.
+<tr valign=top>
+   <th align=left valign=top>Visited link
+   <td>Links to pages you have visited before are shown in this colour.
+<tr valign=top>
+   <th align=left valign=top>Selected link
+   <td>This is the highlight colour a link will have when you click it.
+<tr valign=top>
+   <th align=left valign=top>Background
+   <td>The background colour of a page without a background colour or
+   background image.
+<tr valign=top>
+   <th align=left valign=top>Text
+   <td>The default colour of normal text on a page.
+</table>
+<p>
+Then press the <b>Change colour</b> button, this will pop up a colour
+requester. Note that this colour requester (as opposed to the
+<a href=prpalette.html>Program Palette</a> colour requester) does <em>not</em>
+change the screen's palette. Instead, it picks the colour from the available
+palette that fits best to the selected colour values. Internally, the 24
+bit colour values are stored, and for every screen that AWeb opens on, the best
+fitting colours are determined.
+<p>
+These settings are ignored if a page defines its own colours.
+
+<h2>Use screen text and background colours</h2>
+Suppose you don't want any special colour for your background and text, but
+just the normal screen colours. Instead of trying to get the palette exactly
+right to match the screen colours, you can simply select this checkbox. Then
+the palette settings for browser background and text are ignored, and those
+of the screen are used (unless the page defines its own colours).
+
+<p>
+<hr>
+<a href=brstyles.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Styles</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=16 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=brviewers.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Viewers</a>
+
+</body>
+</html>

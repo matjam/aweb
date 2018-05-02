@@ -1,0 +1,69 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+GUI settings: Navigation
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; GUI settings: Navigation</h1>
+
+<h2>Changing the function of the navigation buttons</h2>
+The list contains the names of the ten navigation buttons in the upper right
+corner of the browser window, and the functions
+assigned to these buttons. The names correspond with the default function of
+the buttons.
+<p>
+Select the button you want to modify from the listview.
+
+<h2>Command</h2>
+In this field, you can type the <a href="../arexx/commands.html">Arexx command</a>
+that should be executed when you press the navigation button.
+<p>
+In the command string, you can use the following parameter specifiers:
+<table>
+<tr valign=top>
+   <th align=left valign=top nowrap>%u
+   <td>URL currently displayed in the browser window.
+<tr valign=top>
+   <th align=left valign=top nowrap>%n
+   <td>screen name that AWeb is running on.
+<tr valign=top>
+   <th align=left valign=top nowrap>%i
+   <td>ID of frame that has focus.
+<tr valign=top>
+   <th align=left valign=top nowrap>%t
+   <td>title of the document, as shown in the window title bar.
+<tr valign=top>
+   <th align=left valign=top nowrap>%c
+   <td><a href="../startup.html">configuration name</a>.
+</table>
+<p>
+Although you can assign any command to each button, the <i>back</i>, <i>forward</i>
+and <i>cancel</i> buttons will still be ghosted under certain circumstances,
+defined by their original function.
+
+<p>
+<hr>
+<a href=uikeys.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Keys</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=uioptions.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Options</a>
+</body>
+</html>

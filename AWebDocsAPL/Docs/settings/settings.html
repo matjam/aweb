@@ -1,0 +1,239 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Settings Requesters
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Settings Requesters</h1>
+<h2>Purpose</h2>
+In the settings requesters, you can change many aspects of AWeb. The changed
+settings can be saved, used until the next reboot, temporarily tested, or cancelled.
+<p>
+There are four settings requesters, each controlling a different aspect
+of AWeb:
+<table>
+<tr valign=top>
+<td><a href=#browser>Browser settings</a>
+<td>Everything directly related to the way HTML is shown, including the
+   fonts used and the external viewers
+<tr valign=top>
+<td><a href=#program>Program settings</a>
+<td>Things general for the program, including screen mode, paths, and
+   the editor
+<tr valign=top>
+<td><a href=#gui>GUI settings</a>
+<td>Things directly related to the GUI functions, like the menu,
+   the user buttons and the popup menu
+<tr valign=top>
+<td><a href=#network>Network settings</a>
+<td>Everything related to the network, including the loading of images,
+   plug-ins and the cache
+</table>
+
+<h2>Opening the Settings Requesters</h2>
+A settings requester is opened by selecting the appropriate <code>Settings / 
+<var>aspect</var> settings...</code> menu item.
+<p>
+The <code>Settings / ClassAct&nbsp;settings...</code> menu item will open
+the <a href=../classact.html>ClassAct</a> preference requester. You can control
+a number of aspects for the different requesters here.
+<p>
+<strong>NOTE:</strong> When opened on a NTSC medium resolution screen (200 pixels
+in height), some requesters may not be visible completely, depending on the
+screen font used. If this happens, you should open the <em>ClassAct</em> preference
+requester, go to the <em>Misc</em> page, and decrease the number given for the
+<em>layout spacing</em>.
+
+<h2>Different settings</h2>
+By default, AWeb stores its settings in the <code>ENVARC:AWeb3</code> drawer. If
+you used the <code>CONFIG</code> <a href=../startup.html>tooltype or argument</a>,
+the settings are stored in the <code>ENVARC:AWeb3/<var>config_name</var></code>
+drawer instead.<br>
+If this drawer doesn't exist, it will be created.
+
+<p>
+Don't edit the settings files by hand. Some entries contain unprintable characters,
+that your editor may or may not handle correctly. Saving a settings file from
+your editor may destroy one or more settings.
+
+<h2>Controlling the settings requesters</h2>
+<h3>Menus</h3>
+Each settings requester has the following menu items:
+<table>
+<tr valign=top>
+   <th rowspan=3 align=left valign=top>Project menu
+   <th align=left valign=top>Open...
+   <td>Read settings from a different file.
+<tr valign=top>
+   <th align=left valign=top>Save as...
+   <td>Save the settings in a different file.
+<tr valign=top>
+   <th align=left valign=top>Quit settings
+   <td>Close this settings requester.
+<tr valign=top>
+   <th rowspan=3 align=left valign=top>Edit menu
+   <th align=left valign=top>Reset to defaults
+   <td>The settings in this requester are reset to their default values.
+<tr valign=top>
+   <th align=left valign=top>Last saved
+   <td>The settings in this requester are reset to the values as you have
+      saved them the last time.
+<tr valign=top>
+   <th align=left valign=top>Restore
+   <td>The settings in this requester are reset to the values as they were
+      when you opened the requester.
+<tr valign=top>
+   <th rowspan=6 align=left valign=top>Windows menu
+   <th align=left valign=top>Browser settings...
+   <td>Open or activate the <a href=#browser>browser settings</a> requester.
+<tr valign=top>
+   <th align=left valign=top>Program settings...
+   <td>Open or activate the <a href=#program>program settings</a> requester.
+<tr valign=top>
+   <th align=left valign=top>GUI settings...
+   <td>Open or activate the <a href=#gui>GUI settings</a> requester.
+<tr valign=top>
+   <th align=left valign=top>Network settings...
+   <td>Open or activate the <a href=#network>network settings</a> requester.
+<tr valign=top>
+   <th align=left valign=top>ClassAct settings...
+   <td>Open or activate the <a href=../ClassAct.html>Classact</a> preference window.
+<tr valign=top>
+   <th align=left valign=top>Snapshot
+   <td>Store the current window positions.
+</table>
+
+<h3>Buttons</h3>
+Each settings requester has some standard buttons:
+<table>
+<tr valign=top>
+   <th align=left valign=top><em>Clicktabs</em>
+   <td>From the row of so-called <em>clicktabs</em> you can pick
+      a <em>page</em> with related settings.
+<tr valign=top>
+   <th align=left valign=top>Save
+   <td>Save the current settings to disk, and close the requester.
+<tr valign=top>
+   <th align=left valign=top>Use
+   <td>Close the requester and use the current settings, but don't save them.
+      After a boot, the last saved settings are active again.
+<tr valign=top>
+   <th align=left valign=top>Test
+   <td>Use the settings now, but don't save them to disk. The requester remains
+      open. If you cancel the requester, the original settings become active
+      again.
+<tr valign=top>
+   <th align=left valign=top>Cancel
+   <td>Close the requester without changing the current settings.
+</table>
+
+<h2><a name=browser>Browser settings</a></h2>
+The browser settings requester can control the following aspects:
+<table>
+<tr valign=top>
+   <th align=left valign=top><a href=broptions.html>Options</a>
+   <td>Some general options that control the behaviour and looks of the browser.
+<tr valign=top>
+   <th align=left valign=top><a href=brfonts.html>Fonts</a>
+   <td>The fonts that should be to AWebs disposal.
+<tr valign=top>
+   <th align=left valign=top><a href=brstyles.html>Styles</a>
+   <td>The font type, size and style to use for various elements on a HTML page.
+<tr valign=top>
+   <th align=left valign=top><a href=brcolours.html>Colours</a>
+   <td>The colours to be used for various elements of a document.
+<tr valign=top>
+   <th align=left valign=top><a href=brviewers.html>Viewers</a>
+   <td>The external viewers to use for various types of objects.
+</table>
+
+<h2><a name=program>Program settings</a></h2>
+The program settings requester can control the following aspects:
+<table>
+<tr valign=top>
+   <th align=left valign=top><a href=prscreen.html>Screen</a>
+   <td>The screen that AWeb should open on: default public screen, another
+   public screen, or let AWeb open its own screen.
+<tr valign=top>
+   <th align=left valign=top><a href=prpalette.html>Palette</a>
+   <td>The screen colours for AWeb's own screen.
+<tr valign=top>
+   <th align=left valign=top><a href=proptions.html>Options</a>
+   <td>The save and temporary paths, and various other general options.
+<tr valign=top>
+   <th align=left valign=top><a href=prprograms.html>Programs</a>
+   <td>The external editor and HTML source viewer to use.
+</table>
+
+<h2><a name=gui>GUI settings</a></h2>
+The GUI settings requester can control the following aspects:
+<table>
+<tr valign=top>
+   <th align=left valign=top><a href=uioptions.html>Options</a>
+   <td>If the button row should be visible, and the popup menu activation.
+<tr valign=top>
+   <th align=left valign=top><a href=uimenus.html>Menus</a>
+   <td>The entries to appear in the browser window menu.
+<tr valign=top>
+   <th align=left valign=top><a href=uibuttons.html>Buttons</a>
+   <td>The buttons to appear in the user button row.
+<tr valign=top>
+   <th align=left valign=top><a href=uipopup.html>Popup</a>
+   <td>The entries to appear in the popup menu
+<tr valign=top>
+   <th align=left valign=top><a href=uikeys.html>Keys</a>
+   <td>The user-defined keys.
+<tr valign=top>
+   <th align=left valign=top><a href=uinavs.html>Navigation</a>
+   <td>The function of the ten navigation buttons.
+</table>
+
+<h2><a name=network>Network settings</a></h2>
+The network settings requester can control the following aspects:
+<table>
+<tr valign=top>
+   <th align=left valign=top><a href=nwoptions.html>Options</a>
+   <td>Various general network related settings, including the loading of images.
+<tr valign=top>
+   <th align=left valign=top><a href=nwprograms.html>Programs</a>
+   <td>The external programs or <em>plug-ins</em> to use, e.g. for telnet.
+<tr valign=top>
+   <th align=left valign=top><a href=nwproxy.html>Proxy</a>
+   <td>The proxies that AWeb should use.
+<tr valign=top>
+   <th align=left valign=top><a href=nwcache.html>Cache</a>
+   <td>The cache size, cache mode and other cache related settings.
+<tr valign=top>
+   <th align=left valign=top><a href=nwprivacy.html>Privacy</a>
+   <td>Various privacy protection options.
+<tr valign=top>
+   <th align=left valign=top><a href=nwmail.html>Mail/News</a>
+   <td>Everything related to the internal mailer and newsreader.
+</table>
+
+<p>
+<hr>
+<a href=../aweb.html><img src=../back.gif width=32 height=16 alt="<-" border=0></a> Back to
+<a href=../aweb.html>index</a>.
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+GUI settings: Popup
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; GUI settings: Popup</h1>
+
+<h2>Changing the popup menu</h2>
+The list contains the labels and actions for the entries that should appear
+in the <a href="../popup.html">popup menu</a>.
+<p>
+AWeb can display three different popup menus, depending on the context:
+<ul>
+<li>Image popup menu
+<li>Link popup menu
+<li>Frame popup menu
+</ul>
+You select which popup menu to change by the chooser on top of the list.
+<p>
+Select the popup menu entry you want to modify from the listview.
+Use the <b>Add</b> button to add a new blank entry. Use the <b>Del</b> button
+to remove the selected entry.
+
+<h2>Title</h2>
+Type the entry title as you like it to appear in the popup menu.
+
+<h2>Command</h2>
+In this field, you can type the <a href="../arexx/commands.html">Arexx command</a>
+that should be executed when you press the button.
+<p>
+In the command string, you can use the parameter specifiers to make substitutions.
+The parameters you can use depend on the popup menu type:
+<table border>
+<tr><th>Image popup menu
+<tr><td>
+      <table>
+         <tr valign=top>
+            <th align=left valign=top nowrap>%u
+            <td>URL of the image
+      </table>
+<tr><th>Link popup menu
+<tr><td>
+      <table>
+         <tr valign=top>
+            <th align=left valign=top nowrap>%u
+            <td>URL that the link points to
+         <tr valign=top>
+            <th align=left valign=top nowrap>%i
+            <td>ID or name of the target frame for this link, for use in TARGET arguments
+         <tr valign=top>
+            <th align=left valign=top nowrap>%t
+            <td>link title, what is shown in the status gadget when the mouse
+               is over the link
+      </table>
+<tr><th>Frame popup menu
+<tr><td>
+      <table>
+         <tr valign=top>
+            <th align=left valign=top nowrap>%u
+            <td>URL currently displayed in this frame
+         <tr valign=top>
+            <th align=left valign=top nowrap>%i
+            <td>ID of this frame, for use in TARGET arguments
+      </table>
+</table>
+
+<h2>Show if object in memory</h2>
+In the image and link popup menus, you might want to show entries depending on
+if the object is in memory or not. For example, "flush image" is only useful if
+the image is in memory. Use the two checkboxes to specify if the entry should
+be included in the menu if the object is in memory, or if it is not in
+memory. If you select both checkboxes, the entry will always appear in the
+popup menu.
+
+<h2>Rearranging entries</h2>
+You can move an entry in the popup menu. Select the entry, either with the mouse or with
+the cursor up and down keys. Now you can move the entry up and down
+in the list with either the arrow up and arrow down buttons, or with
+the <kbd>Ctrl</kbd> + cursor up/down keys.
+<p>
+The <b>Sort</b> button will sort the entries alphabetically by their title.
+
+<p>
+<hr>
+<a href=uibuttons.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Buttons</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=uikeys.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Keys</a>
+</body>
+</html>

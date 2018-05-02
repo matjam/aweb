@@ -1,0 +1,9 @@
+FROM LIB:c.o "makeindex.o"
+TO "makeindex"
+LIB LIB:scnb.lib LIB:amiga.lib
+QUIET
+DEFINE __CXM33=__UCXM33
+DEFINE __CXD33=__UCXD33
+DEFINE __CXM22=__UCXM22
+DEFINE __CXD22=__UCXD22
+MAP makeindex.map,h

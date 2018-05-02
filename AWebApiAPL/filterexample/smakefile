@@ -1,0 +1,12 @@
+## SAS/C makefile for FilterExample aweb plugin module
+
+.c.o:
+   sc "$*.c"
+
+filterexample.awebplugin:    startup.o filterexample.o filterexample.lnk
+   slink with filterexample.lnk
+
+startup.o:     startup.c pluginlib.h
+
+filterexample.o: filterexample.c pluginlib.h filterexample.h
+

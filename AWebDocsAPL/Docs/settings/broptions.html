@@ -1,0 +1,147 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Browser settings: Options
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Browser settings: Options</h1>
+
+<h2><a name=htmlmode>HTML mode</a></h2>
+Use this chooser to select the <a href=../htmlmode.html>HTML mode</a>.
+It is recommended that you leave this set to <em>tolerant</em> unless you
+encounter problems with a page.
+
+<h2><a name=javascript>Use JavaScript</a></h2>
+This chooser determines if and how AWeb will interpret <a href="../javascript.html">
+JavaScript</a> in documents. It offers you the following choices:
+<table>
+<tr><th align=left valign=top>Off
+   <td>No JavaScript is interpreted.
+<tr><th align=left valign=top>Fastidious
+   <td>Picky mode; Only JavaScript version 1.1 or lower is executed. If a run-time
+      error occurs, an error requester is shown (unless you have selected not
+      to <a href="#jserrors">show JavaScript errors</a>) and execution is stopped.
+<tr><th align=left valign=top>Omnivorous
+   <td>Execution of all JavaScript programs is attempted, even of those with versions
+      that are not yet implemented in AWeb. In this mode, no run-time error requesters
+      are shown, and execution will continue even after errors are encountered.<br>
+      <b>WARNING</b> Because execution continues even after possibly vital JavaScript
+      commands were in error, execution might go on endlessly. Use the &quot;Break
+      JavaScript&quot; menu item or its shortcut (Amiga-X by default) to stop execution
+      in this case.
+</table>
+
+<h2><a name=jserrors>Show JavaScript errors</a></h2>
+This checkbox controls if error requesters are shown when a JavaScript
+program stops in error, or not.
+
+<h2><a name="watchjs">Warn for suspect JavaScript</a></h2>
+If this option is selected, AWeb warns you for two types of suspect scripts.
+<p>
+A warning is given when a script runs for one minute, indicating a possible endless
+loop. You now have the option to stop the script, but beware that some valid scripts
+just take up that much time. If you select to continue, you will be warned again after
+one minute.
+<p>
+A warning is also issued when during script execution the amount of free memory
+drops below one quarter of the free memory amount at the time the script was
+started. This might indicate that the script is allocating "many" objects and
+is about to eat up all available memory. Again, you have now the option to stop
+the script. Note that the cleaning up process might take a considerable amount
+of time, during which AWeb seems to hang, but is in fact returning the allocated
+memory to the system. If you decide to continue after this warning, you'll be
+warned again if the amount of free memory drops below one quarter of the free
+memory at the time of the latest warning.
+
+<h2><a name=nobanners>Suppress banner windows</a></h2>
+Many pages on the net automatically open a banner or advertisement window
+as soon as they are loaded. Select this checkbox to get rid of those windows.
+<p>
+See <a href="../javascript.html#nobanners">here</a> for an explanation what
+this option exactly does.
+
+<h2><a name=tooltips>Display tooltips for images</a></h2>
+If this checkbox is selected, a small tooltip window will pop up when you keep
+the mouse still over an image that has an alternate text associated with it.
+
+<h2><a name=handpointer>Hand pointer over links</a></h2>
+If this checkbox is selected, a different pointer image is used when the mouse
+pointer is over a hyperlink. By default a hand image is used, but you can
+<a href="../pointers.html">change</a> this.
+
+<h2><a name=underline>Underlined links</a></h2>
+The checkbox determines whether links should be displayed underlined or not. If
+underlined is selected, <em>new links</em> are underlined with a
+solid line, and <em>visited links</em> will have a dashed line.
+<p>
+If this checkbox is selected, images that are links have a border in the
+appropriate colour.
+
+<h2><a name=frames>Use frames</a></h2>
+This checkbox determines if AWeb will use and display frames.
+
+<h2><a name=nominal>Nominal frame height</a></h2>
+On small windows (like those on 200 or 256 high screens), a framed page
+often appears squeezed. If you check this checkbox, a larger height is
+used to layout the framed page against if the window has a small height.
+This will make the individual frames larger and easier to use.
+
+<h2><a name=inctable>Incremental table display</a></h2>
+When reading a page that contain a large table, most browsers don't display
+anything until the entire table is read in, which can last quite long.
+AWeb supports <em>incremental table display</em>, that means that the table
+is displayed while it is read in. The advantage is clear: you see more of
+the page in an earlier stage of loading.<br>
+There are however two drawbacks. First, a later section of the table may
+enforce different column widths, resulting in a redisplay of the entire
+table. In the worst case, this means that the table is redisplayed with
+every block of data read, causing an ugly flicker. Second, incremental
+table display may be about 10% slower than normal display, but probably
+this is more than compensated for by the earlier display.
+<p>
+With this checkbox you can switch between incremental and non-incremental
+table display.
+
+<h2><a name=background>Use background and colours</a></h2>
+Many pages contain background images or background colours. AWeb will
+display these only if this checkbox is checked. If it is unchecked, AWeb
+will use only the colours defined in the <a href=brcolours.html>Browser
+colours</a> settings page.
+
+<h2><a name=bgsound>Use background sound</a></h2>
+Some pages have a background sound attached. If this checkbox is selected,
+the sound plays every time you display the page. If it is unselected, the
+sound will not be played automatically. You can hear the sound only after
+selecting the <code>Control / Play&nbsp;background&nbsp;sound</code> menu item.
+
+<h2><a name=blink>Blink rate</a></h2>
+This field determines the rate at which blinking text blinks. The number
+is the number of tenths of a second that each blinking phase (on or off)
+lasts. When you set this number to zero, blinking is disabled.
+
+<p>
+<hr>
+<a href=brviewers.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Viewers</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=brfonts.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Fonts</a>
+</body>
+</html>

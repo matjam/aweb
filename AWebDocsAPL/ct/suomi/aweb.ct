@@ -1,0 +1,1388 @@
+## chunk AUTH Jari Komulainen
+## version $VER: aweb.catalog 45.1 (23.11.00)
+## codeset 0
+## language suomi
+;
+MSG_REQUEST_TITLE
+AWeb-kehoite
+;
+MSG_ABOUT_TITLE
+Tietoa AWebistä
+;
+MSG_ABOUT_REGNR
+Rekisteröinti #
+;
+MSG_ABOUT_REGTO
+Rekisteröity nimelle
+;
+MSG_ABOUT_SCREENNAME
+Julkisen ruudun nimi
+;
+MSG_ABOUT_PORTNAME
+ARexx-portin nimi
+;
+MSG_ABOUT_EMAIL
+Sähköposti
+;
+MSG_ABOUT_WWW
+WWW
+;
+MSG_ABOUT_OK
+_Ok
+;
+MSG_ABOUT_UNREGISTERED
+Rekisteröimätön versio\n\
+
+;
+MSG_ABOUT_DEMO
+Rekisteröimätön demo versio\n\
+
+;
+MSG_ABOUT_DISTRIBUTED
+Jakaja %s
+;
+MSG_ABOUT_TRANSLATOR
+Jari Komulainen -ATO-
+;
+MSG_ABOUT_SPECIAL
+Erikoisversio jaettavaksi AmigaOS ohessa\n\
+
+;
+MSG_QUIT_TEXT
+Oletko varma että haluat sulkea AWebin?
+;
+MSG_QUIT_OK
+_Ok
+;
+MSG_QUIT_CANCEL
+Peru
+;
+MSG_QUIT_WARNING
+VAROITUS: Siirrot keskeytetään!\n\
+\n\
+
+;
+MSG_DEMO_TEXT
+Tämä on AWebin demoversio,joka ei\n\
+avaa useampia dokumentti-ikkunoita
+;
+MSG_DEMO_OK
+_Ok
+;
+MSG_SCRCLOSE_TEXT
+AWeb ei voi sulkea ruutuaan.\n\
+Sulje kaikki ikkunat ensin.
+;
+MSG_SCRCLOSE_OK
+Ok
+;
+MSG_NWS_TITLE
+Verkon tila
+;
+MSG_NWS_QUEUED
+Jonossa
+;
+MSG_NWS_STARTED
+Aloitettu
+;
+MSG_NWS_LOOKUP
+Etsitään
+;
+MSG_NWS_CONNECT
+Yhdistetään
+;
+MSG_NWS_WAIT
+Odotetaan
+;
+MSG_NWS_PROCESS
+Käsitellään
+;
+MSG_NWS_LOGIN
+Kirjaudutaan sisään
+;
+MSG_NWS_CPS
+%ld cps
+;
+MSG_NWS_NEWSGROUP
+Tarkastaa
+;
+MSG_NWS_UPLOAD
+Lähettää
+;
+MSG_AUTH_TITLE
+Tunnistautuminen
+;
+MSG_AUTH_PROMPT
+Käyttäjätunnus ja salasana osoitteeseen
+;
+MSG_AUTH_USERID
+Käyttäjätunnus
+;
+MSG_AUTH_PASSWORD
+Salasana
+;
+MSG_AUTH_OK
+_Ok
+;
+MSG_AUTH_CANCEL
+Peru
+;
+MSG_AUTH_PROMPT_FTP
+Salasana osoitteeseen
+;
+MSG_AUTH_USERID_FTP
+Käyttäjätunnus
+;
+MSG_AUTH_PROMPT_PROXY
+Käyttäjätunnus ja salasana proxylle
+;
+MSG_FILE_SAVETITLE
+Valitse tallennusnimi
+;
+MSG_FILE_SAVE
+Talleta
+;
+MSG_FILE_INCTEXT
+Keskeneräinen tiedosto!\n\
+%s\n\
+Odotettiin: %ld byteä\n\
+Ladattiin : %ld byteä\n\
+\n\
+Valitse OK pitääksesi vajaa tiedosto.
+;
+MSG_DUMMY_1
+
+;
+MSG_FILE_EXISTTEXT
+Tiedosto:\n\
+%s\n\
+on jo olemassa!
+;
+MSG_FILE_EXISTBUTTONS
+Päälle|Lisää|Uusi nimi|Peru
+;
+MSG_FILE_AREXXTITLE
+Valitse ARexx-makro
+;
+MSG_FILE_HOTLISTTITLE
+Valitse hierarkinen pikalista
+;
+MSG_FILE_LOCALTITLE
+Avaa paikallinen tiedosto
+;
+MSG_FILE_OPEN
+Avaa
+;
+MSG_FILE_TEMPTITLE
+Tilapäispolkua ei löydy:\n\
+%s\n\
+Käytä T: hakemistoa.
+;
+MSG_FILE_TEMPBUTTONS
+_Ok
+;
+MSG_FILE_INCBUTTONS2
+_Ok|Uudestaan|Peru
+;
+MSG_FILE_SETTINGSTITLE
+Valitse asetushakemisto
+;
+MSG_FILE_UPLOADTITLE
+Valitse lähetettävä tiedosto
+;
+MSG_TCP_ENDTCP
+AWeb on pysäytetty.\n\
+Lopetetaanko TCP-yhteys myös?
+;
+MSG_TCP_BUTTONS
+Kyllä|Ei
+;
+MSG_STARTUP_FONTS
+Lataan kirjasimia
+;
+MSG_STARTUP_IMAGES
+Lataan GUI-kuvia
+;
+MSG_STARTUP_CACHE
+Lataan välimuistihakemistoa
+;
+MSG_HOTL_TITLE
+AWeb pikalista
+;
+MSG_HOTL_ADDLINK
+Lisää linkki
+;
+MSG_HOTL_ADDGROUP
+Lisää ryhmä
+;
+MSG_HOTL_REMOVE
+Poista
+;
+MSG_HOTL_FOLLOW
+Seuraa
+;
+MSG_HOTL_NAME
+Nimi
+;
+MSG_HOTL_URL
+_URL
+;
+MSG_HOTL_NEWGROUP
+Uusi ryhmä
+;
+MSG_HOTL_NEWLINK
+Uusi linkki
+;
+MSG_HOTL_TITLE_VIEWER
+AWeb pikalistaselain
+;
+MSG_HOTL_VURLS
+UR_Lit
+;
+MSG_HOTL_MANAGER
+Järjestä
+;
+MSG_HOTL_TITLE_MANAGER
+AWeb pikalistajärjestäjä
+;
+MSG_HOTL_LTYPE
+L_ista
+;
+MSG_HOTL_LTYPE_REST
+Muut
+;
+MSG_HOTL_LTYPE_ALL
+Kaikki
+;
+MSG_HOTL_LTYPE_GROUPS
+Ryhmät
+;
+MSG_HOTL_LSORT
+Lajittele
+;
+MSG_HOTL_LSORT_TITLE
+Nimi
+;
+MSG_HOTL_LSORT_URL
+URL
+;
+MSG_HOTL_MOVEIN
+_< Sisään
+;
+MSG_HOTL_MOVEOUT
+Ulos _>
+;
+MSG_HOTL_MOVE
+< Siirrä
+;
+MSG_HOTL_DEL
+Poista
+;
+MSG_HOTL_WHERE
+Missä
+;
+MSG_HOTL_SHOW
+Näytä
+;
+MSG_HOTL_SORT
+Lajittele
+;
+MSG_HOTL_PARENT
+Ylempi
+;
+MSG_HOTL_ALL
+Ryhmät
+;
+MSG_HOTL_ADDENTRY
++ Tietue
+;
+MSG_HOTL_ADDGROUP2
++ Ryhmä
+;
+MSG_HOTL_URLS
+UR_Lit
+;
+MSG_HOTL_REVERT
+Palauta
+;
+MSG_HOTL_SAVE
+Talleta
+;
+MSG_HOTL_LADD
+Lisää
+;
+MSG_HOTL_FIND
+Etsi
+;
+MSG_HOTL_PATTERN
+Sovita
+;
+MSG_HOTL_NEXT
+Seuraava
+;
+MSG_HOTL_DEFAULT_TITLE
+** Uusi linkki **
+;
+MSG_HOTL_DEFAULT_GROUP
+** Uusi ryhmä **
+;
+MSG_HOTL_TITLE_ALLGROUPS
+Kaikki ryhmät
+;
+MSG_HOTL_TITLE_WHERE
+Ryhmät joissa on tämä tietue
+;
+MSG_HOTL_TITLE_REST
+Määräämättömät tietueet
+;
+MSG_HOTL_TITLE_ALL
+Kaikki tietueet
+;
+MSG_HOTL_TITLE_ROOTGROUPS
+Pohjatason ryhmät
+;
+MSG_HOTL_LSORT_DATE
+Päiväys
+;
+MSG_WHIS_TITLE
+Ikkunahistoria
+;
+MSG_WHIS_FILTER
+Suodata
+;
+MSG_WHIS_WINDOW
+Ikkuna
+;
+MSG_WHIS_ORDER
+Järjestys
+;
+MSG_WHIS_DISPLAY
+Näytä
+;
+MSG_WHIS_ORDER_NATURAL
+Luonnollinen
+;
+MSG_WHIS_ORDER_MAINLINE
+Päälinja
+;
+MSG_WHIS_ORDER_RETRIEVED
+Haettu
+;
+MSG_WHIS_ORDER_TITLE
+Nimi
+;
+MSG_WHIS_ORDER_URL
+URL
+;
+MSG_CABR_TITLE
+Puskuriselain
+;
+MSG_CABR_URL
+URL
+;
+MSG_CABR_DATE
+Päiväys
+;
+MSG_CABR_SIZE
+Koko
+;
+MSG_CABR_TYPE
+Tyyppi
+;
+MSG_CABR_FILE
+Tiedosto
+;
+MSG_CABR_STATUS
+%ld tiedostoa, %ld kB
+;
+MSG_CABR_SORTBY
+Lajittelujärjestys
+;
+MSG_CABR_OPEN
+Avaa
+;
+MSG_CABR_SAVE
+Talleta
+;
+MSG_CABR_DELETE
+Poista
+;
+MSG_CABR_FIND
+Etsi
+;
+MSG_CABR_PATTERN
+Sovita
+;
+MSG_CABR_NEXT
+Seuraava
+;
+MSG_PROGRESS_TITLE
+AWeb suoritus
+;
+MSG_PROGRESS_CANCEL
+Peru
+;
+MSG_FIXCACHE_WARNING
+VAROITUS!\n\
+Tämä toiminto poistaa kaikki vieraat tiedostot\n\
+%s hakemistosta
+;
+MSG_FIXCACHE_BUTTONS
+_Ok|Peru
+;
+MSG_FIXCACHE_PROGRESS
+Siistin levypuskuria...
+;
+MSG_FIXCACHE_DELETEIMAGES
+Oletko varma että haluat poistaa\n\
+kaikki kuvat puskurista?
+;
+MSG_FIXCACHE_DELETEDOCS
+Oletko varma että haluat poistaa\n\
+kaikki tiedostot puskurista?
+;
+MSG_FIXCACHE_ERASE
+Oletko varma että haluat poistaa\n\
+kaikki kuvat ja tiedostot puskurista?
+;
+MSG_FIXCACHE_CORRUPT
+Puskurin rekisteriä ei voi lukea tai\n\
+se on vanhemmasta AWeb-versiosta.\n\
+Puskuroituja tiedostoja ei voi käyttää.\n\
+Siistitäänkö se nyt?
+;
+MSG_SEARCH_STRING
+Etsi merkkijonoa
+;
+MSG_SEARCH_IGNORECASE
+Kirjainkoolla ei väliä
+;
+MSG_SEARCH_SEARCH
+Etsi
+;
+MSG_SEARCH_FROMTOP
+Alusta
+;
+MSG_SEARCH_BACKWARDS
+Takaperin
+;
+MSG_SEARCH_CANCEL
+Peru
+;
+MSG_SEARCH_NOTFOUND
+Merkkijonoa ei löytynyt
+;
+MSG_SEARCH_OK
+_Ok
+;
+MSG_POPUP_LOADIMAGE
+Lataa kuva
+;
+MSG_POPUP_RELOADIMAGE
+Uudelleenlataa kuva
+;
+MSG_POPUP_SAVEIMAGE
+Talleta kuva
+;
+MSG_POPUP_DOWNLOADIMAGE
+Hae kuva
+;
+MSG_POPUP_FLUSHIMAGE
+Tyhjennä kuva
+;
+MSG_POPUP_SHOWIMAGE
+Näytä kuva
+;
+MSG_POPUP_OPENLINK
+Avaa linkki
+;
+MSG_POPUP_OPENLINKNW
+Avaa linkki uudessa ikkunassa
+;
+MSG_POPUP_LOADLINK
+Lataa linkki taustalla
+;
+MSG_POPUP_SAVELINK
+Talleta linkki
+;
+MSG_POPUP_DOWNLOADLINK
+Hae linkki
+;
+MSG_POPUP_ADDLINK
+Lisää linkki pikalistaan
+;
+MSG_POPUP_RELOADFRAME
+Uudelleenlataa sisältö
+;
+MSG_POPUP_SAVEFRAME
+Tallenna lähdekoodi
+;
+MSG_POPUP_VIEWFRAME
+Näytä lähdekoodi
+;
+MSG_POPUP_SHOWFRAME
+Näytä erikseen
+;
+MSG_POPUP_SEARCHFRAME
+Hae sisällöstä
+;
+MSG_POPUP_INFOFRAME
+Tietoa
+;
+MSG_PRINTP_TITLE
+Tulosta määritteet
+;
+MSG_PRINTP_SCALE
+_Skaalaa (%)
+;
+MSG_PRINTP_PRINTBG
+Tulosta taustat
+;
+MSG_PRINTP_FORMFEED
+Arkinsyöttö
+;
+MSG_PRINTP_CENTER
+Keskitä
+;
+MSG_PRINTP_PRINT
+Tulosta
+;
+MSG_PRINTP_CANCEL
+Peru
+;
+MSG_PRINT_NOPRINTER
+Tulostinta ei voi käyttää
+;
+MSG_PRINT_OK
+_Ok
+;
+MSG_PRINT_PROGRESS
+Tulostus käynnissä...
+;
+MSG_PRINTP_LAYOUTWIDTH
+Asettelun leveys
+;
+MSG_PRINTP_LW_WINDOW
+Ikkuna
+;
+MSG_PRINTP_LW_DOCUMENT
+Tiedosto
+;
+MSG_PRINTP_LW_SCREEN
+Ruutu
+;
+MSG_COOKIE_TITLE
+Evästevaroitus
+;
+MSG_COOKIE_WARNING
+Uusi Netscape eväste asetetaan!
+;
+MSG_COOKIE_NAME
+Evästeen nimi:
+;
+MSG_COOKIE_VALUE
+Evästeen arvo:
+;
+MSG_COOKIE_DOMAIN
+Domainille:
+;
+MSG_COOKIE_PATH
+Polku:
+;
+MSG_COOKIE_COMMENT
+Kommentti:
+;
+MSG_COOKIE_MAXAGE
+Maksimi-ikä:
+;
+MSG_COOKIE_EXPIRES
+Vanhenee:
+;
+MSG_COOKIE_ONCE
+Kerran
+;
+MSG_COOKIE_ACCEPT
+Hyväksy
+;
+MSG_COOKIE_NEVER
+Ei koskaan
+;
+MSG_COOKIE_CANCEL
+Peru
+;
+MSG_COOKIE_SECURE
+AWeb lähettää tämän evästeen takaisin\n\
+vain SUOJATULLA yhteydellä.
+;
+MSG_COOKIE_UNSECURE
+AWeb lähettää tämän evästeen takaisin\n\
+myös SUOJAAMATTOMALLA yhteydellä.
+;
+MSG_INFO_TITLE
+Tietoa
+;
+MSG_INFO_FROMCACHE
+Luettu AWeb-puskurista
+;
+MSG_INFO_XFER
+Lähetys tiedot:
+;
+MSG_INFO_META
+Meta-tiedot:
+;
+MSG_INFO_LINK
+Klikattavat linkit:
+;
+MSG_INFO_CIPHER
+HTTPS koodaustapa: %s
+;
+MSG_INFO_SSLLIBRARY
+SSL-kirjasto käytössä: %s
+;
+MSG_USERBUTTON_CACHE
+Puskuri
+;
+MSG_USERBUTTON_CLOCK
+Kello
+;
+MSG_AUTHEDIT_TITLE
+Muokkaa tunnistautumisia
+;
+MSG_AUTHEDIT_TITLE_SERVER
+Palvelin
+;
+MSG_AUTHEDIT_TITLE_USERID
+Käyttäjätunnus
+;
+MSG_AUTHEDIT_DEL
+Poista
+;
+MSG_AUTHEDIT_SERVER
+Palvelin
+;
+MSG_AUTHEDIT_USERID
+Käyttäjätunnus
+;
+MSG_AUTHEDIT_PASSWORD
+Salasana
+;
+MSG_JSPROMPT_OK
+_Ok
+;
+MSG_JSPROMPT_CANCEL
+_Peru
+;
+MSG_FORMWARN_TITLE
+AWeb-varoitus
+;
+MSG_FORMWARN_WARNING
+Kaavakkeen tiedot lähetetään\n\
+SUOJAAMATTOMAN yhteyden kautta.
+;
+MSG_FORMWARN_BUTTONS
+_Ok|Peru
+;
+MSG_MAIL_TITLE
+AWeb-postittajavirhe
+;
+MSG_MAIL_NOSMTPHOST
+Määrittele SMTP-palvelimesi ensin.\n\
+Katso Verkko/Posti-asetukset.
+;
+MSG_MAIL_NOCONNECT
+Ei yhteyttä kohteeseen %s.
+;
+MSG_MAIL_MAILFAILED
+Viestin lähettäminen epäonnistui.
+;
+MSG_MAIL_BUTTONS
+Uudelleen|Talleta|Peru
+;
+MSG_MAIL_SAVETITLE
+Talleta epäonnistunut viesti
+;
+MSG_MAIL_MAILTO_TITLE
+Vastaanottaja %s
+;
+MSG_MAIL_MAILTO_HEADER
+Viestin saaja: %s
+;
+MSG_MAIL_TO
+Saaja:
+;
+MSG_MAIL_SUBJECT
+Aihe:
+;
+MSG_MAIL_MESSAGE_BODY
+Viestin runko:
+;
+MSG_MAIL_EXTRA_HEADERS
+Lisäpostitiedot mukana
+;
+MSG_MAIL_SEND
+Lähetä viesti
+;
+MSG_MAIL_RESET
+Tyhjennä
+;
+MSG_MAIL_RETURN
+Takaisin
+;
+MSG_MAIL_MAIL_SENT_TITLE
+Viesti lähetetty osoitteeseen: %s
+;
+MSG_MAIL_MAIL_SENT
+<H1>Viesti lähetetty</H1>\n\
+Sähköpostiviestisi osoitteeseen <B>%s</B> on lähetetty.
+;
+MSG_NEWS_TITLE
+AWeb-uutislukijavirhe
+;
+MSG_NEWS_NONNTPHOST
+Määrittele NNTP-isäntäsi ensin.\n\
+Katso Verkko/Uutiset-asetukset.
+;
+MSG_NEWS_NOCONNECT
+Ei yhteyttä kohteeseen %s.
+;
+MSG_NEWS_POSTFAILED
+Artikkelin lähetys epäonnistui.
+;
+MSG_NEWS_BUTTONS
+Uudelleen|Talleta|Peru
+;
+MSG_NEWS_SAVETITLE
+Talleta epäonnistunut artikkeli
+;
+MSG_NEWS_NEWS_HEADER
+Uutiset
+;
+MSG_NEWS_SUBSCRIBED
+Tilatut uutisryhmät
+;
+MSG_NEWS_NEW_ARTICLES
+%8ld uutta artikkelia
+;
+MSG_NEWS_CATCH_UP
+Päivitä
+;
+MSG_NEWS_UNSUBSCRIBE
+Peruuta tilaus
+;
+MSG_NEWS_OTHER_GROUP
+Muu ryhmä
+;
+MSG_NEWS_SUBSCRIBE
+Tilaa
+;
+MSG_NEWS_READ
+Lue
+;
+MSG_NEWS_SEARCH_FOR_GROUP
+Etsi ryhmä
+;
+MSG_NEWS_SEARCH
+Etsi
+;
+MSG_NEWS_LONG_DOWNLOAD
+Ensimmäisellä ryhmienhakukerralla ladataan\n\
+palvelimelta kaikkien uutisryhmien nimet.\n\
+Tämä voi kestää useita minuutteja.
+;
+MSG_NEWS_NO_SUBJECT
+(ei aihetta)
+;
+MSG_NEWS_LINES
+(%s riviä)
+;
+MSG_NEWS_POST_NEW_ARTICLE
+Lähetä uusi artikkeli
+;
+MSG_NEWS_GROUP_LIST
+Ryhmälista
+;
+MSG_NEWS_ERROR_NO_GROUP
+<h1>Virhe</h1>\n\
+Ryhmää %s ei ole.
+;
+MSG_NEWS_USE_FRAMES
+Uutiset on määritelty käyttämään frameja
+;
+MSG_NEWS_ERROR_NO_ARTICLE
+Artikkelia %s ei ole<BR>
+;
+MSG_NEWS_FOLLOW_UP
+Kommentoi artikkeliin
+;
+MSG_NEWS_REPLY
+Vastaa sähköpostina
+;
+MSG_NEWS_SAVE
+Talleta artikkeli
+;
+MSG_NEWS_SUBJECT
+Aihe:
+;
+MSG_NEWS_NEWSGROUPS
+Uutisryhmät:
+;
+MSG_NEWS_ARTICLE_BODY
+Artikkelin runko:
+;
+MSG_NEWS_EXTRA_HEADERS
+Lisä uutistiedot mukana
+;
+MSG_NEWS_POST_ARTICLE
+Lähetä artikkeli
+;
+MSG_NEWS_RESET
+Tyhjennä
+;
+MSG_NEWS_RETURN
+Takaisin
+;
+MSG_NEWS_FOLLOWUP_TITLE
+Kommentoi artikkeliin
+;
+MSG_NEWS_FOLLOWUP_TO_GROUPS
+Kommentti artikkeliin:
+;
+MSG_NEWS_PLEASE_DELETE
+Poista tarpeettomat lainatut rivit
+;
+MSG_NEWS_REPLY_TITLE
+Vastaa artikkeliin
+;
+MSG_NEWS_REPLY_TO_ADDRESS
+Vastausosoite:
+;
+MSG_NEWS_ARTICLE_POSTED_TITLE
+Artikkeli lähetetty
+;
+MSG_NEWS_ARTICLE_POSTED
+<H1>Artikkeli lähetetty</h1>\n\
+Artikkelisi on lähetetty.
+;
+MSG_NEWS_DOWNLOAD_TITLE
+Hae uutisryhmälista
+;
+MSG_NEWS_DOWNLOAD_BODY
+<H1>Haen listaa...</H1>\n\
+Haen uutisryhmälistaa. Tämä voi kestää useita minuutteja.
+;
+MSG_NEWS_SEARCH_RESULT
+Haun tulokset
+;
+MSG_NEWS_FIRST_MATCHING
+Ensimmäiset %ld ryhmää %ld sopivasta uutisryhmänimestä<B>%s</B>
+;
+MSG_NEWS_FOUND_MATCHING
+Löytyi %ld sopiva uutisryhmänimeä <B>%s</B>
+;
+MSG_CMDWARN_TITLE
+AWeb-varoitus
+;
+MSG_CMDWARN_SHELL
+Aikeissa suorittaa shell-käsky:\n\
+%s
+;
+MSG_CMDWARN_AREXX
+Aikeissa käynnistää ARexx-ohjelma:\n\
+%s
+;
+MSG_CMDWARN_BUTTONS
+_Ok|Peru
+;
+MSG_SSLWARN_SSL_TITLE
+AWeb-varoitus
+;
+MSG_SSLWARN_SSL_TEXT
+Suojattua yhteyttä ei voi muodostaa kohteeseen %s:\n\
+%s\n\
+ \n\
+Käytetäänkö suojaamatonta yhteyttä sensijaan?
+;
+MSG_SSLWARN_SSL_BUTTONS
+Suojaamaton|Peru
+;
+MSG_SSLWARN_SSL_NO_SSL
+Suojatut yhteydet ovat mahdollisia vain Miami TCP-ohjelman ja  MiamiSSL-kirjaston kanssa.
+;
+MSG_SSLWARN_CERT_TITLE
+AWeb-varoitus
+;
+MSG_SSLWARN_CERT_TEXT
+Sertifikaattia kohteelle %s ei voi varmistaa.\n\
+Tiedot: %s\n\
+ \n\
+Jos jatkat. tieto salataan (turvassa salakuuntelulta), mutta palvelimen aitoutta ei voida varmistaa (-EI- suojaa petosta vastaan).\n\
+ \n\
+Haluatko jatkaa?
+;
+MSG_SSLWARN_CERT_BUTTONS
+_Ok|Peru
+;
+MSG_SSLWARN_SSL_NO_SSL2
+Suojatut yhteydet ovat tuettuja vain käytettäessä AmiSSL tai MiamiSSL-kirjastoja.
+;
+MSG_UNKMIME_TITLE
+Tuntematon sisältötyyppi
+;
+MSG_UNKMIME_TEXT
+Tuntematon tiedosto talletaan\n\
+ \n\
+URL:   %s\n\
+Sisältötyyppi:   %s\n\
+Jatke:   %s\n\
+ \n\
+Haluat ehkä perua talletuksen nyt, ja ladata tiedoston uudestaan kun olet asettanut näyttäjän tai toiminnon tälle MIME-tyypille selaimen asetuksissa.
+;
+MSG_UNKMIME_BUTTONS
+Talleta|Peru
+;
+MSG_REQUEST_COPYURL
+Kopioi _URL Leikepöydälle
+;
+MSG_OPENURL_TITLE
+AWeb-kehoite
+;
+MSG_OPENURL_TEXT
+Syötä avattava URL:
+;
+MSG_OPENURL_BUTTONS
+_Ok|Peru
+;
+MSG_SAVEIFF_PROGRESS
+Talletan IFF-tiedoston...
+;
+MSG_PROJECT_MENU
+Projekti
+;
+MSG_PROJECT_NEWWINDOW
+N/Uusi Ikkuna
+;
+MSG_PROJECT_CLOSEWINDOW
+K/Sulje Ikkuna
+;
+MSG_PROJECT_OPENURL
+U/Avaa URL
+;
+MSG_PROJECT_OPENWWW
+W/Avaa WWW
+;
+MSG_PROJECT_OPENLOCAL
+L/Avaa paikallinen...
+;
+MSG_PROJECT_OPENSEARCH
+E/Hakukoneet
+;
+MSG_PROJECT_SOURCE
+Näytä lähdekoodi...
+;
+MSG_PROJECT_SAVEHTML
+S/Tallenna lähdekoodi...
+;
+MSG_PROJECT_ABOUT
+Tietoa...
+;
+MSG_PROJECT_QUIT
+Q/Lopeta...
+;
+MSG_PROJECT_SEARCH
+G/Etsi...
+;
+MSG_PROJECT_PRINT
+P/Tulosta...
+;
+MSG_PROJECT_EDIT
+Muokkaa lähdekoodia...
+;
+MSG_PROJECT_INFO
+Tietoa...
+;
+MSG_PROJECT_OPENNEWS
+Avaa uutiset
+;
+MSG_PROJECT_ICONIFY
+\\/Ikonisoi
+;
+MSG_PROJECT_SAVEIFF
+Tallenna IFF-muodossa...
+;
+MSG_CONTROL_MENU
+Valvonta
+;
+MSG_CONTROL_LOADNOW
+Lataa kuvat nyt
+;
+MSG_CONTROL_LOADNOWALL
+I/Kaikki kuvat
+;
+MSG_CONTROL_LOADNOWMAPS
+M/Vain kartat
+;
+MSG_CONTROL_NETWORKSTATUS
+?/Verkon tila...
+;
+MSG_DUMMY_2
+
+;
+MSG_CONTROL_CANCEL
+Z/Peruuta lataus
+;
+MSG_CONTROL_NEXTWINDOW
+./Seuraava ikkuna
+;
+MSG_CONTROL_PREVWINDOW
+,/Edellinen ikkuna
+;
+MSG_CONTROL_NOPROXY
+Y/Älä käytä proxya
+;
+MSG_CONTROL_RLOAD
+Uudelleenlataa
+;
+MSG_CONTROL_RLOADDOC
+R/Nykyinen tiedosto
+;
+MSG_CONTROL_RLOADIMGS
+Kuvat nykyisessä
+;
+MSG_CONTROL_PLAYBGSOUND
+J/Soita taustaääni
+;
+MSG_CONTROL_COPYURL
+Kopioi URL
+;
+MSG_CONTROL_PASTEURL
+Liitä URL
+;
+MSG_CONTROL_COPYBLOCK
+C/Kopioi pala
+;
+MSG_CONTROL_DRAGGING
+Vetäminen
+;
+MSG_CONTROL_BREAKJS
+X/Katkaise JavaScript
+;
+MSG_CONTROL_DEBUGJS
+Debug JavaScript
+;
+MSG_CONTROL_RESET
+Alusta framet
+;
+MSG_CACHE_MENU
+Puskuri
+;
+MSG_DUMMY_3
+
+;
+MSG_DUMMY_4
+
+;
+MSG_DUMMY_5
+
+;
+MSG_DUMMY_6
+
+;
+MSG_CACHE_SAVEAUTH
+Tallenna tunnistukset
+;
+MSG_CACHE_FLUSHAUTH
+Tyhjennä tunnistukset
+;
+MSG_CACHE_BROWSER
+Puskuriselain...
+;
+MSG_CACHE_FLUSH
+Tyhjennä muistista
+;
+MSG_CACHE_FLSHIMGSND
+Näyttämättömät kuvat
+;
+MSG_CACHE_FLSHIMGS
+Kaikki kuvat
+;
+MSG_CACHE_FLSHDOCSND
+Näyttämättömät tiedostot
+;
+MSG_CACHE_DELETE
+Poista levyltä
+;
+MSG_CACHE_DELIMGS
+Kaikki kuvat
+;
+MSG_CACHE_DELDOCS
+Kaikki tiedostot
+;
+MSG_CACHE_CLEAR
+Pyyhi puskuri
+;
+MSG_CACHE_FIX
+Siisti puskuri...
+;
+MSG_CACHE_EDITAUTH
+Muokkaa tunnistuksia...
+;
+MSG_NAVIGATE_MENU
+Navigointi
+;
+MSG_NAVIGATE_BACK
+B/Takaisin
+;
+MSG_NAVIGATE_FWD
+F/Eteenpäin
+;
+MSG_NAVIGATE_HOME
+D/Kotisivu
+;
+MSG_NAVIGATE_HISTORY
+-/Ikkunahistoria...
+;
+MSG_HOTLIST_MENU
+Pikalista
+;
+MSG_HOTLIST_ADDHOT
+A/Lisää pikalistaan
+;
+MSG_HOTLIST_SHOWHOT
+H/Näytä pikalista
+;
+MSG_HOTLIST_MAINT
+T/Päivitys...
+;
+MSG_HOTLIST_SAVE
+Talleta pikalista
+;
+MSG_HOTLIST_RESTORE
+Palauta viimeksi talletetut
+;
+MSG_HOTLIST_AMHOTRX
+AMosaic (ARexx)
+;
+MSG_HOTLIST_AMHOT20
+AMosaic (2.0)
+;
+MSG_HOTLIST_IBHOT
+Muu...
+;
+MSG_HOTLIST_VIEW
+V/Näytä pikalista...
+;
+MSG_HOTLIST_MGR
+T/Pikalistajärjestäjä...
+;
+MSG_SETTINGS_MENU
+Asetukset
+;
+MSG_SETTINGS_LOADIMG
+Kuvien lataus
+;
+MSG_SETTINGS_LOADIMGALL
+Kaikki kuvat
+;
+MSG_SETTINGS_LOADIMGMAPS
+Vain kartat
+;
+MSG_SETTINGS_LOADIMGOFF
+Poissa
+;
+MSG_DUMMY_7
+
+;
+MSG_DUMMY_8
+
+;
+MSG_SETTINGS_BROWSER
+Selainasetukset...
+;
+MSG_SETTINGS_PROGRAM
+Ohjelma-asetukset...
+;
+MSG_SETTINGS_NETWORK
+Verkkoasetukset...
+;
+MSG_SETTINGS_CLASSACT
+ClassAct-asetukset...
+;
+MSG_SETTINGS_SAVEALL
+Talleta nykyiset asetukset
+;
+MSG_SETTINGS_SNAPSHOT
+Tallenna ikkunat
+;
+MSG_SETTINGS_SNAPSHOTALT
+Tallenna ikkunakoot
+;
+MSG_SETTINGS_BGIMAGES
+Taustakuvat
+;
+MSG_SETTINGS_BGSOUND
+Taustaäänet
+;
+MSG_SETTINGS_SAVEAS
+Talleta asetukset nimellä...
+;
+MSG_SETTINGS_LOAD
+Lataa asetukset...
+;
+MSG_SETTINGS_GUI
+GUI-asetukset...
+;
+MSG_HELP_MENU
+Apua
+;
+MSG_HELP_HELP
+Ohjeet
+;
+MSG_HELP_AWEBHOME
+AWeb-kotisivu
+;
+MSG_HELP_AWEBFAQ
+AWeb FAQ
+;
+MSG_HELP_REGISTER
+Registeröinti
+;
+MSG_AREXX_MENU
+ARexx
+;
+MSG_AREXX_AREXX
+!/Käynnistä ARexx-makro...
+;
+MSG_ERROR_CANTOPEN
+Tiedostoa %s ei voi avata
+;
+MSG_ERROR_CANTOPENV
+Ei voi avata tiedoston %s versiota %ld
+;
+MSG_ERROR_NEEDOS30
+AWeb tarvitsee OS 3.0 tai uudemman
+;
+MSG_ERROR_CANTQUIT
+Ei voi sulkea!\n\
+%s\n\
+on vielä käytössä.
+;
+MSG_EPART_ERROR
+Virhe
+;
+MSG_EPART_RETURL
+haettaessa URLia
+;
+MSG_EPART_ADDRSCHEME
+Tyypin &quot;%s&quot; osoitetapaa ei tueta AWebin tässä versiossa.
+;
+MSG_EPART_NOLIB
+TCP-pino pitää olla käynnissä ensin
+;
+MSG_EPART_NOHOST
+Ei voi selvittää isäntänimeä &quot;%s&quot;
+;
+MSG_EPART_NOCONNECT
+Ei voi yhdistää kohteeseen &quot;%s&quot;
+;
+MSG_EPART_NOFILE
+Ei voi avata tiedostoa &quot;%s&quot;
+;
+MSG_EPART_XAWEB
+Epäkelpo sisäinen (x-aweb:) nimi &quot;%s&quot;
+;
+MSG_EPART_FLUSHED_HEAD
+Tyhjennetty
+;
+MSG_EPART_FLUSHED_MSG
+Tätä tiedostoa ei ole enää muistissa
+;
+MSG_EPART_FLUSHED_NORELOAD
+Tätä tiedostoa ei hakea uudestaan. Lähetä uudestaan kaavake joka tuotti tämän sivun. Huomaa myös että kaavakkeen lähettäminen kahdesti voi aiheuttaa sivuvaikutuksia, kuten kaksinkertainen rekisteröinti.
+;
+MSG_EPART_NOLOGIN
+Ei voida kirjautua sisään osoitteeseen &quot;%s&quot; tunnuksella &quot;%s&quot;
+;
+MSG_EPART_NOAWEBLIB
+Ei voi ladata AWebLib-modulia &quot;%s&quot; varten.
+;
+MSG_EPART_NOPROGRAM
+Et ole määritellyt ohjelmaa &quot;%s&quot; osoitetavalle.
+;
+MSG_AWEB_EXTWINTITLE
+AWeb-ulkoinen ohjelma
+;
+MSG_AWEB_BYTESREAD
+Bytea luettu
+;
+MSG_AWEB_FORMSUBMIT
+Lähetä
+;
+MSG_AWEB_FORMRESET
+Tyhjennä
+;
+MSG_AWEB_INDEXPROMPT
+Tämä on hakukelpoinen sisällys. Anna hakusanat:
+;
+MSG_AWEB_NODOCTITLE
+(ei tiedostoa ladattuna)
+;
+MSG_AWEB_SCREENTITLE
+AWeb julkinen ruutu - Nimi AWeb
+;
+MSG_AWEB_HOTLISTTITLE
+Pikalista
+;
+MSG_AWEB_GOPHERINDEX
+Gopher-sisällys
+;
+MSG_AWEB_GOPHERMENU
+Gopher-valikko
+;
+MSG_AWEB_WINDOWHIS
+Ikkunahistoria
+;
+MSG_AWEB_OTHER
+Muu
+;
+MSG_AWEB_LOOKUP
+Etsin osoitetta %s
+;
+MSG_AWEB_CONNECT
+Luon %s yhteyttä osoitteeseen %s
+;
+MSG_AWEB_WAITING
+%s pyyntö lähetetty; odotan vastausta
+;
+MSG_AWEB_TCPSTART
+Muodostan TCP-yhteyttä
+;
+MSG_AWEB_FORMLOCATION
+Lähetä kaavake kohteessa x=%ld, y=%ld
+;
+MSG_AWEB_FORMBUTTON
+Aloita
+;
+MSG_AWEB_FRAME_RESIZE
+Muokkaa framekokoa
+;
+MSG_AWEB_LOGIN
+Kirjaudun sisään osoitteessa %s
+;
+MSG_AWEB_NEWSGROUP
+Tarkastan ryhmää %s
+;
+MSG_AWEB_NEWSSCAN
+Tarkastan %s (%ld artikkelia)
+;
+MSG_AWEB_NEWSSORT
+Lajittelen %s
+;
+MSG_AWEB_NEWSPOST
+Lähetän artikkelia
+;
+MSG_AWEB_MAILSEND
+Lähetän sähköpostiviestiä
+;
+MSG_AWEB_UPLOAD
+Lähetän tiedostoa
+;

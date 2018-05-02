@@ -1,0 +1,133 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Using your own GUI buttons
+</title>
+</head>
+<body background=awebbg.iff>
+<h1><img src=aweb.iff alt=(logo) width=192 height=93 >&nbsp; Using your own GUI buttons</h1>
+
+<h2>Configurable buttons</h2>
+The buttons in AWeb's main window are fully user-configurable. They are
+read from the file <code>Images/def_buttons</code>. This must be a
+picture file, but the exact format isn't relevant as long as you have a
+datatype installed that can read the file.
+<p>
+The icon that goes with the file is important. The tooltypes in the icon
+contain vital information, without this information AWeb cannot use the
+file.
+<p>
+You can also use your own <a href=animation.html>transfer animation</a>
+shown in the <em>background status</em> gadget.
+
+<h2>Installing your own buttons</h2>
+The <code>Storage/Buttons</code> drawer contains a few alternate sets, and
+it is a good place to store new button sets.
+<p>
+To install new button images, open AWeb's drawer
+on your Workbench. Now you can double-click the <em>Install_Buttons</em>
+icon. It will open a file requester from which you can pick your button set.
+The install procedure will then copy the selected set to your <code>Images</code>
+drawer.
+<p>
+Alternatively, you can click the <em>Install_Buttons</em> icon once, hold
+the shift key and double-click on the icon of the button set you want to
+install.
+<p>
+<strong>NOTE:</strong> You cannot install new buttons while AWeb is running.
+
+<h2>Creating your own button file</h2>
+Use an ordinary paint program to design your buttons. Create one
+picture that contains all button imagery. Make sure all button images are
+equal in size. If you want different <em>selected</em> imagery
+(shown when the button is depressed), draw those images too. Save the
+picture in the <code>Storage/Buttons</code> drawer. Save it with icon,
+or add an icon later.
+<p>
+It is a good idea to keep the picture file as small as possible.
+The larger the file is, the longer it will take to load at startup
+time of AWeb.
+
+<p>
+Then add some tooltypes to the icon. The tooltypes
+tell AWeb where in your picture to look for which button image. Use the
+following tooltypes:
+<table>
+<tr valign=top>
+   <th align=left valign=top>BUTTON_SIZE=<i>width,height</i>
+   <td>This defines the width and height of each image, in pixels.
+<tr valign=top>
+   <th align=left valign=top>
+      BACK=<i>nx,ny,sx,sy</i><br>
+      FORWARD=<i>nx,ny,sx,sy</i><br>
+      HOME=<i>nx,ny,sx,sy</i><br>
+      ADDHOTLIST=<i>nx,ny,sx,sy</i><br>
+      HOTLIST=<i>nx,ny,sx,sy</i><br>
+      CANCEL=<i>nx,ny,sx,sy</i><br>
+      NETSTATUS=<i>nx,ny,sx,sy</i><br>
+      SEARCH=<i>nx,ny,sx,sy</i><br>
+      RELOAD=<i>nx,ny,sx,sy</i><br>
+      LOADIMAGES=<i>nx,ny,sx,sy</i>
+   <td>These tooltypes define the location of the button imagery in
+      the picture, for each button.<br>
+      <i>nx,ny</i> are the x and y positions of the top left corner
+      of the <em>normal</em> image.<br>
+      <i>sx,sy</i> are optional. If present, they tell the location of
+      the <em>selected</em> image for this button.<br>
+      If a button definition is missing from the tooltypes, the built-in
+      default image is used for that button.
+<tr valign=top>
+   <th align=left valign=top>SECBUTTON_SIZE=<i>width,height</i>
+   <td>This defines the width and height of secure link indicator image, in pixels.
+      Default is the same width and height as the other buttons.
+<tr valign=top>
+   <th align=left valign=top>
+      SECURE=<i>nx,ny</i><br>
+      UNSECURE=<i>nx,ny</i>
+   <td>These two tooltypes define the location of images for the <em>secure</em>
+      and <em>unsecure</em> status of the secure link indicator.
+<tr valign=top>
+   <th align=left valign=top>NSBUTTON_SIZE=<i>width,height</i>
+   <td>This defines the width and height of each network status button image, in pixels.
+      Default is the same width and height as the other buttons.
+<tr valign=top>
+   <th align=left valign=top>
+      NSCANCEL=<i>nx,ny,sx,sy</i><br>
+      NSCANCELALL=<i>nx,ny,sx,sy</i>
+   <td>These two tooltypes define the location of images for the <em>cancel</em> and
+      <em>cancel all</em> buttons in the <a href=nws.html>network status
+      window</a>.
+<tr valign=top>
+   <th align=left valign=top>TRANSPARENT
+   <td>If this tooltype is present, and the picture was saved as a transparent
+      brush, the images will be rendered with a transparent background.
+      Note that this only works if the datatype supports transparency. Most
+      regular datatypes do, one important exception is the ILBM datatype
+      that comes with the V43 picture datatype.
+</table>
+
+<p>
+<hr>
+<a href=aweb.html><img src=back.gif width=32 height=16 alt="<-" border=0></a> Back to
+<a href=aweb.html>index</a>.
+
+</body>
+</html>

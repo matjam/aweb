@@ -1,0 +1,18 @@
+## SAS/C makefile for awebpng aweb plugin module
+
+.c.o:
+   sc "$*.c"
+
+awebpng.awebplugin:    startup.o awebpng.o pngsource.o pngcopy.o awebpng.lnk
+awebpng.awebplugin:    pnglib/libpng.lib pnglib/libgz.lib
+   remlib >nil: awebpng.awebplugin
+   slink with awebpng.lnk
+
+startup.o:     startup.c pluginlib.h
+
+awebpng.o:     awebpng.c pluginlib.h awebpng.h
+
+pngsource.o:   pngsource.c pluginlib.h awebpng.h
+
+pngcopy.o:     pngcopy.c pluginlib.h awebpng.h
+

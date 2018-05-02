@@ -1,0 +1,9 @@
+FROM     lib:c.o awebcfg.o cfgmainstr.o cfgbr.o cfgpr.o cfgnw.o cfgui.o cfglocale.o memory.o defprefs.o
+TO       AWebCfg
+DEFINE   __CXM33=__UCXM33
+DEFINE   __CXD33=__UCXD33
+DEFINE   __CXM22=__UCXM22
+DEFINE   __CXD22=__UCXD22
+DEFINE   @__chkabort=@__dummy
+LIB      lib:scnb.lib lib:amiga.lib
+MAP      AWebCfg.map

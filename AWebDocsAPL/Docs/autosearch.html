@@ -1,0 +1,77 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Autosearch
+</title>
+</head>
+<body background=awebbg.iff>
+<h1><img src=aweb.iff width=192 height=93 alt=(logo)>&nbsp; Autosearch</h1>
+
+<h2>Usage</h2>
+Autosearch is a feature that enables you to use your favourite search engine
+in a very easy way. Instead of going to the <a href="../extras/search.html">
+search page</a>, or going to the search engine itself, you just type in the
+search argument in the URL field at the top of the browser window.
+<p>
+You cannot use a colon (:), a dot (.) or a slash (/) in an autosearch
+argument. These characters are used to distinguish an autosearch argument
+from a normal URL.
+<p>
+You can <a href="settings/nwoptions.html#autosearch">disable</a> the
+autosearch feature if you don't like it.
+
+<h2>Search engines</h2>
+The default search engine is set to <a href="http://altavista.digital.com">
+AltaVista</a>, but you can <a href="settings/nwoptions.html#autosearchurl">
+configure</a> any other search engine.
+<p>
+Some example URLs for common search engines:
+<table>
+<tr>
+   <td><a href="http://www.altavista.digital.com">AltaVista</a>
+   <td><code>http://altavista.digital.com/cgi-bin/query?pg=q&what=web&fmt=&q=%s</code>
+<tr>
+   <td><a href="http://www.yahoo.com">Yahoo!</a>
+   <td><code>http://search.yahoo.com/bin/search?p=%s</code>
+<tr>
+   <td><a href="http://www.lycos.com">Lycos</a>
+   <td><code>http://lycos11.lycos.cs.cmu.edu/cgi-bin/pursuit&query=%s&minterms=1&minscore=0.01&terse=on</code>
+<tr>
+   <td><a href="http://www.excite.com">Excite</a>
+   <td><code>http://www.excite.com/search.gw&search=%s</code>
+<tr>
+   <td><a href="http://www.mckinley.com">Magellan</a>
+   <td><code>http://www.mckinley.com/mckinley-cgi/iopcode.pl&query=%s</code>
+</table>
+<p>
+You can easily find the URL for your favourite search engine if it isn't
+listed above. Just do a search with the engine, then copy the URL of the
+resulting page. Locate the search string you entered, it should appear
+somewhere in the URL. Replace this search string by "<code>%s</code>"
+(without quotes).
+
+<p>
+<hr>
+<a href=aweb.html><img src=back.gif width=32 height=16 alt="<-" border=0></a> Back to
+<a href=aweb.html>index</a>.
+
+</body>
+</html>

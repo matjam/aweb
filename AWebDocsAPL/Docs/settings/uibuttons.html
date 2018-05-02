@@ -1,0 +1,87 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+GUI settings: Buttons
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; GUI settings: Buttons</h1>
+
+<h2>Changing the user buttons</h2>
+The list contains the labels and actions for the buttons that should
+appear in the <a href="../gui.html#user">user button row</a>.
+<p>
+Select the button you want to modify from the listview.
+Use the <b>Add</b> button to add a new blank button. Use the <b>Del</b> button
+to remove the selected button.
+
+<h2>Label</h2>
+Type the button label as you like it to appear on the button.
+
+<h2>Command</h2>
+In this field, you can type the <a href="../arexx/commands.html">Arexx command</a>
+that should be executed when you press the button. You can use any command,
+but a few commands that might be especially useful are:
+<table>
+<tr valign=top align=left><td>OPEN <var>url</url>
+   <td>This makes the button a simple fastlink button, known from other browsers.
+      When you click it the url is shown.
+<tr valign=top align=left><td>RUN <var>path/script arguments</var>
+   <td>When you click the button, the Arexx script is started.
+<tr valign=top align=left><td>SYSTEM <var>path/command arguments</var>
+   <td>When you click the button, the shell command is started.
+</table>
+<p>
+In the command string, you can use the following parameter specifiers:
+<table>
+<tr valign=top>
+   <th align=left valign=top nowrap>%u
+   <td>URL currently displayed in the browser window.
+<tr valign=top>
+   <th align=left valign=top nowrap>%n
+   <td>screen name that AWeb is running on.
+<tr valign=top>
+   <th align=left valign=top nowrap>%i
+   <td>ID of frame that has focus.
+<tr valign=top>
+   <th align=left valign=top nowrap>%t
+   <td>title of the document, as shown in the window title bar.
+<tr valign=top>
+   <th align=left valign=top nowrap>%c
+   <td><a href="../startup.html">configuration name</a>.
+</table>
+
+<h2>Rearranging buttons</h2>
+You can move a button in the button row. Select the button entry in the list,
+either with the mouse or with
+the cursor up and down keys. Now you can move the button up and down
+in the list with either the arrow up and arrow down buttons, or with
+the <kbd>Ctrl</kbd> + cursor up/down keys.
+<p>
+The <b>Sort</b> button will sort the buttons alphabetically by their label.
+
+<p>
+<hr>
+<a href=uimenus.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Menus</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=uipopup.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Popup</a>
+</body>
+</html>

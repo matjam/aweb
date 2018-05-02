@@ -1,0 +1,106 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>Secure connections</title>
+<meta name=keywords content="SSL, security, privacy, AmiSSL, MiamiSSL">
+</head>
+<body background=awebbg.iff>
+<h1><img src=aweb.iff width=192 height=93 alt=(logo)>&nbsp; Secure connections</h1>
+
+<h2>Purpose</h2>
+Some sites ask you to supply personal or secret information, like your
+credit card number to pay for some service or goods you order. When you 
+supply this information and click the send button, this information is sent
+over the internet. You will want to be sure of two things:
+<ol>
+<li>That the company asking you for this sensitive information, really
+    <strong>is</strong> the company they claim to be, and
+<li>That no-one is eavesdropping at one of the many intermediate computers
+    that the message passes through, and reads your private information.
+</ol>
+
+Secure connections through SSL offer a way to achieve both security goals. It
+uses <em>encryption</em> so that no-one can read your data except the one
+you are sending it to. It uses <em>certificates</em> to ensure that no-one
+can forge their identity and claim to be someone else.
+<p>
+You might want to read more about
+<a href="http://home.netscape.com/assist/security/ssl/howitworks.html">
+how SSL works</a>.
+<p>
+Secure connections can only ensure that your information isn't seen by
+others. It can't in any way prevent that the legitimate receiver of your
+data won't abuse it.
+
+<h2>SSL libraries</h2>
+Before you can use secure connections, you have to install a library
+that implements the secure socket layer (SSL).
+<p>
+AWeb supports the freely available
+<a href="http://www.bigfoot.com/~TheAntony/AmiSSL/">AmiSSL</a> library by Andrija Antonijevic.
+<p>
+AWeb also supports MiamiSSL, available
+for registered users of the <a href="http://www.nordicglobal.com/Miami.html">
+Miami</a> TCP stack by Holger Kruse. If you have both libraries installed,
+AWeb will use AmiSSL. In case you want AWeb to use MiamiSSL, you should
+remove or rename <code>LIBS:amissl.library</code> <i>before</i> you start AWeb.
+<p>
+The <a href="infowindow.html">information window</a> will tell you which
+SSL library was used.
+
+<h2>Be sure of the sender's identity</h2>
+Next to the status bar field at the top of the browser window, is a small
+indicator. It tells you if the current document was retrieved over a secure
+connection. If it is, that means that the sender of the document is really
+the one they claim to be, and the page wasn't forged by an impersonator.
+<p>
+By default, this indicator is blank for a normal document,
+and a small image of a lock for a secure document, but you can
+<a href="buttons.html">change</a> the images used.
+<p>
+If a document uses frames, the image reflects the security status of the
+frame that has focus. Simply click in the frame to see if it is secure.
+
+<h2>Encryption details</h2>
+The cipher method that was used in the connection is shown in
+the <a href="infowindow.html">information window</a>.
+<p>
+Because encryption requires a lot of calculation, retrieving data over a
+secure connection may be substantially slower than when the same information
+is retrieved over a normal connection. This speed loss will depend on the
+cipher method used. You may want to disable some cipher methods for your
+SSL library in order to make secure connections work faster (but possibly
+slightly less secure!).
+
+<h2>Protect your form data</h2>
+Even if a document was retrieved over a secure connection, that doesn't
+guarantee that form data will be sent away over a secure connection too.
+Therefore AWeb is able to warn you when you are about to send data with a
+form in an unsecure way, and give you an opportunity to cancel it. You can
+enable this by selecting the <a href="settings/nwprivacy.html#formwarn">Warn
+before sending unsecure form data</a> option.
+
+<p>
+<hr>
+<a href=aweb.html><img src=back.gif width=32 height=16 alt="<-" border=0></a> Back to
+<a href=aweb.html>index</a>.
+
+</body>
+</html>

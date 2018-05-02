@@ -1,0 +1,16 @@
+## SAS/C makefile for ILBMExample aweb plugin module
+
+.c.o:
+   sc "$*.c"
+
+ilbmexample.awebplugin:    startup.o ilbmexample.o ilbmsource.o ilbmcopy.o ilbmexample.lnk
+   slink with ilbmexample.lnk
+
+startup.o:     startup.c pluginlib.h
+
+ilbmexample.o: ilbmexample.c pluginlib.h ilbmexample.h
+
+ilbmsource.o:  ilbmsource.c pluginlib.h ilbmexample.h
+
+ilbmcopy.o:    ilbmcopy.c pluginlib.h ilbmexample.h
+

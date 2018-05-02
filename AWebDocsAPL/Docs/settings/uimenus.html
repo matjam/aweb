@@ -1,0 +1,146 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+GUI settings: Menus
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp;
+GUI settings: Menus</h1>
+
+<h2>Changing menu entries</h2>
+The list contains the menu definition for the browser window menus.
+<p>
+Select the entry you want to modify from the listview.
+Use the <b>Add</b> button to add a new blank entry after the currently selected one.
+Use the <b>Del</b> button to remove the selected entry.
+
+<h2>Type</h2>
+Select the type of this entry.
+<table>
+<tr valign=top align=left><td><b>Menu</b>
+   <td>A menu entry, appearing in the menu bar.
+<tr valign=top align=left><td><b>Item</b>
+   <td>A menu item.
+<tr valign=top align=left><td><b>Sub</b>
+   <td>A menu sub-item.
+      or another Sub definition.
+<tr valign=top align=left><td><b>----</b>
+   <td>A separator item.
+</table>
+<p>
+Make sure the menu is correctly built. That is, items and separators can only
+appear within a menu (that is, not at the top of the list), and sub-items can
+only immediately follow items or other sub-items. If the menu structure is
+incorrect, the <b>INVALID</b> indicator is lit.
+<p>
+An incorrectly built menu results in no menu at all. Should this happen, and you are
+locked out because the menu to start the GUI settings is gone, just open a shell
+window and type
+<pre>
+   AWeb3:AWebCfg GUI
+</pre> to open the settings window again.
+
+<h2>Title</h2>
+Type the title as you like it to appear in the menu.
+
+<h2>Shortcut</h2>
+Type a one-character shortcut for the menu, or leave this field blank
+for no shortcut.
+
+<h2>Command</h2>
+In this field, you can type the <a href="../arexx/commands.html">Arexx command</a>
+that should be executed when you select the menu item.
+<p>
+In the command string, you can use the following parameter specifiers:
+<table>
+<tr valign=top>
+   <th align=left valign=top nowrap>%u
+   <td>URL currently displayed in the browser window.
+<tr valign=top>
+   <th align=left valign=top nowrap>%n
+   <td>screen name that AWeb is running on.
+<tr valign=top>
+   <th align=left valign=top nowrap>%i
+   <td>ID of frame that has focus.
+<tr valign=top>
+   <th align=left valign=top nowrap>%t
+   <td>title of the document, as shown in the window title bar.
+<tr valign=top>
+   <th align=left valign=top nowrap>%c
+   <td><a href="../startup.html">configuration name</a>.
+</table>
+<p>
+In addition to ARexx commands, there are a few special strings you can enter.
+Some strings will result in a checkmark, others are merely a shortcut for
+functionality not available in a single ARexx command. All special strings
+start with the <b>@</b> character:
+<p>
+<table>
+<tr valign=top>
+   <th align=left valign=top>@AREXX
+   <td>When the item is selected, open a file requester and let the user pick an ARexx
+      macro to run.
+<tr valign=top>
+   <th align=left valign=top>@BGIMAGES
+   <td>Display a checkmark along this item reflecting if backgrounds are on or off.
+<tr valign=top>
+   <th align=left valign=top>@BGSOUND
+   <td>Display a checkmark along this item reflecting if background sound is on or off.
+<tr valign=top>
+   <th align=left valign=top>@BREAKJS
+   <td>Break javascript programs. This menu item is handled in a special way to work
+      even when a program is running. The normal <code>JSBREAK</code> command would not
+      be handled until a running program has ended by itself.
+<tr valign=top>
+   <th align=left valign=top>@DEBUGJS
+   <td>Display a checkmark along this item reflecting if JavaScript debugging is on or off.
+<tr valign=top>
+   <th align=left valign=top>@DRAGGING
+   <td>Display a checkmark along this item reflecting if dragging is on or off.
+<tr valign=top>
+   <th align=left valign=top>@LOADIMGALL<br>@LOADIMGMAPS<br>@LOADIMGOFF
+   <td>Display a checkmark along this item that is mutual exclusive across these items.
+      The checkmark reflects the current image loading status (all images,
+      maps only, or off).
+<tr valign=top>
+   <th align=left valign=top>@NOPROXY
+   <td>Display a checkmark along this item reflecting the noproxy status.
+<tr valign=top>
+   <th align=left valign=top>@OTHERHOT
+   <td>When the item is selected, open a file requester and let the user pick a hotlist
+      to display.
+</table>
+
+<h2>Rearranging menu entries</h2>
+You can move an entry in the menu. Select the entry, either with the mouse or with
+the cursor up and down keys. Now you can move the entry up and down
+in the list with either the arrow up and arrow down buttons, or with
+the <kbd>Ctrl</kbd> + cursor up/down keys.
+
+<p>
+<hr>
+<a href=uioptions.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Options</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=uibuttons.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Buttons</a>
+
+</body>
+</html>

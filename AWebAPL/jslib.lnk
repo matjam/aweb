@@ -1,0 +1,15 @@
+FROM     jslib.o jparse.o jcomp.o jdata.o jexe.o jmemory.o jobject.o jdebug.o
+FROM     jarray.o jboolean.o jdate.o jfunction.o jmath.o jnumber.o jstring.o
+
+TO       aweblib/awebjs.aweblib
+
+DEFINE   __CXM33=__UCXM33
+DEFINE   __CXD33=__UCXD33
+DEFINE   __CXM22=__UCXM22
+DEFINE   __CXD22=__UCXD22
+DEFINE   @__chkabort=@__dummy
+
+LIB      lib:scmnb.lib lib:scnb.lib lib:debug.lib lib:amiga.lib
+
+MAP      jslib.map
+NOICONS

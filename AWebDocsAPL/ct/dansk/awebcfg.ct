@@ -1,0 +1,1234 @@
+;
+; awebcfg.catalog
+;
+; Translation team:  Niels Bache <nbache@post5.tele.dk>
+;                    Ole Friis <ole_f@post3.tele.dk>
+;                    Jacob Laursen <jlaur@mail1.stofanet.dk>
+; (based on earlier translation by Lasse Pedersen <volmer@vip.cybercity.dk>)
+;
+## version $VER: awebcfg.catalog 0.25 (6.1.2001)
+## codeset 0
+## language dansk
+;
+MSG_ERROR_CANTOPENV
+Kan ikke åbne %s, version %ld
+;
+MSG_SET_REQTITLE_FONT
+Vælge skrift
+;
+MSG_SET_REQTITLE_SCREEN
+Vælge skærm
+;
+MSG_SET_REQTITLE_MAILTO
+Vælge mailto:-kommando
+;
+MSG_SET_REQTITLE_FTP
+Vælge ftp:-kommando
+;
+MSG_SET_REQTITLE_TELNET
+Vælge telnet:-kommando
+;
+MSG_SET_REQTITLE_NEWS
+Vælge news:-kommando
+;
+MSG_SET_REQTITLE_STARTTCP
+Vælge TCP-startkommando
+;
+MSG_SET_REQTITLE_ENDTCP
+Vælge TCP-stopkommando
+;
+MSG_SET_REQTITLE_TEMPPATH
+Vælge midlertidig sti
+;
+MSG_SET_REQTITLE_SAVEPATH
+Vælge gemme-sti
+;
+MSG_SET_REQTITLE_EDITOR
+Vælge teksteditor-kommando
+;
+MSG_SET_REQTITLE_HTMLVIEWER
+Vælge HTML-fremviserkommando
+;
+MSG_SET_REQTITLE_MIMEVIEWER
+Vælge fremviserkommando
+;
+MSG_SET_REQTITLE_AREXXMACRO
+Vælge ARexx-makro
+;
+MSG_SET_REQTITLE_BROWSERWINDOW
+AWeb-browserindstillinger
+;
+MSG_SET_REQTITLE_PROGRAMWINDOW
+AWeb-programindstillinger
+;
+MSG_SET_REQTITLE_NETWORKWINDOW
+AWeb-netværksindstillinger
+;
+MSG_SET_REQTITLE_OPENBROWSER
+Åbne browserindstillinger...
+;
+MSG_SET_REQTITLE_SAVEBROWSER
+Gemme browserindstillinger som...
+;
+MSG_SET_REQTITLE_OPENPROGRAM
+Åbne programindstillinger...
+;
+MSG_SET_REQTITLE_SAVEPROGRAM
+Gemme programindstillinger som...
+;
+MSG_SET_REQTITLE_OPENNETWORK
+Åbne netværksindstillinger...
+;
+MSG_SET_REQTITLE_SAVENETWORK
+Gemme netværksindstillinger som...
+;
+MSG_SET_REQTITLE_CACHEPATH
+Vælge lager-sti
+;
+MSG_SET_REQTITLE_IMGVIEWER
+Vælge billedfremviserkommando
+;
+MSG_SET_REQTITLE_GUIWINDOW
+AWeb, GUI-indstillinger
+;
+MSG_SET_REQTITLE_OPENGUI
+Åbne GUI-indstillinger
+;
+MSG_SET_REQTITLE_SAVEGUI
+Gemme GUI-indstillinger som...
+;
+MSG_SET_REQTITLE_SIGNATURE
+Vælge signatur-fil
+;
+MSG_SET_REQTITLE_STARTUPSCRIPT
+Vælg ARexx-program til opstart
+;
+MSG_SET_REQTITLE_SHUTDOWNSCRIPT
+Vælg ARexx-program til afslutning
+;
+MSG_SET_CTBR_OPTIONS
+_1 Diverse
+;
+MSG_SET_CTBR_FONTS
+_2 Skrifter
+;
+MSG_SET_CTBR_STYLES
+_3 Stile
+;
+MSG_SET_CTBR_COLOURS
+_4 Farver
+;
+MSG_SET_CTBR_MIME
+_5 Fremvisere
+;
+MSG_SET_CTPR_SCREEN
+_1 Skærm
+;
+MSG_SET_CTPR_PALETTE
+_2 Palet
+;
+MSG_SET_CTPR_OPTIONS
+_3 Diverse
+;
+MSG_SET_CTPR_PROGRAMS
+_4 Programmer
+;
+MSG_SET_CTPR_AREXX
+_5 ARexx
+;
+MSG_SET_CTNW_OPTIONS
+_1 Diverse
+;
+MSG_SET_CTNW_PROGRAMS
+_2 Programmer
+;
+MSG_SET_CTNW_PROXY
+_3 Proxy
+;
+MSG_SET_CTNW_CACHE
+_4 Lager
+;
+MSG_SET_CTNW_PRIVACY
+_5 Sikkerhed
+;
+MSG_SET_CTNW_MAIL
+_6 Post/Nyheder
+;
+MSG_SET_CTUI_OPTIONS
+_1 Diverse
+;
+MSG_DUMMY_8
+
+;
+MSG_SET_CTUI_BUTTONS
+_3 Knapper
+;
+MSG_SET_CTUI_POPUP
+_4 Duk-op
+;
+MSG_SET_CTUI_KEYS
+_5 Taster
+;
+MSG_SET_CTUI_MENUS
+_2 Menuer
+;
+MSG_SET_CTUI_NAV
+_6 Navigering
+;
+MSG_SET_HLP_NOARGS
+(Ingen stedholdere)
+;
+MSG_SET_HLP_A
+%a = nyhedsgruppe eller indlæg
+;
+MSG_SET_HLP_E
+%e = e-postadresse
+;
+MSG_SET_HLP_F
+%f = sti-/filnavn
+;
+MSG_SET_HLP_H
+%h = værtsnavn
+;
+MSG_SET_HLP_L
+%l = brugernavn
+;
+MSG_SET_HLP_N
+%n = skærmnavn
+;
+MSG_SET_HLP_P
+%p = portnummer
+;
+MSG_SET_HLP_U
+%u = oprindelig URL
+;
+MSG_SET_HLP_W
+%w = adgangsord
+;
+MSG_SET_HLP_T
+%t = titel
+;
+MSG_SET_HLP_U2
+%u = nuværende URL
+;
+MSG_SET_HLP_U3
+%u = objekt-URL
+;
+MSG_SET_HLP_I
+%i = frame-ID
+;
+MSG_SET_HLP_I2
+%i = mål-frame-ID
+;
+MSG_SET_HLP_M
+%m = MIME-type
+;
+MSG_SET_HLP_S
+%s = søgeargurment
+;
+MSG_SET_HLP_D
+%d = dato
+;
+MSG_SET_HLP_G
+%g = gruppenavn
+;
+MSG_SET_HLP_I3
+%i = besked-ID
+;
+MSG_SET_HLP_N2
+%n = rigtigt navn
+;
+MSG_SET_HLP_S2
+%s = emne
+;
+MSG_SET_HLP_I4
+%i = fokus-frame-ID
+;
+MSG_SET_HLP_C
+%c = indstillingsnavn
+;
+MSG_SET_FD_NORMALTAG
+Normal
+;
+MSG_SET_FD_NORMAL
+Normal tekst
+;
+MSG_SET_FD_H1
+<H1>: Overskrift niveau 1
+;
+MSG_SET_FD_H2
+<H2>: Overskrift niveau 2
+;
+MSG_SET_FD_H3
+<H3>: Overskrift niveau 3
+;
+MSG_SET_FD_H4
+<H4>: Overskrift niveau 4
+;
+MSG_SET_FD_H5
+<H5>: Overskrift niveau 5
+;
+MSG_SET_FD_H6
+<H6>: Overskrift niveau 6
+;
+MSG_SET_FD_CITE
+<CITE>: Citering, typisk kursiv
+;
+MSG_SET_FD_CODE
+<CODE>: Programeksempel, typisk fast bredde
+;
+MSG_SET_FD_DFN
+<DFN>: Definition, typisk kursiv
+;
+MSG_SET_FD_EM
+<EM>: Fremhævet, typisk kursiv
+;
+MSG_SET_FD_KBD
+<KBD>: Tastatur-inddata, typisk fast bredde
+;
+MSG_SET_FD_SAMP
+<SAMP>: Prøve-uddata, typisk fast bredde
+;
+MSG_SET_FD_STRONG
+<STRONG>: Stærkt fremhævet, typisk fed
+;
+MSG_SET_FD_VAR
+<VAR>: Stedholder-variabel, typisk kursiv
+;
+MSG_DUMMY_1
+
+;
+MSG_SET_FD_BOLD
+ Fed
+;
+MSG_SET_FD_ITALIC
+ Kursiv
+;
+MSG_SET_FD_UNDERLINED
+ Understreget
+;
+MSG_SET_FD_NORMALFONT
+Normal skrift
+;
+MSG_SET_FD_FIXEDFONT
+"Fast bredde"-skrift
+;
+MSG_SET_FD_SIZE
+størrelse
+;
+MSG_SET_FD_BIG
+<BIG> : Stor skrift
+;
+MSG_SET_FD_SMALL
+<SMALL> : Lille skrift
+;
+MSG_SET_FD_SUB
+<SUB> : Lille, sænket skrift
+;
+MSG_SET_FD_SUP
+<SUP> : Lille, hævet skrift
+;
+MSG_SET_FD_ADDRESS
+<ADDRESS> : Adresse, typisk kursiv
+;
+MSG_SET_FD_BLOCKQUOTE
+<BLOCKQUOTE> : Lange citationer, typisk kursiv
+;
+MSG_SET_FD_PRE
+<PRE> : Førformateret tekst, bør være fast bredde
+;
+MSG_SET_HTML_STRICT
+Streng
+;
+MSG_SET_HTML_TOLERANT
+Tolerant
+;
+MSG_SET_HTML_COMPATIBLE
+Kompatibel
+;
+MSG_SET_SCRT_DEFAULT
+Standard offentlig skærm
+;
+MSG_SET_SCRT_NAMED
+Navngivet offentlig skærm
+;
+MSG_SET_SCRT_OWN
+Egen offentlig skærm
+;
+MSG_SET_IMGL_OFF
+Slået fra
+;
+MSG_SET_IMGL_MAPS
+Kun kort
+;
+MSG_SET_IMGL_ALL
+Alle billeder
+;
+MSG_SET_MLCN_TYPE
+Type
+;
+MSG_SET_MLCN_EXT
+Udvidelser
+;
+MSG_SET_MLCN_COMMAND
+Fremviser-kommando
+;
+MSG_SET_MLCN_ACTION
+A
+;
+MSG_SET_MLCN_NAME
+Navn og argumenter
+;
+MSG_SET_BRPEN_LINK
+Nyt link
+;
+MSG_SET_BRPEN_VLINK
+Besøgt link
+;
+MSG_SET_BRPEN_ALINK
+Valgt link
+;
+MSG_SET_BRPEN_BGCOLOR
+Baggrund
+;
+MSG_SET_BRPEN_TEXT
+Tekst
+;
+MSG_SET_SCRPEN_TEXT
+Normal tekst
+;
+MSG_SET_SCRPEN_SHINE
+Lyse kanter
+;
+MSG_SET_SCRPEN_SHADOW
+Mørke kanter
+;
+MSG_SET_SCRPEN_FILL
+Aktivt vindues titelbjælke
+;
+MSG_SET_SCRPEN_FILLTEXT
+Aktive vinduestitler
+;
+MSG_SET_SCRPEN_BACKGROUND
+Baggrund
+;
+MSG_SET_SCRPEN_HIGHLIGHTTEXT
+Vigtig tekst
+;
+MSG_SET_SCRPEN_BARDETAIL
+Menutekst
+;
+MSG_SET_SCRPEN_BARBLOCK
+Menubaggrund
+;
+MSG_SET_AREX_NONE
+ingen
+;
+MSG_SET_NWPRG_STARTTCP
+Starte TCP
+;
+MSG_SET_NWPRG_ENDTCP
+Stoppe TCP
+;
+MSG_SET_FTYPE_NORMAL
+Normale skrifter
+;
+MSG_SET_FTYPE_FIXED
+"Fast bredde"-skrifter
+;
+MSG_SET_FSIZE_1
+1 (mindst)
+;
+MSG_SET_FSIZE_3
+3 (normal)
+;
+MSG_SET_FSIZE_7
+7 (størst)
+;
+MSG_SET_FLH_SIZE
+Størrelse
+;
+MSG_SET_FLH_FONTFACE
+Skiftnavn og -størrelse
+;
+MSG_SET_SLH_TAG
+Tegn
+;
+MSG_SET_SLH_STYLE
+Vises som
+;
+MSG_SET_CAVERIFY_ALWAYS
+Altid
+;
+MSG_SET_CAVERIFY_ONCE
+En pr. session
+;
+MSG_SET_CAVERIFY_NEVER
+Aldrig
+;
+MSG_SET_LPAL_OFF
+Slået fra
+;
+MSG_SET_LPAL_COLOURS
+Farver
+;
+MSG_SET_LPAL_GRAY
+Gråtoner
+;
+MSG_SET_MACT_DEFAULT
+Standard
+;
+MSG_SET_MACT_INTERNAL
+Intern (I)
+;
+MSG_SET_MACT_PLUGIN
+AWeb-plugin (A)
+;
+MSG_SET_MACT_EXTERNAL
+Eksternt program (E)
+;
+MSG_SET_MACT_EXTPIPE
+Ekstern m/PIPE (P)
+;
+MSG_SET_MACT_SAVEDISK
+Gemme til disk (G)
+;
+MSG_SET_MACT_ABBREV
+ IAEPS
+;
+MSG_SET_COOKIES_NEVER
+Aldrig
+;
+MSG_SET_COOKIES_ASK
+Spørge først
+;
+MSG_SET_COOKIES_QUIET
+Altid (stille)
+;
+MSG_SET_PUPTYPE_IMAGE
+Duk-op-menu til billede
+;
+MSG_SET_PUPTYPE_LINK
+Duk-op-menu til link
+;
+MSG_SET_PUPTYPE_FRAME
+Duk-op-menu til frame
+;
+MSG_SET_MENUTYPE_MENU
+Menu
+;
+MSG_SET_MENUTYPE_ITEM
+Punkt
+;
+MSG_SET_MENUTYPE_SUB
+Under
+;
+MSG_SET_MENULABEL_MENU
+MENU
+;
+MSG_SET_MENULABEL_ITEM
+Punkt
+;
+MSG_SET_JS_OFF
+Slået fra
+;
+MSG_SET_JS_11
+Kræsen
+;
+MSG_SET_JS_ALL
+Altædende
+;
+MSG_SET_PAGE
+_Side
+;
+MSG_SET_SAVE
+_Gemme
+;
+MSG_SET_USE
+_Benytte
+;
+MSG_SET_CANCEL
+_Afbryde
+;
+MSG_SET_TEST
+_Teste
+;
+MSG_SET_FONT_FONT
+_Skrift
+;
+MSG_SET_FONT_FONTTYPE
+Skriftt_ype
+;
+MSG_SET_FONT_SETALL
+Sætte alle til dette skriftsnit
+;
+MSG_SET_FONT_FONTTYPE2
+Skriftsnitstype
+;
+MSG_SET_FONT_ALIAS
+_Kaldenavn
+;
+MSG_SET_FONT_ADD
+Tilføje
+;
+MSG_SET_FONT_DEL
+Fjerne
+;
+MSG_SET_APP_CHGCOLOUR
+_Skifte farve
+;
+MSG_SET_APP_SCREENPENS
+B_enytte skærmtekst og baggrundspenne
+;
+MSG_SET_BROPT_HTMLMODE
+_HTML-modus
+;
+MSG_SET_BROPT_ULLINKS
+U_nderstregede link
+;
+MSG_SET_BROPT_CYCLETOLIST
+Vise _cyklus-knapper som lister
+;
+MSG_SET_BROPT_DOCOLORS
+B_ruge baggrund og farver
+;
+MSG_SET_BROPT_POPUPLABEL
+Duk-op-menuaktivering
+;
+MSG_SET_BROPT_POPUPSHIFT
+S_HIFT-tast
+;
+MSG_SET_BROPT_POPUPALT
+A_LT-tast
+;
+MSG_SET_BROPT_POPUPCONTROL
+CT_RL-tast
+;
+MSG_SET_BROPT_POPUPMIDBUTTON
+M_idterste museknap
+;
+MSG_SET_BROPT_DOBGSOUND
+Spille baggrundsly_d
+;
+MSG_SET_BROPT_BLINK
+B_link (0.1 s)
+;
+MSG_SET_BROPT_POPUPRBUTTON
+H_øjre museknap
+;
+MSG_SET_BROPT_JAVASCRIPT
+Bruge _JavaScript
+;
+MSG_SET_BROPT_FRAMES
+Benytte _frames
+;
+MSG_SET_BROPT_INCTABLE
+_Progressiv skema-fremvisning
+;
+MSG_SET_BROPT_NOMINALFRAME
+_Korrekt frame-højde
+;
+MSG_SET_BROPT_JSERRORS
+Vise JavaScript-f_ejl
+;
+MSG_SET_BROPT_NOBANNERS
+_Undertrykke reklamevinduer
+;
+MSG_SET_BROPT_TOOLTIPS
+Vise t_ooltips til billeder
+;
+MSG_SET_BROPT_HANDPOINTER
+Hånd-_musebillede over links
+;
+MSG_SET_BROPT_JSWATCH
+Ad_vare mod mistænkelig JavaScript
+;
+MSG_SET_SCREEN_OPENON
+Åb_ne på
+;
+MSG_SET_SCREEN_NAME
+_Skærmnavn
+;
+MSG_SET_SCREEN_MODE
+_Skærmmodus
+;
+MSG_SET_SCREEN_PALETTE
+_Hente spredt palet
+;
+MSG_SET_PALL_PENLABEL
+Pen-indstillinger
+;
+MSG_SET_PALL_PEN
+_Pen
+;
+MSG_SET_PALL_PALLETTELABEL
+Redigere palet
+;
+MSG_SET_PALL_PALLPEN
+P_en
+;
+MSG_SET_PALL_CHGCOLOUR
+Æ_ndre farve
+;
+MSG_SET_NETWORK_IMGLOAD
+B_illedhentning
+;
+MSG_SET_NETWORK_MAXCONN
+Max. _netværksforbindelser
+;
+MSG_SET_NETWORK_HOMEPAGE
+_Hjemmeside
+;
+MSG_SET_NETWORK_LOCALINDEX
+_Lokal indeks
+;
+MSG_SET_NETWORK_STARTHOME
+_Starte med hjemmeside
+;
+MSG_SET_NETWORK_ANONYMOUS
+B_rowse anonymt
+;
+MSG_SET_NETWORK_IGNORE
+Ign_orere servers MIME-typer
+;
+MSG_SET_NETWORK_MAXDISK
+_disk-læsning
+;
+MSG_SET_NETWORK_COOKIES
+Bruge coo_kies
+;
+MSG_SET_NETWORK_NOCOOKIELABEL
+Ingen cookis til disse domæner
+;
+MSG_SET_NETWORK_NOCOOKIEADD
+Tilføje
+;
+MSG_SET_NETWORK_NOCOOKIEDEL
+Slette
+;
+MSG_SET_NETWORK_FORMWARN
+A_dvare før usikker afsendelse af formular-data
+;
+MSG_SET_NETWORK_AUTOSEARCHURL
+Autos_øge-URL
+;
+MSG_SET_NETWORK_AUTOSEARCH
+A_ktivere autosøgning
+;
+MSG_SET_NETWORK_SPAMBLOCK
+Aktivere _spamblokering ved afsendelse af indlæg
+;
+MSG_SET_NETWORK_FTPEMAILADDR
+Bruge e-postadresse som anonymt _FTP-adgangsord
+;
+MSG_SET_NETWORK_SPOOFID
+Tilkendegive so_m
+;
+MSG_SET_NETWORK_CONTANIM
+Glid_ende animation
+;
+MSG_SET_NETWORK_SPOOFID_EXPL
+(Vælg fra listen eller\n\
+angiv selv en browser-ID)
+;
+MSG_SET_NETWORK_RESTRICT_IMAGES
+Begrænse billed-indlæsning til samme _vært
+;
+MSG_SET_PROXY_TYPE
+T_ype
+;
+MSG_SET_PROXY_NAME
+_Proxy
+;
+MSG_SET_PROXY_LIMITED
+B_egrænset brug af proxy
+;
+MSG_SET_PROXY_NOPROXYLABEL
+Ingen proxy til disse adresser
+;
+MSG_SET_PROXY_NOPROXYADD
+Tilføje
+;
+MSG_SET_PROXY_NOPROXYDEL
+Slette
+;
+MSG_SET_PROXY_PASSIVEFTP
+Passi_v FTP
+;
+MSG_SET_NWPRG_TYPE
+T_ype
+;
+MSG_SET_NWPRG_CMD
+_Kommando
+;
+MSG_SET_NWPRG_ARGS
+A_rgumenter
+;
+MSG_SET_PROGRAM_SAVEPATH
+G_emme-sti
+;
+MSG_SET_PROGRAM_OVERLAP
+Rulle-_overlapning (punkter)
+;
+MSG_SET_PROGRAM_ALLOW
+T_illade shell-kommandoer i link
+;
+MSG_SET_PROGRAM_HOTCLOSE
+_Hotliste-forespørgsler med auto-luk
+;
+MSG_SET_PROGRAM_HOTREQ
+Hotliste-knap giver _forespørgsel
+;
+MSG_SET_PROGRAM_WHISCLOSE
+Histo_rie-vindue med auto-luk
+;
+MSG_SET_PROGRAM_SAVEICONS
+Oprette i_koner
+;
+MSG_SET_PROGRAM_AAHOTLIST
+Automatisk åb_ne hotliste
+;
+MSG_SET_PROGRAM_AAWINHIS
+Automatisk åbne vindueshi_storie
+;
+MSG_SET_PROGRAM_AANETSTAT
+Automatisk åbne net_værksstatus
+;
+MSG_SET_PROGRAM_DRAGGING
+Tillade tr_æk&slip
+;
+MSG_SET_PROGRAM_CENTERREQS
+_Centrere dialogbokse
+;
+MSG_SET_EDITOR_LABEL
+Teksteditor
+;
+MSG_SET_EDITOR_CMD
+_Kommando
+;
+MSG_SET_EDITOR_ARGS
+A_rgumenter
+;
+MSG_SET_VIEWER_LABEL
+HTML-kildetekstfremviser
+;
+MSG_SET_VIEWER_CMD
+K_ommando
+;
+MSG_SET_VIEWER_ARGS
+Arg_umenter
+;
+MSG_SET_CONSOLE
+Ko_nsol
+;
+MSG_SET_PRPROGRAMS_TYPE
+T_ype
+;
+MSG_SET_IMGVIEWER_LABEL
+Billedviser
+;
+MSG_SET_STARTUP_LABEL
+ARexx-program der køres under opstart
+;
+MSG_SET_SHUTDOWN_LABEL
+ARexx-program der køres under afslutning
+;
+MSG_SET_CACHE_TEMPPATH
+_Midlertidig sti
+;
+MSG_DUMMY_2
+
+;
+MSG_SET_CACHE_DOCMEM
+_Hukommelse (kb)
+;
+MSG_SET_CACHE_DOCDISK
+_Disk (kB)
+;
+MSG_DUMMY_3
+
+;
+MSG_DUMMY_4
+
+;
+MSG_DUMMY_5
+
+;
+MSG_DUMMY_6
+
+;
+MSG_DUMMY_7
+
+;
+MSG_SET_CACHE_CACHEPATH
+_Lager-sti
+;
+MSG_SET_CACHE_SIZELABEL
+Lagerstørrelse
+;
+MSG_SET_CACHE_FREELABEL
+Sikre mindst fri
+;
+MSG_SET_CACHE_CHIP
+_Chip (kB)
+;
+MSG_SET_CACHE_FAST
+_Fast (kB)
+;
+MSG_SET_CACHE_VERIFY
+T_jekke lagerkopi
+;
+MSG_SET_CACHE_FASTRESPONSE
+H_urtig svartid
+;
+MSG_SET_CACHE_NOCACHELABEL
+Steder som ikke skal gemmes i lageret
+;
+MSG_SET_CACHE_NOCACHEADD
+Tilføje
+;
+MSG_SET_CACHE_NOCACHEDEL
+Slette
+;
+MSG_SET_MIME_TYPE
+T_ype
+;
+MSG_SET_MIME_ADD
+T_ilføje
+;
+MSG_SET_MIME_DEL
+S_lette
+;
+MSG_SET_MIME_EXTENSIONS
+_Udvidelser
+;
+MSG_SET_MIME_CMD
+_Kommando
+;
+MSG_SET_MIME_ARGS
+A_rgumenter
+;
+MSG_SET_MIME_NAME
+_Navn
+;
+MSG_SET_MIME_ACTION
+_Handling
+;
+MSG_SET_COLOUR_TITLE
+Vælge farve
+;
+MSG_SET_COLOUR_CANCEL
+Afbryde
+;
+MSG_SET_COLOUR_OK
+OK
+;
+MSG_SET_COLOUR_RED
+R
+;
+MSG_SET_COLOUR_GREEN
+G
+;
+MSG_SET_COLOUR_BLUE
+B
+;
+MSG_SET_AREXX_SORT
+S_ortere
+;
+MSG_SET_AREXX_ADD
+T_ilføje
+;
+MSG_SET_AREXX_DEL
+S_lette
+;
+MSG_SET_AREXX_TITLE
+Tit_el
+;
+MSG_DUMMY_9
+
+;
+MSG_DUMMY_10
+
+;
+MSG_SET_MENUS_INVALID
+UGYLDIG
+;
+MSG_SET_MENUS_TYPE
+T_ype
+;
+MSG_SET_MENUS_COMMAND
+Ko_mmando
+;
+MSG_SET_STYLE_FIXED
+_Fast bredde
+;
+MSG_SET_STYLE_ABSSIZE
+Ab_s. størrelse
+;
+MSG_SET_STYLE_RELSIZE
+_Rel. størrelse
+;
+MSG_SET_STYLE_NORMAL
+_Normal
+;
+MSG_SET_STYLE_BOLD
+F_ed
+;
+MSG_SET_STYLE_ITALIC
+_Kursiv
+;
+MSG_SET_STYLE_UNDERLINED
+_Understreget
+;
+MSG_SET_BUTTON_SORT
+S_ortere
+;
+MSG_SET_BUTTON_ADD
+T_ilføje
+;
+MSG_SET_BUTTON_DEL
+_Slette
+;
+MSG_SET_BUTTON_LABEL
+_Mærkat
+;
+MSG_SET_BUTTON_CMD
+_Kommando
+;
+MSG_SET_POPUP_TYPE
+T_ype
+;
+MSG_SET_POPUP_SORT
+S_ortere
+;
+MSG_SET_POPUP_ADD
+T_ilføje
+;
+MSG_SET_POPUP_DEL
+_Slette
+;
+MSG_SET_POPUP_TITLE
+Tit_el
+;
+MSG_SET_POPUP_CMD
+_Kommando
+;
+MSG_SET_POPUP_SHOWIF
+Vise hvis objekt
+;
+MSG_SET_POPUP_INMEM
+i h_ukommelse
+;
+MSG_SET_POPUP_NOTINMEM
+ikke i hukomme_lse
+;
+MSG_SET_GUIOPT_SHOWBUTTONS
+Vise bruger_knapper
+;
+MSG_SET_GUIOPT_SHOWNAV
+Vise _navigationsknapper
+;
+MSG_SET_MAIL_TAB_ADDRESS
+A_dresse
+;
+MSG_SET_MAIL_TAB_MAIL
+_Post
+;
+MSG_SET_MAIL_TAB_NEWS
+_Nyheder
+;
+MSG_SET_MAIL_TAB_OPTIONS
+D_iverse
+;
+MSG_SET_MAIL_ADDRESS
+_E-post-adresse
+;
+MSG_SET_MAIL_REALNAME
+_Rigtigt navn
+;
+MSG_SET_MAIL_REPLYTO
+_Svar til adresse
+;
+MSG_SET_MAIL_ORGANIZATION
+_Organisation
+;
+MSG_SET_MAIL_SIGNATURE
+Signatur-_fil
+;
+MSG_SET_MAIL_SMTPHOST
+P_ostserver (SMTP)
+;
+MSG_SET_MAIL_MAILQUOTEHDR
+Ind_ledning
+;
+MSG_SET_MAIL_EXTMAILER
+Bruge _eksternt postprogram
+;
+MSG_SET_MAIL_EXTMCOMMAND
+_Kommando
+;
+MSG_SET_MAIL_EXTMARGS
+A_rgumenter
+;
+MSG_SET_MAIL_NNTPHOST
+N_yhedsgruppeserver (NNTP)
+;
+MSG_SET_MAIL_NEWSQUOTEHDR
+Ind_ledning
+;
+MSG_SET_MAIL_NEWSUSER
+Ny_hedsgruppe-brugernavn
+;
+MSG_SET_MAIL_NEWSPASSWORD
+Nyhedsgr_uppe-adgangsord
+;
+MSG_SET_MAIL_EXTNEWS
+Bruge _ekstern nyhedsgruppelæser
+;
+MSG_SET_MAIL_EXTNCOMMAND
+_Kommando
+;
+MSG_SET_MAIL_EXTNARGS
+A_rgumenter
+;
+MSG_SET_MAIL_MAXARTICLES
+Ma_x antal indlæg
+;
+MSG_SET_MAIL_SORTED
+So_rtere indlæg
+;
+MSG_SET_MAIL_FRAMED
+_Opdele skærmen
+;
+MSG_SET_MAIL_LONGHDRS
+_Lange besked-hoveder
+;
+MSG_SET_MAIL_PROPFONT
+Proportional _skrift
+;
+MSG_SET_MAIL_NEWSBYNUMBER
+Hente ud fra n_ummer
+;
+MSG_SET_KEYS_KEY
+Tast
+;
+MSG_SET_KEYS_COMMAND
+_Kommando
+;
+MSG_SET_KEYS_ENTER
+Enter
+;
+MSG_SET_KEYS_TAB
+Tab
+;
+MSG_SET_KEYS_BS
+Slet
+;
+MSG_SET_KEYS_SPACE
+Mellemrum
+;
+MSG_SET_KEYS_UP
+Pil op
+;
+MSG_SET_KEYS_LEFT
+Pil venstre
+;
+MSG_SET_KEYS_RIGHT
+Pil højre
+;
+MSG_SET_KEYS_DOWN
+Pil ned
+;
+MSG_SET_KEYS_NUM
+Num
+;
+MSG_SET_KEYS_SHIFT
+Shift
+;
+MSG_SET_KEYS_WHEELUP
+Hjul op
+;
+MSG_SET_KEYS_WHEELDOWN
+Hjul ned
+;
+MSG_SET_NAVS_BUTTON
+Knap
+;
+MSG_SET_NAVS_COMMAND
+_Kommando
+;
+MSG_SET_NAVS_BACK
+Tilbage
+;
+MSG_SET_NAVS_FORWARD
+Frem
+;
+MSG_SET_NAVS_HOME
+Hjem
+;
+MSG_SET_NAVS_ADDHOT
+Føje til hotliste
+;
+MSG_SET_NAVS_HOTLIST
+Fremvise hotliste
+;
+MSG_SET_NAVS_CANCEL
+Annullere
+;
+MSG_SET_NAVS_NETSTATUS
+Netværksstatus
+;
+MSG_SET_NAVS_SEARCH
+Søge
+;
+MSG_SET_NAVS_RELOAD
+Genhente
+;
+MSG_SET_NAVS_LOADIMAGES
+Hente billeder
+;
+MSG_SET_PROJECT_MENU
+Projekt
+;
+MSG_SET_PROJECT_OPEN
+O/Åbne...
+;
+MSG_SET_PROJECT_SAVEAS
+A/Gemme som...
+;
+MSG_SET_PROJECT_QUIT
+Q/Afslutte indstillinger
+;
+MSG_SET_EDIT_MENU
+Redigering
+;
+MSG_SET_EDIT_DEFAULTS
+D/Nulstille til standardværdier
+;
+MSG_SET_EDIT_LASTSAVED
+L/Sidst gemt
+;
+MSG_SET_EDIT_RESTORE
+R/Sidst gemte
+;
+MSG_SET_WINDOWS_MENU
+Vinduer
+;
+MSG_SET_WINDOWS_BROWSER
+Browserindstillinger...
+;
+MSG_SET_WINDOWS_PROGRAM
+Programindstillinger...
+;
+MSG_SET_WINDOWS_NETWORK
+Netværksindstillinger...
+;
+MSG_SET_WINDOWS_CLASSACT
+ClassAct-indstillinger...
+;
+MSG_SET_WINDOWS_SNAPSHOT
+Fastgøre
+;
+MSG_SET_WINDOWS_GUI
+GUI-indstillinger...
+;

@@ -1,0 +1,17 @@
+## SAS/C makefile for awebgif aweb plugin module
+
+.c.o:
+   sc "$*.c"
+
+awebgif.awebplugin:    startup.o awebgif.o gifsource.o gifcopy.o awebgif.lnk
+   remlib >nil: awebgif.awebplugin
+   slink with awebgif.lnk
+
+startup.o:     startup.c pluginlib.h
+
+awebgif.o:     awebgif.c pluginlib.h awebgif.h
+
+gifsource.o:   gifsource.c pluginlib.h awebgif.h
+
+gifcopy.o:     gifcopy.c pluginlib.h awebgif.h
+

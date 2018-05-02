@@ -1,0 +1,1396 @@
+;
+; aweb.catalog
+;
+; Translation team:  Niels Bache <nbache@post5.tele.dk>
+;                    Ole Friis <ole_f@post3.tele.dk>
+;                    Jacob Laursen <jlaur@mail1.stofanet.dk>
+; (based on earlier translation by Lasse Pedersen <volmer@vip.cybercity.dk>)
+;
+## version $VER: aweb.catalog 0.21 (6.1.2001)
+## codeset 0
+## language dansk
+;
+MSG_REQUEST_TITLE
+AWeb-dialogboks
+;
+MSG_ABOUT_TITLE
+Om AWeb...
+;
+MSG_ABOUT_REGNR
+Registreringsnr.
+;
+MSG_ABOUT_REGTO
+Registreret til
+;
+MSG_ABOUT_SCREENNAME
+Offentligt skærmnavn
+;
+MSG_ABOUT_PORTNAME
+ARexx-portnavn
+;
+MSG_ABOUT_EMAIL
+E-post
+;
+MSG_ABOUT_WWW
+WWW
+;
+MSG_ABOUT_OK
+_OK
+;
+MSG_ABOUT_UNREGISTERED
+Uregistreret version\n\
+
+;
+MSG_ABOUT_DEMO
+Uregistreret demoversion\n\
+
+;
+MSG_ABOUT_DISTRIBUTED
+Distributeret af %s
+;
+MSG_ABOUT_TRANSLATOR
+Dansk oversættelse: Lasse Pedersen og Ole Friis\n\
+
+;
+MSG_ABOUT_SPECIAL
+Specialversion til distribution med AmigaOS\n\
+
+;
+MSG_QUIT_TEXT
+Er du sikker på at du vil afslutte AWeb?
+;
+MSG_QUIT_OK
+_OK
+;
+MSG_QUIT_CANCEL
+_Fortryde
+;
+MSG_QUIT_WARNING
+ADVARSEL: Alle overførsler vil blive afbrudt!\n\
+\n\
+
+;
+MSG_DEMO_TEXT
+Dette er demoversionen af AWeb,\n\
+flere dokument-vinduer understøttes ikke
+;
+MSG_DEMO_OK
+_OK
+;
+MSG_SCRCLOSE_TEXT
+AWeb kan ikke lukke sin skærm.\n\
+Luk venligst alle vinduer.
+;
+MSG_SCRCLOSE_OK
+OK
+;
+MSG_NWS_TITLE
+Netværksstatus
+;
+MSG_NWS_QUEUED
+I kø
+;
+MSG_NWS_STARTED
+Startet
+;
+MSG_NWS_LOOKUP
+Leder efter
+;
+MSG_NWS_CONNECT
+Forbinder
+;
+MSG_NWS_WAIT
+Venter
+;
+MSG_NWS_PROCESS
+Behandler
+;
+MSG_NWS_LOGIN
+Logger ind
+;
+MSG_NWS_CPS
+%ld cps
+;
+MSG_NWS_NEWSGROUP
+Søger
+;
+MSG_NWS_UPLOAD
+Sender
+;
+MSG_AUTH_TITLE
+Identifikation
+;
+MSG_AUTH_PROMPT
+Bruger-ID og adgangsord nødvendigt til
+;
+MSG_AUTH_USERID
+_Bruger-ID
+;
+MSG_AUTH_PASSWORD
+A_dgangsord
+;
+MSG_AUTH_OK
+_OK
+;
+MSG_AUTH_CANCEL
+_Annullere
+;
+MSG_AUTH_PROMPT_FTP
+Adgangsord nødvendigt til
+;
+MSG_AUTH_USERID_FTP
+Bruger-ID
+;
+MSG_AUTH_PROMPT_PROXY
+Bruger-ID og adgangsord nødvendigt til proxy
+;
+MSG_FILE_SAVETITLE
+Vælg fil at gemme til
+;
+MSG_FILE_SAVE
+Gemme
+;
+MSG_FILE_INCTEXT
+Ufuldstændig fil!\n\
+%s\n\
+Forventet: %ld tegn\n\
+Modtaget: %ld tegn\n\
+\n\
+Tryk OK for at beholde de ufuldstændige data.
+;
+MSG_DUMMY_1
+
+;
+MSG_FILE_EXISTTEXT
+Filen\n\
+%s\n\
+eksisterer allerede!
+;
+MSG_FILE_EXISTBUTTONS
+_Overskrive|_Føje til slutningen|_Nyt navn|_Afbryde
+;
+MSG_FILE_AREXXTITLE
+Vælge ARexx-makro
+;
+MSG_FILE_HOTLISTTITLE
+Vælge hierarkisk hotliste
+;
+MSG_FILE_LOCALTITLE
+Åbne lokal fil...
+;
+MSG_FILE_OPEN
+Åbne...
+;
+MSG_FILE_TEMPTITLE
+Kan ikke finde sti til midlertidige data:\n\
+%s\n\
+Brug T: i stedet.
+;
+MSG_FILE_TEMPBUTTONS
+_OK
+;
+MSG_FILE_INCBUTTONS2
+_OK|_Prøve igen|_Annullere
+;
+MSG_FILE_SETTINGSTITLE
+Vælg katalog til indstillinger
+;
+MSG_FILE_UPLOADTITLE
+Vælg fil der skal sendes
+;
+MSG_TCP_ENDTCP
+AWeb er stoppet.\n\
+Skal TCP-forbindelsen også afbrydes?
+;
+MSG_TCP_BUTTONS
+_Ja|_Nej
+;
+MSG_STARTUP_FONTS
+Henter skrifttyper
+;
+MSG_STARTUP_IMAGES
+Henter GUI-billeder
+;
+MSG_STARTUP_CACHE
+Henter lager-indeks
+;
+MSG_HOTL_TITLE
+AWeb-hotliste
+;
+MSG_HOTL_ADDLINK
+_Tilføje link
+;
+MSG_HOTL_ADDGROUP
+Tilføje _gruppe
+;
+MSG_HOTL_REMOVE
+Fjerne
+;
+MSG_HOTL_FOLLOW
+_Følge
+;
+MSG_HOTL_NAME
+_Navn
+;
+MSG_HOTL_URL
+_URL
+;
+MSG_HOTL_NEWGROUP
+Ny gruppe
+;
+MSG_HOTL_NEWLINK
+Nyt link
+;
+MSG_HOTL_TITLE_VIEWER
+AWeb-hotlistefremviser
+;
+MSG_HOTL_VURLS
+_URL'er
+;
+MSG_HOTL_MANAGER
+_Manager
+;
+MSG_HOTL_TITLE_MANAGER
+AWeb-hotlistemanager
+;
+MSG_HOTL_LTYPE
+L_iste
+;
+MSG_HOTL_LTYPE_REST
+Resten
+;
+MSG_HOTL_LTYPE_ALL
+Alle
+;
+MSG_HOTL_LTYPE_GROUPS
+Grupper
+;
+MSG_HOTL_LSORT
+S_ortere
+;
+MSG_HOTL_LSORT_TITLE
+Titel
+;
+MSG_HOTL_LSORT_URL
+URL
+;
+MSG_HOTL_MOVEIN
+_< Ind
+;
+MSG_HOTL_MOVEOUT
+Ud _>
+;
+MSG_HOTL_MOVE
+< Fl_ytte
+;
+MSG_HOTL_DEL
+_Slette
+;
+MSG_HOTL_WHERE
+_Hvor
+;
+MSG_HOTL_SHOW
+_Vise
+;
+MSG_HOTL_SORT
+Sor_tere
+;
+MSG_HOTL_PARENT
+Fo_rælder
+;
+MSG_HOTL_ALL
+Gr_upper
+;
+MSG_HOTL_ADDENTRY
++ _Enhed
+;
+MSG_HOTL_ADDGROUP2
++ _Gruppe
+;
+MSG_HOTL_URLS
+UR_L'er
+;
+MSG_HOTL_REVERT
+Tilb_age
+;
+MSG_HOTL_SAVE
+Ge_mme
+;
+MSG_HOTL_LADD
+Tilf_øje
+;
+MSG_HOTL_FIND
+_Finde
+;
+MSG_HOTL_PATTERN
+Lig_ne
+;
+MSG_HOTL_NEXT
+N_æste
+;
+MSG_HOTL_DEFAULT_TITLE
+** Nyt link **
+;
+MSG_HOTL_DEFAULT_GROUP
+** Ny gruppe **
+;
+MSG_HOTL_TITLE_ALLGROUPS
+Alle grupper
+;
+MSG_HOTL_TITLE_WHERE
+Grupper der indeholder denne enhed
+;
+MSG_HOTL_TITLE_REST
+Utildelte enheder
+;
+MSG_HOTL_TITLE_ALL
+Alle enheder
+;
+MSG_HOTL_TITLE_ROOTGROUPS
+Rodniveau-grupper
+;
+MSG_HOTL_LSORT_DATE
+Dato
+;
+MSG_WHIS_TITLE
+Vindueshistorie
+;
+MSG_WHIS_FILTER
+_Filter
+;
+MSG_WHIS_WINDOW
+V_indue
+;
+MSG_WHIS_ORDER
+_Rækkefølge
+;
+MSG_WHIS_DISPLAY
+_Vise
+;
+MSG_WHIS_ORDER_NATURAL
+Naturlig
+;
+MSG_WHIS_ORDER_MAINLINE
+Hovedlinie
+;
+MSG_WHIS_ORDER_RETRIEVED
+Genhentet
+;
+MSG_WHIS_ORDER_TITLE
+Titel
+;
+MSG_WHIS_ORDER_URL
+URL
+;
+MSG_CABR_TITLE
+Lagerbrowser
+;
+MSG_CABR_URL
+URL
+;
+MSG_CABR_DATE
+Dato
+;
+MSG_CABR_SIZE
+Størrelse
+;
+MSG_CABR_TYPE
+Type
+;
+MSG_CABR_FILE
+Fil
+;
+MSG_CABR_STATUS
+%ld filer, %ld kB
+;
+MSG_CABR_SORTBY
+S_ortere efter
+;
+MSG_CABR_OPEN
+Å_bne
+;
+MSG_CABR_SAVE
+Ge_mme
+;
+MSG_CABR_DELETE
+_Slette
+;
+MSG_CABR_FIND
+_Finde
+;
+MSG_CABR_PATTERN
+_Ligne
+;
+MSG_CABR_NEXT
+_Næste
+;
+MSG_PROGRESS_TITLE
+AWeb-status
+;
+MSG_PROGRESS_CANCEL
+Annullere
+;
+MSG_FIXCACHE_WARNING
+ADVARSEL!\n\
+Denne funktion vil slette alle uvedkommende filer fra\n\
+%s-kataloget
+;
+MSG_FIXCACHE_BUTTONS
+_OK|_Annullere
+;
+MSG_FIXCACHE_PROGRESS
+Arrangerer diskettelageret...
+;
+MSG_FIXCACHE_DELETEIMAGES
+Er du sikker på at du vil slette\n\
+alle billeder i lageret?
+;
+MSG_FIXCACHE_DELETEDOCS
+Er du sikker på at du vil slette\n\
+alle dokumenter i lageret?
+;
+MSG_FIXCACHE_ERASE
+Er du sikker på at du vil slette\n\
+alle dokumenter og billeder i lageret?
+;
+MSG_FIXCACHE_CORRUPT
+Lager-registeret er ulæseligt\n\
+eller fra en gammel version af AWeb.\n\
+Lagrede filer kan ikke benyttes længere.\n\
+Vil du rydde op i lageret nu?
+;
+MSG_SEARCH_STRING
+Søge _efter
+;
+MSG_SEARCH_IGNORECASE
+_Ignorere forskel stor/lille
+;
+MSG_SEARCH_SEARCH
+_Søge
+;
+MSG_SEARCH_FROMTOP
+Fra _top
+;
+MSG_SEARCH_BACKWARDS
+_Baglæns
+;
+MSG_SEARCH_CANCEL
+_Annullere
+;
+MSG_SEARCH_NOTFOUND
+Tekst ikke fundet
+;
+MSG_SEARCH_OK
+_OK
+;
+MSG_POPUP_LOADIMAGE
+Hente billede
+;
+MSG_POPUP_RELOADIMAGE
+Genhente billede
+;
+MSG_POPUP_SAVEIMAGE
+Gemme billede
+;
+MSG_POPUP_DOWNLOADIMAGE
+Hente billede ned
+;
+MSG_POPUP_FLUSHIMAGE
+Slette billede
+;
+MSG_POPUP_SHOWIMAGE
+Vise billede
+;
+MSG_POPUP_OPENLINK
+Åbne link
+;
+MSG_POPUP_OPENLINKNW
+Åbne link i nyt vindue
+;
+MSG_POPUP_LOADLINK
+Hente link i baggrund
+;
+MSG_POPUP_SAVELINK
+Gemme link
+;
+MSG_POPUP_DOWNLOADLINK
+Hente link ned
+;
+MSG_POPUP_ADDLINK
+Føje link til hotliste
+;
+MSG_POPUP_RELOADFRAME
+Genhente indhold
+;
+MSG_POPUP_SAVEFRAME
+Gemme kildetekst
+;
+MSG_POPUP_VIEWFRAME
+Vise kildetekst
+;
+MSG_POPUP_SHOWFRAME
+Vise separat
+;
+MSG_POPUP_SEARCHFRAME
+Søge i indhold
+;
+MSG_POPUP_INFOFRAME
+Info
+;
+MSG_PRINTP_TITLE
+Udskriftsparametre
+;
+MSG_PRINTP_SCALE
+_Skalere (%)
+;
+MSG_PRINTP_PRINTBG
+Udskrive _baggrunde
+;
+MSG_PRINTP_FORMFEED
+S_ideskift
+;
+MSG_PRINTP_CENTER
+_Centrere
+;
+MSG_PRINTP_PRINT
+_Udskrive
+;
+MSG_PRINTP_CANCEL
+_Annullere
+;
+MSG_PRINT_NOPRINTER
+Kan ikke få kontakt med printeren
+;
+MSG_PRINT_OK
+_OK
+;
+MSG_PRINT_PROGRESS
+Udskrift under udførelse...
+;
+MSG_PRINTP_LAYOUTWIDTH
+Si_debredde
+;
+MSG_PRINTP_LW_WINDOW
+Vindue
+;
+MSG_PRINTP_LW_DOCUMENT
+Dokument
+;
+MSG_PRINTP_LW_SCREEN
+Skærm
+;
+MSG_COOKIE_TITLE
+Cookie-advarsel
+;
+MSG_COOKIE_WARNING
+Skal til at sætte en Netscape-cookie!
+;
+MSG_COOKIE_NAME
+Cookie-navn:
+;
+MSG_COOKIE_VALUE
+Cookie-værdi:
+;
+MSG_COOKIE_DOMAIN
+Til domæne:
+;
+MSG_COOKIE_PATH
+Sti:
+;
+MSG_COOKIE_COMMENT
+Kommentar:
+;
+MSG_COOKIE_MAXAGE
+Max-alder:
+;
+MSG_COOKIE_EXPIRES
+Udløber:
+;
+MSG_COOKIE_ONCE
+_Kun en gang
+;
+MSG_COOKIE_ACCEPT
+A_cceptere
+;
+MSG_COOKIE_NEVER
+_Aldrig
+;
+MSG_COOKIE_CANCEL
+_Annullere
+;
+MSG_COOKIE_SECURE
+AWeb vil kun sende denne cookie\n\
+tilbage over sikre forbindelser.
+;
+MSG_COOKIE_UNSECURE
+AWeb vil også sende denne cookie\n\
+tilbage over USIKRE forbindelser.
+;
+MSG_INFO_TITLE
+Information
+;
+MSG_INFO_FROMCACHE
+Læse fra AWeb-lager
+;
+MSG_INFO_XFER
+Overførselshoveder:
+;
+MSG_INFO_META
+Meta-information:
+;
+MSG_INFO_LINK
+Klikbare links:
+;
+MSG_INFO_CIPHER
+HTTPS-ciffermetode: %s
+;
+MSG_INFO_SSLLIBRARY
+SSL-bibliotek som benyttes: %s
+;
+MSG_USERBUTTON_CACHE
+Lager
+;
+MSG_USERBUTTON_CLOCK
+Ur
+;
+MSG_AUTHEDIT_TITLE
+Redigere identifikationer
+;
+MSG_AUTHEDIT_TITLE_SERVER
+Server
+;
+MSG_AUTHEDIT_TITLE_USERID
+Bruger-ID
+;
+MSG_AUTHEDIT_DEL
+_Slette
+;
+MSG_AUTHEDIT_SERVER
+Server
+;
+MSG_AUTHEDIT_USERID
+_Bruger-ID
+;
+MSG_AUTHEDIT_PASSWORD
+_Adgangsord
+;
+MSG_JSPROMPT_OK
+_OK
+;
+MSG_JSPROMPT_CANCEL
+_Annullere
+;
+MSG_FORMWARN_TITLE
+AWeb-advarsel
+;
+MSG_FORMWARN_WARNING
+Data i denne formular vil blive sendt\n\
+over en USIKKER forbindelse.
+;
+MSG_FORMWARN_BUTTONS
+_OK|_Annullere
+;
+MSG_MAIL_TITLE
+AWeb-postfejl
+;
+MSG_MAIL_NOSMTPHOST
+Du er nødt til at angive din SMTP-server først.\n\
+Se dine indstillinger under Netværk/Post.
+;
+MSG_MAIL_NOCONNECT
+Kan ikke forbinde til %s.
+;
+MSG_MAIL_MAILFAILED
+Kunne ikke sende post-besked.
+;
+MSG_MAIL_BUTTONS
+_Prøve igen|_Gemme|_Annullere
+;
+MSG_MAIL_SAVETITLE
+Gemme fejlet besked
+;
+MSG_MAIL_MAILTO_TITLE
+Sende til %s
+;
+MSG_MAIL_MAILTO_HEADER
+Sende til: %s
+;
+MSG_MAIL_TO
+Til:
+;
+MSG_MAIL_SUBJECT
+Emne:
+;
+MSG_MAIL_MESSAGE_BODY
+Brødtekst:
+;
+MSG_MAIL_EXTRA_HEADERS
+Ekstra besked-hoveder inkluderet
+;
+MSG_MAIL_SEND
+Sende post
+;
+MSG_MAIL_RESET
+Nulstille
+;
+MSG_MAIL_RETURN
+Tilbagesende
+;
+MSG_MAIL_MAIL_SENT_TITLE
+Post sendt til: %s
+;
+MSG_MAIL_MAIL_SENT
+<H1>Post sendt</H1>\n\
+Din post-besked til <B>%s</B> er blevet sendt korrekt.
+;
+MSG_NEWS_TITLE
+AWeb-nyhedslæserfejl
+;
+MSG_NEWS_NONNTPHOST
+Du er nødt til at angive din NNTP-server først.\n\
+Se dine indstillinger under Netværk/Nyheder.
+;
+MSG_NEWS_NOCONNECT
+Kan ikke forbinde til %s.
+;
+MSG_NEWS_POSTFAILED
+Kunne ikke sende nyhedsgruppe-indlæg.
+;
+MSG_NEWS_BUTTONS
+_Prøve igen|_Gemme|_Annullere
+;
+MSG_NEWS_SAVETITLE
+Gemme fejlet artikel
+;
+MSG_NEWS_NEWS_HEADER
+Nyhedsgrupper
+;
+MSG_NEWS_SUBSCRIBED
+Tilmeldte nyhedsgrupper
+;
+MSG_NEWS_NEW_ARTICLES
+%8ld nye indlæg
+;
+MSG_NEWS_CATCH_UP
+Indhente
+;
+MSG_NEWS_UNSUBSCRIBE
+Afmelde
+;
+MSG_NEWS_OTHER_GROUP
+Anden gruppe
+;
+MSG_NEWS_SUBSCRIBE
+Tilmelde
+;
+MSG_NEWS_READ
+Læse
+;
+MSG_NEWS_SEARCH_FOR_GROUP
+Søge efter gruppe
+;
+MSG_NEWS_SEARCH
+Søge
+;
+MSG_NEWS_LONG_DOWNLOAD
+Første gang du søger efter en gruppe,\n\
+bliver en liste over alle nyhedsgrupper hentet.\n\
+Dette tager typisk flere minutter at fuldende.
+;
+MSG_NEWS_NO_SUBJECT
+(intet emne)
+;
+MSG_NEWS_LINES
+(%s linier)
+;
+MSG_NEWS_POST_NEW_ARTICLE
+Sende nyt indlæg
+;
+MSG_NEWS_GROUP_LIST
+Gruppeliste
+;
+MSG_NEWS_ERROR_NO_GROUP
+<h1>Fejl</h1>\n\
+Gruppen %s eksisterer ikke.
+;
+MSG_NEWS_USE_FRAMES
+Nyhedsgruppelæseren er indstillet til at bruge frames
+;
+MSG_NEWS_ERROR_NO_ARTICLE
+Indlægget %s eksisterer ikke<BR>
+;
+MSG_NEWS_FOLLOW_UP
+Følge op
+;
+MSG_NEWS_REPLY
+Besvare gennem e-post
+;
+MSG_NEWS_SAVE
+Gemme indlæg
+;
+MSG_NEWS_SUBJECT
+Emne:
+;
+MSG_NEWS_NEWSGROUPS
+Nyhedsgrupper:
+;
+MSG_NEWS_ARTICLE_BODY
+Brødtekst:
+;
+MSG_NEWS_EXTRA_HEADERS
+Ekstra indlægshoveder inkluderet
+;
+MSG_NEWS_POST_ARTICLE
+Sende indlæg
+;
+MSG_NEWS_RESET
+Nulstille
+;
+MSG_NEWS_RETURN
+Tilbagesende
+;
+MSG_NEWS_FOLLOWUP_TITLE
+Opfølgning på artikel
+;
+MSG_NEWS_FOLLOWUP_TO_GROUPS
+Opfølgning på:
+;
+MSG_NEWS_PLEASE_DELETE
+Slet venligst unødvendige, citerede linier
+;
+MSG_NEWS_REPLY_TITLE
+Besvare indlæg
+;
+MSG_NEWS_REPLY_TO_ADDRESS
+Svare til:
+;
+MSG_NEWS_ARTICLE_POSTED_TITLE
+Indlæg sendt
+;
+MSG_NEWS_ARTICLE_POSTED
+<H1>Indlæg sendt</h1>\n\
+Dit indlæg er blevet sendt.
+;
+MSG_NEWS_DOWNLOAD_TITLE
+Hente nyhedsgruppe-liste
+;
+MSG_NEWS_DOWNLOAD_BODY
+<H1>Henter...</H1>\n\
+Henter nyhedsgruppe-liste. Dette kan tage flere minutter.
+;
+MSG_NEWS_SEARCH_RESULT
+Søgeresultater
+;
+MSG_NEWS_FIRST_MATCHING
+Første %ld af %ld nyhedsgruppenavne der passer til <B>%s</B>
+;
+MSG_NEWS_FOUND_MATCHING
+Fandt %ld nyhedsgruppenavne der passer til <B>%s</B>
+;
+MSG_CMDWARN_TITLE
+AWeb-advarsel
+;
+MSG_CMDWARN_SHELL
+Skal til at udføre shell-kommandoen\n\
+%s
+;
+MSG_CMDWARN_AREXX
+Skal til at udføre ARexx-programmet\n\
+%s
+;
+MSG_CMDWARN_BUTTONS
+_OK|_Annullere
+;
+MSG_SSLWARN_SSL_TITLE
+AWeb-advarsel
+;
+MSG_SSLWARN_SSL_TEXT
+Kan ikke oprette sikker forbindelse til %s:\n\
+%s\n\
+ \n\
+Ønsker du at benytte en usikker forbindelse i stedet?
+;
+MSG_SSLWARN_SSL_BUTTONS
+_Usikker|_Annullere
+;
+MSG_SSLWARN_SSL_NO_SSL
+Sikre forbindelser understøttes kun af TCP-stakken Miami med MiamiSSL.
+;
+MSG_SSLWARN_CERT_TITLE
+AWeb-advarsel
+;
+MSG_SSLWARN_CERT_TEXT
+Kan ikke tjekke certifikat til %s.\n\
+Detaljer: %s\n\
+\n\
+Hvis du fortsætter, vil dataene blive krypteret (beskyttelse mod aflytning), men serverens identitet kan ikke tjekkes (dvs. der er -INGEN- beskyttelse mod svindel).\n\
+ \n\
+Ønsker du at fortsætte?
+;
+MSG_SSLWARN_CERT_BUTTONS
+_OK|_Annullere
+;
+MSG_SSLWARN_SSL_NO_SSL2
+Sikre forbindelser understøttes kun under AmiSSL eller MiamiSSL.
+;
+MSG_UNKMIME_TITLE
+Ukendt indholdstype
+;
+MSG_UNKMIME_TEXT
+Ukendt fil vil blive gemt\n\
+\n\
+URL:   %s\n\
+Indholdstype:   %s\n\
+Udvidelse:   %s\n\
+\n\
+Du kan vælge at annullere lagringen nu, og så genindlæse denne fil efter du har indstillet en fremviser eller en handling til denne MIME-type i Browser-indstillingerne (Fremvisere).
+;
+MSG_UNKMIME_BUTTONS
+_Gemme|_Annullere
+;
+MSG_REQUEST_COPYURL
+Kopiere _URL til udklipsholder
+;
+MSG_OPENURL_TITLE
+AWeb-dialogboks
+;
+MSG_OPENURL_TEXT
+Angiv URL'en der skal åbnes:
+;
+MSG_OPENURL_BUTTONS
+_OK|_Annullere
+;
+MSG_SAVEIFF_PROGRESS
+Gemmer IFF-fil...
+;
+MSG_PROJECT_MENU
+Projekt
+;
+MSG_PROJECT_NEWWINDOW
+N/Nyt vindue
+;
+MSG_PROJECT_CLOSEWINDOW
+K/Lukke vindue
+;
+MSG_PROJECT_OPENURL
+U/Åbne URL...
+;
+MSG_PROJECT_OPENWWW
+W/Åbne WWW
+;
+MSG_PROJECT_OPENLOCAL
+L/Åbne lokal fil...
+;
+MSG_PROJECT_OPENSEARCH
+E/Søgemaskiner
+;
+MSG_PROJECT_SOURCE
+Vise kildetekst...
+;
+MSG_PROJECT_SAVEHTML
+S/Gemme kildetekst...
+;
+MSG_PROJECT_ABOUT
+Om...
+;
+MSG_PROJECT_QUIT
+Q/Afslutte...
+;
+MSG_PROJECT_SEARCH
+G/Søge...
+;
+MSG_PROJECT_PRINT
+P/Udskrive...
+;
+MSG_PROJECT_EDIT
+Redigere kildetekst...
+;
+MSG_PROJECT_INFO
+Information...
+;
+MSG_PROJECT_OPENNEWS
+Læse nyhedsgrupper
+;
+MSG_PROJECT_ICONIFY
+\\/Ikonificere
+;
+MSG_PROJECT_SAVEIFF
+Gemme som IFF...
+;
+MSG_CONTROL_MENU
+Kontrol
+;
+MSG_CONTROL_LOADNOW
+Hente billeder nu
+;
+MSG_CONTROL_LOADNOWALL
+I/Alle billeder
+;
+MSG_CONTROL_LOADNOWMAPS
+M/Kun kort
+;
+MSG_CONTROL_NETWORKSTATUS
+?/Netværksstatus...
+;
+MSG_DUMMY_2
+
+;
+MSG_CONTROL_CANCEL
+Z/Annullere hentning
+;
+MSG_CONTROL_NEXTWINDOW
+./Næste vindue
+;
+MSG_CONTROL_PREVWINDOW
+,/Forrige vindue
+;
+MSG_CONTROL_NOPROXY
+Y/Slå proxy fra
+;
+MSG_CONTROL_RLOAD
+Genhente
+;
+MSG_CONTROL_RLOADDOC
+R/Nuværende dokument
+;
+MSG_CONTROL_RLOADIMGS
+Billeder i nuværende
+;
+MSG_CONTROL_PLAYBGSOUND
+J/Afspille baggrundslyd
+;
+MSG_CONTROL_COPYURL
+Kopiere URL
+;
+MSG_CONTROL_PASTEURL
+Indsætte URL
+;
+MSG_CONTROL_COPYBLOCK
+K/Kopiere blok
+;
+MSG_CONTROL_DRAGGING
+Træk&Slip
+;
+MSG_CONTROL_BREAKJS
+X/Afbryde JavaScript
+;
+MSG_CONTROL_DEBUGJS
+Afluse JavaScript
+;
+MSG_CONTROL_RESET
+Nulstille frames
+;
+MSG_CACHE_MENU
+Lager
+;
+MSG_DUMMY_3
+
+;
+MSG_DUMMY_4
+
+;
+MSG_DUMMY_5
+
+;
+MSG_DUMMY_6
+
+;
+MSG_CACHE_SAVEAUTH
+Gemme identifikationer
+;
+MSG_CACHE_FLUSHAUTH
+Slette identifikationer
+;
+MSG_CACHE_BROWSER
+Lagerbrowser...
+;
+MSG_CACHE_FLUSH
+Fjerne fra hukommelse
+;
+MSG_CACHE_FLSHIMGSND
+Ikke-viste billeder
+;
+MSG_CACHE_FLSHIMGS
+Alle billeder
+;
+MSG_CACHE_FLSHDOCSND
+Ikke-viste dokumenter
+;
+MSG_CACHE_DELETE
+Slette fra disk
+;
+MSG_CACHE_DELIMGS
+Alle billeder
+;
+MSG_CACHE_DELDOCS
+Alle dokumenter
+;
+MSG_CACHE_CLEAR
+Slette hele lageret
+;
+MSG_CACHE_FIX
+Arrangere lager...
+;
+MSG_CACHE_EDITAUTH
+Redigere identifikationer...
+;
+MSG_NAVIGATE_MENU
+Navigering
+;
+MSG_NAVIGATE_BACK
+B/Tilbage
+;
+MSG_NAVIGATE_FWD
+F/Frem
+;
+MSG_NAVIGATE_HOME
+D/Hjemmeside
+;
+MSG_NAVIGATE_HISTORY
+-/Vindueshistorie...
+;
+MSG_HOTLIST_MENU
+Hotliste
+;
+MSG_HOTLIST_ADDHOT
+A/Føje til hotliste
+;
+MSG_HOTLIST_SHOWHOT
+H/Vise hotliste
+;
+MSG_HOTLIST_MAINT
+T/Vedligeholdelse...
+;
+MSG_HOTLIST_SAVE
+Gemme hotliste
+;
+MSG_HOTLIST_RESTORE
+Indlæse sidst gemte
+;
+MSG_HOTLIST_AMHOTRX
+AMosaic (ARexx)
+;
+MSG_HOTLIST_AMHOT20
+AMosaic (2.0)
+;
+MSG_HOTLIST_IBHOT
+Andre...
+;
+MSG_HOTLIST_VIEW
+V/Vise hotliste...
+;
+MSG_HOTLIST_MGR
+T/Hotlistemanager...
+;
+MSG_SETTINGS_MENU
+Indstillinger
+;
+MSG_SETTINGS_LOADIMG
+Hente billeder
+;
+MSG_SETTINGS_LOADIMGALL
+Alle billeder
+;
+MSG_SETTINGS_LOADIMGMAPS
+Kun kort
+;
+MSG_SETTINGS_LOADIMGOFF
+Slået fra
+;
+MSG_DUMMY_7
+
+;
+MSG_DUMMY_8
+
+;
+MSG_SETTINGS_BROWSER
+Browserindstillinger...
+;
+MSG_SETTINGS_PROGRAM
+Programindstillinger...
+;
+MSG_SETTINGS_NETWORK
+Netværksindstillinger...
+;
+MSG_SETTINGS_CLASSACT
+ClassAct-indstillinger...
+;
+MSG_SETTINGS_SAVEALL
+Gemme nuværende indstillinger
+;
+MSG_SETTINGS_SNAPSHOT
+Fastgøre vinduer
+;
+MSG_SETTINGS_SNAPSHOTALT
+Fastgøre som alternativ størrelse
+;
+MSG_SETTINGS_BGIMAGES
+Baggrundsbilleder
+;
+MSG_SETTINGS_BGSOUND
+Baggrundslyd
+;
+MSG_SETTINGS_SAVEAS
+Gemme indstillinger som...
+;
+MSG_SETTINGS_LOAD
+Hente indstillinger...
+;
+MSG_SETTINGS_GUI
+GUI-indstillinger...
+;
+MSG_HELP_MENU
+Hjælp
+;
+MSG_HELP_HELP
+Dokumentation
+;
+MSG_HELP_AWEBHOME
+AWebs hjemmeside
+;
+MSG_HELP_AWEBFAQ
+AWeb-FAQ
+;
+MSG_HELP_REGISTER
+Registrering
+;
+MSG_AREXX_MENU
+ARexx
+;
+MSG_AREXX_AREXX
+!/Udføre ARexx-makro...
+;
+MSG_ERROR_CANTOPEN
+Kan ikke åbne %s
+;
+MSG_ERROR_CANTOPENV
+Kan ikke åbne %s, version %ld
+;
+MSG_ERROR_NEEDOS30
+AWeb kræver OS 3.0 eller bedre
+;
+MSG_ERROR_CANTQUIT
+Kan ikke afslutte!\n\
+%s\n\
+er stadig i brug
+;
+MSG_EPART_ERROR
+Fejl
+;
+MSG_EPART_RETURL
+Ved hentning af URL
+;
+MSG_EPART_ADDRSCHEME
+&quot;%s&quot;-adressesystemet er ikke implementeret i denne version af AWeb
+;
+MSG_EPART_NOLIB
+En TCP-stak skal startes først
+;
+MSG_EPART_NOHOST
+Kan ikke bestemme servernavn &quot;%s&quot;
+;
+MSG_EPART_NOCONNECT
+Kan ikke forbinde til &quot;%s&quot;
+;
+MSG_EPART_NOFILE
+Kan ikke åbne filen &quot;%s&quot;
+;
+MSG_EPART_XAWEB
+Ukendt internt navn (x-aweb:) &quot;%s&quot;
+;
+MSG_EPART_FLUSHED_HEAD
+Slettet
+;
+MSG_EPART_FLUSHED_MSG
+Dette dokument er ikke længere tilgængeligt i hukommelsen
+;
+MSG_EPART_FLUSHED_NORELOAD
+Dette dokument kan ikke hentes igen. Du er nødt til at finde formularen der gav dig denne side. Vær opmærksom på uforudsete bivirkninger hvis du indsender formularen to eller flere gange.
+;
+MSG_EPART_NOLOGIN
+Kan ikke logge ind hos &quot;%s&quot; som &quot;%s&quot;
+;
+MSG_EPART_NOAWEBLIB
+Kan ikke hente AWebLib-modulet til &quot;%s&quot;.
+;
+MSG_EPART_NOPROGRAM
+Du har ikke konfigureret et program til &quot;%s&quot;-adressesystemet.
+;
+MSG_AWEB_EXTWINTITLE
+AWeb, eksternt program
+;
+MSG_AWEB_BYTESREAD
+Tegn læst
+;
+MSG_AWEB_FORMSUBMIT
+Sende
+;
+MSG_AWEB_FORMRESET
+Nulstille
+;
+MSG_AWEB_INDEXPROMPT
+Dette er et søgeindeks. Angiv nøgleord: 
+;
+MSG_AWEB_NODOCTITLE
+(Intet dokument hentet)
+;
+MSG_AWEB_SCREENTITLE
+Offentlig AWeb-skærm - Navn: AWeb
+;
+MSG_AWEB_HOTLISTTITLE
+Hotliste
+;
+MSG_AWEB_GOPHERINDEX
+Gopher-indeks
+;
+MSG_AWEB_GOPHERMENU
+Gopher-menu
+;
+MSG_AWEB_WINDOWHIS
+Vindueshistorie
+;
+MSG_AWEB_OTHER
+Andre
+;
+MSG_AWEB_LOOKUP
+Leder efter %s
+;
+MSG_AWEB_CONNECT
+Opretter %s-forbindelse til %s
+;
+MSG_AWEB_WAITING
+%s-forespørgsel sendt; venter på svar
+;
+MSG_AWEB_TCPSTART
+Etablerer TCP-forbindelse
+;
+MSG_AWEB_FORMLOCATION
+Sende formular ved x=%ld, y=%ld
+;
+MSG_AWEB_FORMBUTTON
+Start
+;
+MSG_AWEB_FRAME_RESIZE
+Tilpasse frame
+;
+MSG_AWEB_LOGIN
+Logger ind hos %s
+;
+MSG_AWEB_NEWSGROUP
+Gennemgår %s
+;
+MSG_AWEB_NEWSSCAN
+Gennemgår %s (%ld indlæg)
+;
+MSG_AWEB_NEWSSORT
+Sorterer %s
+;
+MSG_AWEB_NEWSPOST
+Sender indlæg
+;
+MSG_AWEB_MAILSEND
+Sender e-brev
+;
+MSG_AWEB_UPLOAD
+Sender fil
+;

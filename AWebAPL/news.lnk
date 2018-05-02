@@ -1,0 +1,8 @@
+FROM     news.o
+TO       aweblib/news.aweblib
+NODEBUG
+LIB      lib:scnb.lib
+MAP      news.map
+NOICONS
+
+DEFINE   @__chkabort=@__dummy

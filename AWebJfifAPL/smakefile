@@ -1,0 +1,19 @@
+## SAS/C makefile for awebjfif aweb plugin module
+
+CPU=68020
+
+.c.o:
+   sc "$*.c" define CPU="$(CPU)" cpu=$(CPU)
+
+awebjfif.awebplugin:    startup.o awebjfif.o jfifsource.o jfifcopy.o 
+awebjfif.awebplugin:    awebjfif.lnk jpeglib/libjpeg.lib
+	slink with awebjfif.lnk
+
+startup.o:     startup.c pluginlib.h
+
+awebjfif.o:    awebjfif.c pluginlib.h awebjfif.h
+
+jfifsource.o:  jfifsource.c pluginlib.h awebjfif.h
+
+jfifcopy.o:    jfifcopy.c pluginlib.h awebjfif.h
+

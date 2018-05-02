@@ -1,0 +1,208 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Network settings: Mail/News
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Network settings: Mail/News</h1>
+
+This page is subdivided into four sub-pages:
+<ol>
+<li><a href=#address>Address</a>
+<li><a href=#mail>Mail</a>
+<li><a href=#news>News</a>
+<li><a href=#options>Options</a>
+</ol>
+
+<h2><a name=address>Sub-page: address</a></h2>
+
+This sub-page contains fields to configure your e-mail address and related
+data common to mail and news. All fields only apply if you use the internal
+<a href="../mail.html">mailer</a> or <a href="../news.html">newsreader</a>.
+
+<h3><a name=email>E-mail address</a></h2>
+Enter your e-mail address here. Required for sending mail or news.
+<p>
+You should enter your real e-mail address. Don't enter a modified address here
+to protect yourself against spam, because this will cause your mails to be
+rejected if the receiving server checks the validity of your address.
+You can use the <a href="nwprivacy.html#spamblock">spamblock option</a> to
+protect yourself from unsolicited e-mail instead.
+
+<h3><a name=realname>Real name</a></h2>
+Enter your real, full name here. Required for news only.
+
+<h3><a name=replyto>Reply to address</a></h2>
+If you want to receive e-mail replies to another address as entered in the
+<a href=#email>E-mail address</a> field, enter this address here. Used with
+both mail and news.
+
+<h3><a name=organization>Organization</a></h2>
+Use when posting news. If you post news for some organization, enter its name
+here. Or just enter a fake name here for fun.
+
+<h3><a name=signature>Signature file</a></h2>
+Enter the file name that contains your signature. The contents of this file
+will be appended to outgoing mail and news.
+
+<h2><a name=mail>Sub-page: Mail</a></h2>
+
+This sub-page contains fields relating to the internal <a href="../mail.html">
+mailer</a>.
+
+<h3><a name=smtphost>Mail host (SMTP)</a></h3>
+Enter the name of the mail server (SMTP) to use. This is required to use the
+internal <a href="../mail.html">mailer</a>.
+
+<h3><a name=mailquote>Quote header</a></h3>
+When you reply in e-mail to a news article, this header line will appear
+above the quoted text. In the header, you can use the following argument
+parameters:
+<table>
+<tr valign=top>
+   <th align=left valign=top nowrap>%d
+   <td>Date and time that the original article was posted.
+<tr valign=top>
+   <th align=left valign=top nowrap>%e
+   <td>E-mail address of the poster of the article.
+<tr valign=top>
+   <th align=left valign=top nowrap>%g
+   <td>Newsgroup name where you read the article.
+<tr valign=top>
+   <th align=left valign=top nowrap>%i
+   <td>The usenet message ID of the article.
+<tr valign=top>
+   <th align=left valign=top nowrap>%n
+   <td>The real name of the poster of the article.
+<tr valign=top>
+   <th align=left valign=top nowrap>%s
+   <td>The subject of the article.
+</table>
+
+<h3><a name=extmailer>Use external mailer</a></h3>
+If you check this checkbox, the internal mailer will not be used. You
+have to supply an external mailer in the <a href=cmdargs.html>Command and
+Arguments</a> fields below the checkbox. Argument parameters are:
+<table>
+<tr valign=top>
+   <th align=left valign=top nowrap>%e
+   <td>E-mail address to send the mail to.
+<tr valign=top>
+   <th align=left valign=top nowrap>%n
+   <td>Screen name that AWeb is running on, in case your mail program
+   supports opening on a public screen.
+</table>
+
+<h2><a name=news>Sub-page: News</a></h2>
+
+This sub-page contains fields relating to the internal <a href="../news.html">
+newsreader</a>.
+
+<h3><a name=nntphost>News host (NNTP)</a></h3>
+Enter the name of the news server (NNTP) to use. This is required to use the
+internal <a href="../news.html">newsreader</a>.
+
+<h3><a name=newsquote>Quote header</a></h3>
+When you compose a follow-up to an article article, this header line will appear
+above the quoted text. In the header, you can use the following argument
+parameters:
+<table>
+<tr valign=top>
+   <th align=left valign=top nowrap>%d
+   <td>Date and time that the original article was posted.
+<tr valign=top>
+   <th align=left valign=top nowrap>%e
+   <td>E-mail address of the poster of the article.
+<tr valign=top>
+   <th align=left valign=top nowrap>%g
+   <td>Newsgroup name where you read the article.
+<tr valign=top>
+   <th align=left valign=top nowrap>%i
+   <td>The usenet message ID of the article.
+<tr valign=top>
+   <th align=left valign=top nowrap>%n
+   <td>The real name of the poster of the article.
+<tr valign=top>
+   <th align=left valign=top nowrap>%s
+   <td>The subject of the article.
+</table>
+
+<h3><a name=user>News user name and password</a></h3>
+If you use a news server that requires authorization, enter your username
+and password in these fields. If you don't use such a news server (or if
+you don't know), leave these fields blank.
+
+<h3><a name=extnewsreader>Use external newsreader</a></h3>
+If you check this checkbox, the internal newsreader will not be used. You
+have to supply an external newsreader in the <a href=cmdargs.html>Command and
+Arguments</a> fields below the checkbox. Argument parameters are:
+<table>
+<tr valign=top>
+   <th align=left valign=top nowrap>%a
+   <td>Newsgroup name or article identification.
+<tr valign=top>
+   <th align=left valign=top nowrap>%n
+   <td>Screen name that AWeb is running on, in case your mail program
+   supports opening on a public screen.
+</table>
+
+<h2><a name=options>Sub-page: options</a></h2>
+
+This sub-page contains options for the internal <a href="../news.html">
+newsreader</a>.
+
+<h3><a name=maxarticles>Max nr of articles</a></h3>
+This field contains the maximum number of article headers that are retrieved
+when you enter a newsgroup. If you set this to 0, there is no maximum (all
+article headers are retrieved).
+
+<h3><a name=sort>Sort articles</a></h3>
+If you check this checkbox, the article headers within a group are sorted
+on subject.
+
+<h3><a name=frames>Split screen</a></h3>
+If you check this checkbox, frames will be used when you read articles from
+a newsgroup. The top frame will contain the article index, and the bottom
+frame contains the currently selected article.
+
+<h3><a name=longheaders>Long headers</a></h3>
+If you check this checkbox, all article transfer headers are shown, instead
+of just From, Subject and Date.
+
+<h3><a name=propfont>Proportional font</a></h3>
+If you use this checkbox, article text is displayed in a normal font, instead
+of a fixed-width font. This will make the text generally prettier to read, but
+it will make tables and "ASCII-art" look distorted.
+
+<h3><a name=bynumber>Retrieve by number</a></h3>
+If your news server does not allow retrieving all articles the normal way,
+check this checkbox to have the articles
+<a href="../news.html#bynumber">retrieved by their local number</a>.
+
+<p>
+<hr>
+<a href=nwprivacy.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Privacy</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=nwoptions.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Options</a>
+
+</body>
+</html>

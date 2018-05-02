@@ -1,0 +1,7 @@
+FROM     startup.o awebjfif.o jfifsource.o jfifcopy.o
+TO       awebjfif.awebplugin
+NODEBUG
+LIB      jpeglib/libjpeg.lib lib:sc.lib
+MAP      awebjfif.map
+DEFINE   @__chkabort=@__dummy
+NOICONS

@@ -1,0 +1,194 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Browser settings: Viewers
+</title>
+<meta name="keywords" content="html,gif,jpg,jpeg,png,wav,midi,mpg,mpeg,lha,lzx">
+<meta name="keywords" content="plugin,pipe">
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Browser settings: Viewers</h1>
+
+<h2>Purpose</h2>
+For objects that cannot be displayed directly in the browser window, AWeb starts
+an external program, called a <em>viewer</em>. In spite of the name
+"viewer", this is not limited to graphical files. The external viewer
+for an audio file, for example, will play the audio file.
+For other objects, you may want to make use of an external <em>plugin
+module</em>, either because AWeb doesn't handle the object internally, or
+the plugin module offers more features. Finally, you may know that you
+always want to save certain type of objects to disk (Lha archives, for example).
+<p>
+The type of the object, and thereby the particular action to take, is
+determined by the <a href=../mime.html>MIME type</a> of the object.
+<p>
+For each MIME type you want to be recognized by AWeb, there should be an entry
+on this page with the appropriate action and viewer or plugin module name
+defined.
+
+<h2>Changing MIME types</h2>
+Select the MIME type you want to modify from the listview.
+Use the <b>Add</b> button to add a new blank row. Use the <b>Del</b> button
+to remove the selected row. Note that the TEXT/HTML and TEXT/PLAIN types
+cannot be removed.
+
+<h2>MIME type and subtype</h2>
+In these string gadgets, you specify the MIME type and subtype.
+See the <a href=../mime.html>About MIME types</a> chapter for more
+information on MIME types.
+<p>
+You can use an asterisk to specify a wildcard subtype. AWeb will use
+the external viewer defined in this row for files with the same type but
+a subtype for which no external viewer is defined. See the
+<a href=#example>example</a>.
+
+<h2>Extensions</h2>
+Most servers send the MIME type together with the data. AWeb will then use
+this MIME type, unless <a href=nwoptions.html#ignoremime>Ignore
+server MIME type</a> is selected.
+If the server doesn't specify the MIME type (or if it is ignored), AWeb tries to
+determine the MIME type from the file name extension. If that fails, AWeb
+looks at the data to see if it is HTML text or plain text.
+<p>
+The extensions are especially important when looking at local files. As
+there is no server for local files, there is only the extension that tells
+AWeb about the type of the file.
+<p>
+In this string gadget, you type the extensions that could identify this
+MIME type. Separate multiple extensions by spaces or commas. The extensions
+are not case sensitive.
+
+<h2>Action</h2>
+Use this chooser to select the action to perform for the MIME type.
+<table>
+<tr><th align=left valign=top>Default
+   <td valign=top>Specifying <em>default</em> for a "TYPE/SUBTYPE" entry
+      means: use the action specified for "TYPE/*". For "TYPE/*" entries,
+      <em>default</em> is the same as <em>internal</em>.
+<tr><th align=left valign=top>Internal
+   <td valign=top>For TEXT/HTML, TEXT/PLAIN, IMAGE/* and AUDIO/* types,
+      AWeb has built-in drivers. The image and audio drivers are based
+      on datatypes, and therefore somewhat limited in their features.
+<tr><th align=left valign=top>AWeb Plugin
+   <td valign=top>AWeb supports the use of external <em>plugin modules</em>.
+      Plugin modules act as a replacement or addition to
+      the internal drivers.<p>
+      Use the <em>Name</em> field to select the name of the plugin module
+      to be used. Use the <em>Arguments</em> field to specify any
+      additional arguments that the plugin module may need. Refer to the documentation
+      of the plugin module for the arguments allowed.
+      <p>
+      <b>NOTE:</b> These plugin modules should not be confused with external
+      ARexx scripts, sometimes also called "plugins".
+<tr><th align=left valign=top>External program
+   <td valign=top>An external program will be started for this file.<p>
+      Use the <a href=cmdargs.html>Command and Arguments</a> fields
+      to specify the viewer command to execute for this MIME type.
+      Argument parameters are:
+      <table>
+      <tr valign=top>
+         <th align=left valign=top>%f
+         <td>file name to "view"
+      <tr valign=top>
+         <th align=left valign=top>%n
+         <td>screen name that AWeb is running on, in case your
+         external viewer supports opening on a public screen. Use this only if you
+         want it to open on the same screen as AWeb.
+      <tr valign=top>
+         <th align=left valign=top>%u
+         <td>original URL of this object.
+      <tr valign=top>
+         <th align=left valign=top>%m
+         <td>the MIME type of the object.
+      </table>
+<tr><th align=left valign=top>External program with PIPE
+   <td valign=top>As with <em>External program</em>, an external program
+      is started. The difference is that using a PIPE the program is started
+      as soon as data for the file arrives, and the data is sent to the
+      program through a PIPE: file. This speeds up the process, because
+      you don't have to wait until all data has arrived before the program
+      is started.<br>
+      Note that datatype based programs do not work with PIPEs.
+<tr><th align=left valign=top>Save to disk
+   <td valign=top>The file is not processed, but always saved to disk instead.
+</table>
+
+<p>
+If AWeb can't determine the MIME type, or if the MIME type is known but
+not in the list, or if the MIME type is in the list but there is no valid action
+defined, AWeb will pop up a save requester. You can than
+save the file, and try to process it later.
+<p>
+<b>NOTE</b> that these MIME settings are used for <em>every</em> file. Especially
+embedded images in a HTML document will be shown by an external viewer if you
+define one for images. To display the images in the HTML document itself,
+set the action to internal, or configure an appropriate plugin module. You can
+define a separate <a href="prprograms.html">image viewer</a> to be used for
+standalone images.
+
+<h2><a name=example>Example</a></h2>
+Suppose you want to play MIDI audio files using the GMPlay program, and
+other audio files using the (hypothetical) PowerEars program that can take a
+PIPE (streaming input). It should open its
+window on the same screen as AWeb. Since you have a WAV datatype,
+WAV sounds should be played by AWeb internally.
+<p>
+Then you would configure the following MIME types:
+<dl>
+<dt><table border width=100%><tr><td width=20%>AUDIO/BASIC<td width=20% nowrap>au<td width=1%>D<td width=59%></table>
+<dd>This row specifies that AU files can be recognized by their .au extension.
+You specify the default action (D) because you want to use the default
+player, defined in the AUDIO/* row.
+<p>
+<dt><table border width=100%><tr><td width=20%>AUDIO/MIDI<td width=20% nowrap>midi mid<td width=1%>E<td width=59%>GMPlay:GMPlay %f</table>
+<dd>This row defines the possible extensions .midi and .mid for MIDI files.
+It also specifies that MIDI files should be played using the external (E) GMPlay program.
+<p>
+<dt><table border width=100%><tr><td width=20%>AUDIO/WAV<td width=20% nowrap>wav<td width=1%>I<td width=59%></table>
+<dd>This row specifies that WAV files can be recognized by their .wav extension,
+and that they should be played by AWeb internally (I).
+<p>
+<dt><table border width=100%><tr><td width=20%>AUDIO/X-8SVX<td width=20% nowrap>8svx svx<td width=1%>D<td width=59%></table>
+<dd>This row defines an extension MIME type for 8SVX files. Note that the
+subtype starts with <b>X-</b> because it is not an official MIME type.
+This line is important when accessing at 8SVX files on your local computer,
+as AWeb has no way to identify them as 8SVX files other than the extensions
+given here.
+<p>
+<dt><table border width=100%><tr><td width=20%>AUDIO/*<td width=20% nowrap><td width=1%>P<td width=59%>PE:PowerEars %f PUBSCREEN %n</table>
+<dd>This row defines what player (the hypothetical Powerears program) to use
+for all other audio files but MIDI and WAV. Even files with different subtypes
+than BASIC (but main type AUDIO) will be played using this player.<br>
+There are no extensions defined here, because all extensions are given in
+the different subtype rows. As an alternative, you could remove the
+AUDIO/BASIC and AUDIO/X-8SVX rows, and specify all extensions (au 8svx svx)
+here.
+</dl>
+
+<hr>
+<a href=brcolours.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Colours</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=broptions.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Options</a>
+
+<!-- */ end the preprocessor comment ;) -->
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+filterexample.awebplugin10-Apr-99 13:36:19  Hunk Section                Page 1-1
+
+ num hunk         size filename         punit    type         base  alv     size
+   0 text          3a0 startup.o        startup. code            0    0       f8
+                       filterexample.o  filterex code           f8    0      26c
+                       lib:sc.lib       stricmp. code          364    0       3c
+   1 data           f0 startup.o        startup. data            0    0       88
+                       filterexample.o  filterex data           88    0       68
+   2 udata          14 startup.o        startup. bss             0    0        c
+                       filterexample.o  filterex bss             c    0        8

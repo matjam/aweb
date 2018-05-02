@@ -1,0 +1,13 @@
+FROM     cfgrexx.o
+TO       aweblib/arexx.aweblib
+NODEBUG
+LIB      lib:scnb.lib
+MAP      arexx.map
+NOICONS
+
+DEFINE   __CXM33=__UCXM33
+DEFINE   __CXD33=__UCXD33
+DEFINE   __CXM22=__UCXM22
+DEFINE   __CXD22=__UCXD22
+DEFINE   @__chkabort=@__dummy
+

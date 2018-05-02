@@ -1,0 +1,81 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Program settings: Screen
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Program settings: Screen</h1>
+
+Using the chooser, you can make AWeb to open on the default public screen,
+a named public screen, or let AWeb open its own public screen.
+
+<h2><a name=defpubscr>Default public screen</a></h2>
+If this is selected, AWeb will open its windows on the default public
+screen. Usually this is the Workbench screen.
+
+<h2>Named public screen</h2>
+AWeb will open its windows on a public screen that is not necessarily
+the default. You can enter the screen name you want AWeb to open on.
+<p>
+If the screen doesn't exist when AWeb starts, the default public screen
+is used instead.
+
+<h2>Own public screen</h2>
+Using this selection, AWeb will open its own public screen. The name of
+this screen is <b>AWeb</b>.
+<p>
+Clicking the <u><img src=../popscreen.iff alt=O width=19 height=21></u> button will pop up
+a standard screen mode requester. Here you can select a screen mode,
+width, height and number of colours.
+
+<h3>Load spread palette</h3>
+AWeb is able to pre-load a palette if it opens its own screen. This
+palette contains an even spread of colours (or shades of gray), that will be used by all
+images. Using this feature avoids distortion of the palette that happens
+if one image takes up all colours, leaving no reasonable colours for
+next images.
+<p>
+With this <em>chooser</em> gadget, you have the choice of loading a colour palette,
+a grayscale palette, or no palette loading.
+<p>
+AWeb will never load such a palette for screens with more than 256 colours.
+Those screens will be on a graphics card that is assumed to accommodate
+"enough" colours for all possible images.
+<p>
+Please be aware that 256 colours (or less) is not many. Although AWeb tries
+to calculate an evenly spread palette, still many images will not look
+optimal. If you don't load the palette, the first few images look great,
+but later images may look even worse. A grayscale will give more acceptable
+results when there are little colours available.
+<p>
+If you select a grayscale palette, you will probably want to configure your
+JPEG (JFIF) datatype to use a grayscale mapping for the "AWebIP" task. Otherwise
+JPEG images might not be displayed.
+
+<p>
+<hr>
+<a href=prprograms.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Programs</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=prpalette.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Palette</a>
+
+</body>
+</html>

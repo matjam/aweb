@@ -1,0 +1,111 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Cachebrowser
+</title>
+</head>
+<body background=awebbg.iff>
+<h1><img src=aweb.iff width=192 height=93 alt=(logo)>&nbsp; Cachebrowser</h1>
+
+<h2>Purpose</h2>
+With the <em>cachebrowser</em>, you can check which files are (still) in the
+<a href=cache.html>cache</a>. You have options to view the cached objects,
+save them to another file, or delete them from the cache.
+
+<h2>Opening the window</h2>
+Select <code>Cache / Cachebrowser...</code> from the menu to open the
+cachebrowser window.
+If the cachebrowser window is already open, it will pop up to front, and
+will be activated.
+
+<h2>The cache list</h2>
+The list shows all cached objects. The following information is shown for each
+object:
+<p>
+<strong>URL</strong>: the Url (address) of this object.<br>
+<strong>Date</strong>: the date when it was retrieved.<br>
+<strong>Size</strong>: the size of the object in bytes.<br>
+<strong>Type</strong>: the <a href=mime.html>MIME type</a> of the object.<br>
+<strong>File</strong>: the file name of the object in the cache directory.
+
+<h2>General information</h2>
+Below the list there is a fuelgauge showing how full the cache is, compared
+to the configured cache size.
+<p>
+Also the number of files and the total occupied disk space is shown.
+
+<h2><a name=find>Find</a></h2>
+Enable the find function. This button toggles, clicking it again
+(or clicking the <a href=#match>match</a> button) disables the find function.
+<p>
+You can now type a search string in the entry field.
+After you hit <kbd>Enter</kbd> in the entry field, or click the <b>Next</b>
+button, the string is located in the list. Clicking the
+<b>Next</b> button again finds the next occurrence.
+
+<h3><a name=match>Match</a></h3>
+Enable the match function. This button toggles, clicking it again
+(or clicking the <a href=#find>find</a> button) disables the match function.
+<p>
+You can now type a search string or pattern in the entry field.
+After you hit <kbd>Enter</kbd> in the entry field, all entries in the
+list matching the string or pattern become selected.
+<p>
+The match function supports both plain search strings and patterns.
+If the search string typed contains a DOS pattern matching character,
+it uses pattern matching against the full URLs.
+Otherwise a search is made for any occurrence of the search string
+within the URLs.
+<p>
+When the pattern does not
+contain the addressing scheme part (the part like "http://"), then the
+scheme part of every URL is ignored. So a pattern "foo.bar#?" matches URLs
+"http://foo.bar/xyz.html" and "ftp://foo.bar/zoo".
+
+<h2>Sort by</h2>
+Use the <b>Sort by</b> chooser to sort the entries in the list by their URL,
+their date (most recent will be shown first), or by their MIME type.
+
+<h2>Open an object</h2>
+If you have selected an object from the list, you can use the <b>Open</b> button
+to load the page in the current browser window. If it is an image, the external
+viewer for that image (as configured in the <a href=settings/brviewers.html>viewers
+settings</a>) will be started.
+<p>
+Instead of the <b>Open</b> button, you can double click on the entry, or use the
+<kbd>Enter</kbd> key.
+
+<h2>Save an object</h2>
+If you have selected an object from the list, you can use the <b>Save</b> button
+to save the object to another file. You will see a save requester where you can
+enter the file name.
+
+<h2>Delete objects</h2>
+If you have selected one or more objects from the list, you can use the <b>Delete</b> button
+to delete the objects from the cache.
+
+<p>
+<hr>
+<a href=aweb.html><img src=back.gif width=32 height=16 alt="<-" border=0></a> Back to
+<a href=aweb.html>index</a>.
+
+</body>
+</html>

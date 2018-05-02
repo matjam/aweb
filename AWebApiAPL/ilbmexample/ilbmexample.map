@@ -1,0 +1,16 @@
+ilbmexample.awebplugin  03-Apr-99 16:16:51  Hunk Section                Page 1-1
+
+ num hunk         size filename         punit    type         base  alv     size
+   0 text         186c startup.o        startup. code            0    0       f8
+                       ilbmexample.o    ilbmexam code           f8    0      18c
+                       ilbmsource.o     ilbmsour code          284    0      efc
+                       ilbmcopy.o       ilbmcopy code         1180    0      5f8
+                       lib:sc.lib       _cxamemc code         1778    0       94
+                       lib:sc.lib       newlist  code         180c    0       14
+                       lib:sc.lib       _CXM33.o code         1820    0       20
+                       lib:sc.lib       memmove. code         1840    0       2c
+   1 udata          18 startup.o        startup. bss             0    0        c
+                       ilbmexample.o    ilbmexam bss             c    0        c
+   2 data          1d0 startup.o        startup. data            0    0       84
+                       ilbmexample.o    ilbmexam data           84    0       38
+                       ilbmsource.o     ilbmsour data           bc    0      114

@@ -1,0 +1,111 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Network settings: Programs
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Network settings: Programs</h1>
+
+<h2>Telnet protocol "plug-in"</h2>
+Most internet protocols are handled by AWeb internally. Only telnet will
+require an additional program, or "plug-in".
+<p>
+A <em>telnet:</em> address is used to start a telnet session. If you own
+a telnet client that supports command line arguments. you can use this feature.
+A telnet address can contain:
+<pre>      telnet://username:password@hostname:port
+</pre><br>
+Argument parameters are:
+<table>
+<tr valign=top>
+   <th align=left valign=top nowrap>%l
+   <td>login name (user name) to use for logging in to this host
+<tr valign=top>
+   <th align=left valign=top nowrap>%w
+   <td>password to use with this user name
+<tr valign=top>
+   <th align=left valign=top nowrap>%h
+   <td>host name
+<tr valign=top>
+   <th align=left valign=top nowrap>%p
+   <td>port number
+<tr valign=top>
+   <th align=left valign=top nowrap>%n
+   <td>screen name that AWeb is running on, in case your telnet
+   program supports opening on a public screen.
+</table>
+<p>
+If your telnet client does not support all these parameters, you can use this
+<a href=../_telnetscript>example script</a>. It will pop up a requester with the
+user name and password to use, if these were given in the address.
+
+<h2><a name=tcp>Start and stop your TCP stack</a></h2>
+AWeb is able to start your TCP connection <a href="../starttcp.html">automatically</a>
+when it is needed.
+<p>
+Use the chooser to select one of the entries below. Then use
+the <a href=cmdargs.html>Command and Arguments</a> fields to specify the necessary
+command and arguments.
+<table>
+<tr valign=top>
+   <th align=left valign=top nowrap>Start TCP
+   <td>This command is used to start your TCP stack automatically.
+   <p>
+   For example, if you use the AmiTCP/IP package, you would set <em>command</em>
+   to:
+   <pre>      AmiTCP:bin/startnet
+   </pre>and leave the <em>arguments</em> field blank.
+   <p>
+   Argument parameters are:
+   <table>
+   <tr valign=top>
+      <th align=left valign=top nowrap>%n
+      <td>screen name that AWeb is running on, in case your TCP script
+      or program supports opening windows on a public screen.
+   </table>
+   <p>
+   <strong>Important note:</strong><br>
+   The start TCP command should return when the TCP connection is active or
+   fails. If your TCP program remains active during the session, you cannot use
+   it directly. You have to use a script instead, like this
+   <a href=../_starttcpscript>example script</a>, it uses this
+   <a href=../_starttcpscript2>second script</a> too.
+   
+<tr valign=top>
+   <th align=left valign=top>End TCP
+   <td>This command is used to stop your TCP connection after your confirmation.
+   <p>
+   There are no argument parameter substitutions.
+   <p>
+   <strong>Important notes:</strong><br>
+   If you used the example script as <em>Start TCP</em> command, here is another
+   <a href=../_stoptcpscript>example script</a> to stop your TCP program.
+</table>
+
+<p>
+<hr>
+<a href=nwoptions.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Options</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=nwproxy.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Proxy</a>
+
+</body>
+</html>

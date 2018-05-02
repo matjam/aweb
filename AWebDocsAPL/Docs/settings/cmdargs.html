@@ -1,0 +1,104 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Command and Arguments
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Command and Arguments</h1>
+
+On several locations within the settings requesters, you can enter some
+sort of external command. For convenience, there are separate string
+gadgets for the command itself and its arguments.
+<p>
+In the <em>command</em> string gadget, you can type in a command.
+It is advised that
+you specify the full path, or else AWeb might not be able to execute the
+command. You can click on the <img src=../popfile.iff alt="file"
+width=20 height=21> button to
+pop up a file requester, so you can easily pick the command.
+<p>
+In the <em>arguments</em> string you specify the arguments for the command.
+Any text you type here will be passed to the external program, but some
+special character combinations will be replaced by parameters from AWeb.
+Generally the following parameter specifiers are used:
+<p>
+<code><b>%a</b></code> = news article or newsgroup name<br>
+<code><b>%e</b></code> = e-mail address<br>
+<code><b>%f</b></code> = path/file name<br>
+<code><b>%h</b></code> = host name<br>
+<code><b>%i</b></code> = frame ID<br>
+<code><b>%l</b></code> = login name<br>
+<code><b>%m</b></code> = MIME type<br>
+<code><b>%n</b></code> = screen name<br>
+<code><b>%p</b></code> = port number<br>
+<code><b>%u</b></code> = URL<br>
+<code><b>%w</b></code> = password<br>
+<p>
+Not all parameters are applicable in every case. You can click the 
+<u><img src=../dropdown.iff alt="V" width=21 height=20></u> gadget to pop up
+a short descriptive list with the possible parameters.
+<p>
+Instead of a program, you can specify a DOS script. If you do, make sure
+that the <em>script</em> bit for this file is set. You can set this bit
+either by the DOS command
+<pre>   protect <var>script_name</var> +s</pre>
+or by the Workbench Information program (select the <em>Script</em> checkbox).
+<p>
+Note that an external program setting will usually <em>only</em> be recognized if
+<em>both</em> fields, command <em>and</em> arguments, are supplied.
+
+<h2>Example</h2>
+Look at the <em>HTML source viewer</em> setting (in the <a href=prprograms.html#viewer>
+Program: Programs</a> settings). Suppose you want to install MultiView as viewer, and let
+it open its window on the same screen as AWeb.
+<p>
+First, you click on the <img src=../popfile.iff alt="file" width=20 height=21>
+ button and navigate to the <b>SYS:Utilities</b> drawer. Then you select
+<b>MultiView</b>. Now the <em>Command</em> is set up correctly.
+<p>
+Then click on the <u><img src=../dropdown.iff alt="V" width=21 height=20></u> gadget
+and hold the mouse button. You will see:
+<pre>
+   %f = path/file name
+   %n = screen name
+</pre>
+<br>
+MultiView can take the arguments: FILE,SCREEN/S,PUBSCREEN/K. Therefore you
+enter <b>%f PUBSCREEN %n</b> in the <em>Arguments</em> field. The <b>%f</b>
+will be replaced by the real file name when the command is executed by AWeb.
+Likewise, <b>%n</b> will be replaced by the actual screen name.
+<p>
+So your settings would look like this:
+<table>
+<tr><td align=right>Command:<td>SYS:Utilities/MultiView
+<tr><td align=right>Arguments:<td>%f PUBSCREEN %n
+</table>
+
+<p>
+If you like MultiView to run on its own screen, you would set it up this way:
+<table>
+<tr><td align=right>Command:<td>SYS:Utilities/MultiView
+<tr><td align=right>Arguments:<td>%f SCREEN
+</table>
+
+</body>
+</html>

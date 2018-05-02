@@ -1,0 +1,8 @@
+FROM     mail.o
+TO       aweblib/mail.aweblib
+NODEBUG
+LIB      lib:scnb.lib
+MAP      mail.map
+NOICONS
+
+DEFINE   @__chkabort=@__dummy

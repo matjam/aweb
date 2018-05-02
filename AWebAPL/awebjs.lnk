@@ -1,0 +1,9 @@
+FROM     lib:c.o awebjs.o
+
+TO       AWebJS
+
+DEFINE   @__chkabort=@__dummy
+
+MAP      AWebJS.map
+
+LIB      lib:sc.lib lib:amiga.lib

@@ -1,0 +1,5 @@
+FROM     startup.o ilbmexample.o ilbmsource.o ilbmcopy.o
+TO       ilbmexample.awebplugin
+NODEBUG
+LIB      lib:sc.lib
+MAP      ilbmexample.map

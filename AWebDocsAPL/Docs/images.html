@@ -1,0 +1,87 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Using your own default images
+</title>
+</head>
+<body background=awebbg.iff>
+<h1><img src=aweb.iff alt=(logo) width=192 height=93 >&nbsp; Using your own default images</h1>
+
+<h2>Purpose</h2>
+There are moments where just displaying text is not sufficient, but some
+imagery is needed. For some of these imagery, AWeb uses external images
+that you can replace with your own.
+<p>
+AWeb uses these external images in the following places:
+<ul>
+<li>As default icons for <a href="browser.html#images">unloaded images</a>
+<li>For displaying <a href=http://www.w3.org/pub/WWW/TR/WD-wwwicn.html>WWW
+   icon entities</a> like <code>&amp;document;</code> (&document;).
+</ul>
+
+All external images are located in the <code>Images</code> drawer. These are
+image files, that can be in any format for which a datatype is available.
+Transparent GIF's are also supported.
+
+<h2>Unloaded images</h2>
+For <a href="browser.html#images">unloaded images</a>, AWeb uses the following
+files:
+<p>
+<table border>
+<tr>
+   <th>file name
+   <th>used for
+   <th>current image
+<tr>
+   <td><code>def_image</code>
+   <td>Unloaded normal image
+   <td align=center><img src="/PROGDIR:Images/def_image">
+<tr>
+   <td><code>def_imagemap</code>
+   <td>Unloaded image map
+   <td align=center><img src="/PROGDIR:Images/def_imagemap">
+<tr>
+   <td><code>def_errimage</code>
+   <td>Image that couldn't be loaded.
+   <td align=center><img src="/PROGDIR:Images/def_errimage">
+</table>
+
+<h2>Icon entities</h2>
+For all supported icon entities, there is a file with the same name. So for
+<code>&amp;document;</code> there is a file named <code>document</code> in
+the <code>Images</code> drawer.
+<p>
+Look at the <a href="iconentities.html">overview</a> for all supported entities.
+
+<h2>Installing your own images</h2>
+To install your own image, just copy your image over the old one. Be sure to use
+the same name, and don't use a suffix like <code>.gif</code> or <code>.gif</code>.
+<p>
+The <code>Storage</code> drawer contains some alternatives for the icon entities,
+but you can use any image of course.
+
+<p>
+<hr>
+<a href=aweb.html><img src=back.gif width=32 height=16 alt="<-" border=0></a> Back to
+<a href=aweb.html>index</a>.
+
+</body>
+</html>

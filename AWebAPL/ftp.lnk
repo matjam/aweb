@@ -1,0 +1,9 @@
+FROM     ftp.o
+TO       aweblib/ftp.aweblib
+NODEBUG
+LIB      lib:scnb.lib
+MAP      ftp.map
+NOICONS
+
+DEFINE   @__chkabort=@__dummy
+

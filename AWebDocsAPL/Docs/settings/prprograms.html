@@ -1,0 +1,126 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Program settings: Programs
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Program settings: Programs</h1>
+
+<h2>Program type</h2>
+Use the chooser to select the external program type to configure.
+
+<h2><a name=editor>Editor</a></h2>
+This is the editor command invoked
+when you select the <code>Project / Edit&nbsp;source</code> menu item, and
+when you click the <img src=../editgad.iff
+alt="E&gt;" width=18 height=10> gadget in text area form fields.
+<p>
+Use the <a href=cmdargs.html>Command and Arguments</a> fields
+to specify your editor command. Argument parameters are:
+<table>
+<tr valign=top>
+   <th align=left valign=top>%f
+   <td>file name to edit.
+<tr valign=top>
+   <th align=left valign=top>%n
+   <td>screen name that AWeb is running on, in case your editor
+   supports opening on a public screen.
+</table>
+<p>
+Make sure the command will <strong>not</strong> return until you leave the
+editor. For some editors, this will need a <code>STICKY</code> or
+<code>KEEPIO</code> argument.
+
+<h2><a name=viewer>HTML source viewer</a></h2>
+Currently, AWeb relies on an external viewer for the <code>Project /
+View&nbsp;source</code> menu function.
+<p>
+Use the <a href=cmdargs.html>Command and Arguments</a> fields
+to specify your source viewer command. Argument parameters are:
+<table>
+<tr valign=top>
+   <th align=left valign=top>%f
+   <td>file name to view.
+<tr valign=top>
+   <th align=left valign=top>%n
+   <td>screen name that AWeb is running on, in case your viewer
+   supports opening on a public screen.
+</table>
+<p>
+Note that the default setting, <em>MultiView</em>, will not produce the
+expected results if you happen to have a HTML datatype installed on your
+system. In that case, the datatype will show the source as HTML again.
+If this happens, you should configure another viewer.
+
+<h2><a name=imgviewer>Image viewer</a></h2>
+This is the image viewer used to display <a href="../browser.html#stimages">
+standalone images</a>.
+<p>
+Use the <a href=cmdargs.html>Command and Arguments</a> fields
+to specify your source viewer command. Argument parameters are:
+<table>
+<tr valign=top>
+   <th align=left valign=top>%f
+   <td>file name to view.
+<tr valign=top>
+   <th align=left valign=top>%n
+   <td>screen name that AWeb is running on, in case your viewer
+   supports opening on a public screen.
+<tr valign=top>
+   <th align=left valign=top>%m
+   <td>MIME type of the image. You can use this in a script that starts
+      a different viewer for different types of image.
+</table>
+
+<h2><a name=startup>Script run at startup</a></h2>
+This is an ARexx script (not an executable program) that is run immediately after
+AWeb is started.
+
+<h2><a name=shutdown>Script run at shutdown</a></h2>
+This is an ARexx script (not an executable program) that is run immediately before
+AWeb is stopped.
+
+<h2><a name=console>Console</a></h2>
+This is the DOS filename of the console to be opened when external programs
+are started.
+<p>
+Argument parameters are:
+<table>
+<tr valign=top>
+   <th align=left valign=top>%t
+   <td>window title
+<tr valign=top>
+   <th align=left valign=top>%n
+   <td>screen name that AWeb is running on.
+</table>
+<p>
+If you define the console as <b>NIL:</b>, no window will be opened. This may seem
+convenient, but you should realize that error messages are lost too.
+
+<p>
+<hr>
+<a href=proptions.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Options</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=prscreen.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Screen</a>
+
+</body>
+</html>

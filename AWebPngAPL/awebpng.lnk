@@ -1,0 +1,7 @@
+FROM     startup.o awebpng.o pngsource.o pngcopy.o
+TO       awebpng.awebplugin
+NODEBUG
+LIB      pnglib/libpng.lib pnglib/libgz.lib lib:scm.lib lib:sc.lib
+MAP      awebpng.map
+DEFINE   @__chkabort=@__dummy
+NOICONS

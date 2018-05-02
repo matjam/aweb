@@ -1,0 +1,58 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Browser settings: Styles
+</title>
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Browser settings: Styles</h1>
+
+<h2>Styles list</h2>
+For each HTML style tag you can configure which <a href=brfonts.html>font</a> type
+(normal of fixed-width) and size should be used, and the style to use.
+<p>
+the list contains all relevant tags and the current styles for that tag. Below the
+list is a brief description of the meaning of the currently selected tag.
+
+<h2>Fixed width</h2>
+Select this checkbox if you want this tag to be rendered using the fixed-width font
+instead of the proportional font.
+
+<h2>Abs size</h2>
+For header tags (&lt;H1&gt; through &lt;H6&gt;) you can enter here a font size
+from 1 to 7 here. Size 1 is smallest, 7 is largest.
+
+<h2>Rel size</h2>
+For all other tags, you can enter a relative size here. Valid relative sizes are
+-6 through +6. The actual size used for this type of element will be the current
+normal size in the document, adjusted by this number. Note that the resulting size
+will never be less than 1 or greater than 7.
+
+<h2>Normal, Bold, Italic, Underlined</h2>
+Use these checkboxes to pick the rendering style for the current type of element.
+
+<p>
+<hr>
+<a href=brfonts.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Fonts</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=brcolours.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Colours</a>
+</body>
+</html>

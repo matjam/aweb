@@ -1,0 +1,1227 @@
+## chunk AUTH Jari Komulainen
+## version $VER: awebcfg.catalog 1.6 (24.11.2000)
+## codeset 0
+## language suomi
+;
+MSG_ERROR_CANTOPENV
+Ei voi avata %s versio %ld
+;
+MSG_SET_REQTITLE_FONT
+Valitse kirjasin
+;
+MSG_SET_REQTITLE_SCREEN
+Valitse näyttötila
+;
+MSG_SET_REQTITLE_MAILTO
+Valitse mailto: käsky
+;
+MSG_SET_REQTITLE_FTP
+Valitse ftp: käsky
+;
+MSG_SET_REQTITLE_TELNET
+Valitse telnet: käsky
+;
+MSG_SET_REQTITLE_NEWS
+Valitse news: käsky
+;
+MSG_SET_REQTITLE_STARTTCP
+Valitse TCP-käynnistyskäsky
+;
+MSG_SET_REQTITLE_ENDTCP
+Valitse TCP-lopetuskäsky
+;
+MSG_SET_REQTITLE_TEMPPATH
+Valitse temp-polku
+;
+MSG_SET_REQTITLE_SAVEPATH
+Valitse tallennuspolku
+;
+MSG_SET_REQTITLE_EDITOR
+Valitse muokkausohjelmakäsky
+;
+MSG_SET_REQTITLE_HTMLVIEWER
+Valitse HTML-näyttäjäkäsky
+;
+MSG_SET_REQTITLE_MIMEVIEWER
+Valitse näyttäjäkäsky
+;
+MSG_SET_REQTITLE_AREXXMACRO
+valitse ARexx-makro
+;
+MSG_SET_REQTITLE_BROWSERWINDOW
+AWeb selainasetukset
+;
+MSG_SET_REQTITLE_PROGRAMWINDOW
+AWeb ohjelma-asetukset
+;
+MSG_SET_REQTITLE_NETWORKWINDOW
+AWeb verkkoasetukset
+;
+MSG_SET_REQTITLE_OPENBROWSER
+Avaa selainasetukset
+;
+MSG_SET_REQTITLE_SAVEBROWSER
+Talleta selainasetukset nimellä
+;
+MSG_SET_REQTITLE_OPENPROGRAM
+Avaa ohjelma-asetukset
+;
+MSG_SET_REQTITLE_SAVEPROGRAM
+Talleta ohjelma-asetukset nimellä
+;
+MSG_SET_REQTITLE_OPENNETWORK
+Avaa verkkoasetukset
+;
+MSG_SET_REQTITLE_SAVENETWORK
+Talleta verkkoasetukset nimellä
+;
+MSG_SET_REQTITLE_CACHEPATH
+Valitse puskuripolku
+;
+MSG_SET_REQTITLE_IMGVIEWER
+Valitse kuvanäyttäjäkäsky
+;
+MSG_SET_REQTITLE_GUIWINDOW
+AWeb GUI-asetukset
+;
+MSG_SET_REQTITLE_OPENGUI
+Avaa GUI-asetukset
+;
+MSG_SET_REQTITLE_SAVEGUI
+Talleta GUI-asetukset nimellä
+;
+MSG_SET_REQTITLE_SIGNATURE
+Valitse allekirjoitustiedosto
+;
+MSG_SET_REQTITLE_STARTUPSCRIPT
+Valitse käynnistys ARexx-skripti
+;
+MSG_SET_REQTITLE_SHUTDOWNSCRIPT
+Valitse sammututs ARexx-skripti
+;
+MSG_SET_CTBR_OPTIONS
+_1 Valinnat
+;
+MSG_SET_CTBR_FONTS
+_2 Kirjasimet
+;
+MSG_SET_CTBR_STYLES
+_3 Tyylit
+;
+MSG_SET_CTBR_COLOURS
+_4 Värit
+;
+MSG_SET_CTBR_MIME
+_5 Näyttäjät
+;
+MSG_SET_CTPR_SCREEN
+_1 Ruutu
+;
+MSG_SET_CTPR_PALETTE
+_2 Värikartta
+;
+MSG_SET_CTPR_OPTIONS
+_3 Valinnat
+;
+MSG_SET_CTPR_PROGRAMS
+_4 Ohjelmat
+;
+MSG_SET_CTPR_AREXX
+_5 ARexx
+;
+MSG_SET_CTNW_OPTIONS
+_1 Valinnat
+;
+MSG_SET_CTNW_PROGRAMS
+_2 Ohjelmat
+;
+MSG_SET_CTNW_PROXY
+_3 Proxy
+;
+MSG_SET_CTNW_CACHE
+_4 Puskuri
+;
+MSG_SET_CTNW_PRIVACY
+_5 Yksityisyys
+;
+MSG_SET_CTNW_MAIL
+_6 Posti/Uutiset
+;
+MSG_SET_CTUI_OPTIONS
+_1 Valinnat
+;
+MSG_DUMMY_8
+
+;
+MSG_SET_CTUI_BUTTONS
+_3 Nappinen
+;
+MSG_SET_CTUI_POPUP
+_4 Ponnahdus
+;
+MSG_SET_CTUI_KEYS
+_5 Näppäimet
+;
+MSG_SET_CTUI_MENUS
+_2 Valikot
+;
+MSG_SET_CTUI_NAV
+_6 Suunnistus
+;
+MSG_SET_HLP_NOARGS
+(ei sijoittajia)
+;
+MSG_SET_HLP_A
+%a = uutisryhmä tai artikkeli
+;
+MSG_SET_HLP_E
+%e = e-mail osoite
+;
+MSG_SET_HLP_F
+%f = polku/tiedostonimi
+;
+MSG_SET_HLP_H
+%h = isäntänimi
+;
+MSG_SET_HLP_L
+%l = käyttäjätunnus
+;
+MSG_SET_HLP_N
+%n = ruudun nimi
+;
+MSG_SET_HLP_P
+%p = portin numero
+;
+MSG_SET_HLP_U
+%u = alkuperäinen URL
+;
+MSG_SET_HLP_W
+%w = salasana
+;
+MSG_SET_HLP_T
+%t = nimi
+;
+MSG_SET_HLP_U2
+%u = nykyinen URL
+;
+MSG_SET_HLP_U3
+%u = kohde URL
+;
+MSG_SET_HLP_I
+%i = frame ID
+;
+MSG_SET_HLP_I2
+%i = kohdeframe ID
+;
+MSG_SET_HLP_M
+%m = MIME tyyppi
+;
+MSG_SET_HLP_S
+%s = hakumäärite
+;
+MSG_SET_HLP_D
+%d = päiväys
+;
+MSG_SET_HLP_G
+%g = ryhmän nimi
+;
+MSG_SET_HLP_I3
+%i = viestin id
+;
+MSG_SET_HLP_N2
+%n = oikea nimi
+;
+MSG_SET_HLP_S2
+%s = aihe
+;
+MSG_SET_HLP_I4
+%i = kohdistusframe ID
+;
+MSG_SET_HLP_C
+%c = asetus nimi
+;
+MSG_SET_FD_NORMALTAG
+Normaali
+;
+MSG_SET_FD_NORMAL
+Normaali teksti
+;
+MSG_SET_FD_H1
+<H1> : Viitetaso 1, suurin
+;
+MSG_SET_FD_H2
+<H2> : Viitetaso 2
+;
+MSG_SET_FD_H3
+<H3> : Viitetaso 3
+;
+MSG_SET_FD_H4
+<H4> : Viitetaso 4
+;
+MSG_SET_FD_H5
+<H5> : Viitetaso 5
+;
+MSG_SET_FD_H6
+<H6> : Viitetaso 6, pienin
+;
+MSG_SET_FD_CITE
+<CITE> : lainaukset, yleensä kursivoitu
+;
+MSG_SET_FD_CODE
+<CODE> : koodimalli, yleensä vakioleveys
+;
+MSG_SET_FD_DFN
+<DFN> : määritelmä, yleensä kursivoitu
+;
+MSG_SET_FD_EM
+<EM> : korostettu, yleensä kursivoitu
+;
+MSG_SET_FD_KBD
+<KBD> : näpääinsyöttö, yleensä vakioleveys
+;
+MSG_SET_FD_SAMP
+<SAMP> : mallituloste, yleensä vakioleveys
+;
+MSG_SET_FD_STRONG
+<STRONG> : vahva korostus, yleensä paksunnettu
+;
+MSG_SET_FD_VAR
+<VAR> : sijoitus muuttuja, yleensä kursivoitu
+;
+MSG_DUMMY_1
+
+;
+MSG_SET_FD_BOLD
+ Paksunnettu
+;
+MSG_SET_FD_ITALIC
+ Kursivoitu
+;
+MSG_SET_FD_UNDERLINED
+ Alleviivattu
+;
+MSG_SET_FD_NORMALFONT
+Normaali kirjasin
+;
+MSG_SET_FD_FIXEDFONT
+Kiinteäleveys-kirjasin
+;
+MSG_SET_FD_SIZE
+koko
+;
+MSG_SET_FD_BIG
+<BIG> : iso kirjasin
+;
+MSG_SET_FD_SMALL
+<SMALL> : pieni kirjasin
+;
+MSG_SET_FD_SUB
+<SUB> : pieni alaviitekirjasin
+;
+MSG_SET_FD_SUP
+<SUP> : pieni yläviitekirjasin
+;
+MSG_SET_FD_ADDRESS
+<ADDRESS> : osoite, yleensä kursivoitu
+;
+MSG_SET_FD_BLOCKQUOTE
+<BLOCKQUOTE> : pitkät viittaukset, yleensä kursivoitu
+;
+MSG_SET_FD_PRE
+<PRE> : esimuotoiltu teksti, pitäisi olla kiinteä leveys
+;
+MSG_SET_HTML_STRICT
+Tiukka
+;
+MSG_SET_HTML_TOLERANT
+Salliva
+;
+MSG_SET_HTML_COMPATIBLE
+Yhteensopiva
+;
+MSG_SET_SCRT_DEFAULT
+Oletus julkinen ruutu
+;
+MSG_SET_SCRT_NAMED
+Nimetty julkinen ruutu
+;
+MSG_SET_SCRT_OWN
+Oma julkinen ruutu
+;
+MSG_SET_IMGL_OFF
+Ei
+;
+MSG_SET_IMGL_MAPS
+Vain kartat
+;
+MSG_SET_IMGL_ALL
+Kaikki kuvat
+;
+MSG_SET_MLCN_TYPE
+Tyyppi
+;
+MSG_SET_MLCN_EXT
+Jatkeet
+;
+MSG_SET_MLCN_COMMAND
+Näyttäjäkäsky
+;
+MSG_SET_MLCN_ACTION
+A
+;
+MSG_SET_MLCN_NAME
+Nimi ja määritteet
+;
+MSG_SET_BRPEN_LINK
+Uusi linkki
+;
+MSG_SET_BRPEN_VLINK
+Vierailtu linkki
+;
+MSG_SET_BRPEN_ALINK
+Valittu linkki
+;
+MSG_SET_BRPEN_BGCOLOR
+Tausta
+;
+MSG_SET_BRPEN_TEXT
+Teksti
+;
+MSG_SET_SCRPEN_TEXT
+Normaali teksti
+;
+MSG_SET_SCRPEN_SHINE
+Kirkkaat reunat
+;
+MSG_SET_SCRPEN_SHADOW
+Tummat reunat
+;
+MSG_SET_SCRPEN_FILL
+Aktiivisen ikkunan nimipalkit
+;
+MSG_SET_SCRPEN_FILLTEXT
+Aktiivisen ikkunan nimet
+;
+MSG_SET_SCRPEN_BACKGROUND
+Tausta
+;
+MSG_SET_SCRPEN_HIGHLIGHTTEXT
+Tärkeä teksti
+;
+MSG_SET_SCRPEN_BARDETAIL
+Valikkoteksti
+;
+MSG_SET_SCRPEN_BARBLOCK
+Valikon tausta
+;
+MSG_SET_AREX_NONE
+ei mitään
+;
+MSG_SET_NWPRG_STARTTCP
+Käynnistä TCP
+;
+MSG_SET_NWPRG_ENDTCP
+Lopeta TCP
+;
+MSG_SET_FTYPE_NORMAL
+Normaalit kirjasimet
+;
+MSG_SET_FTYPE_FIXED
+Kiinteä leveys kirjasimet
+;
+MSG_SET_FSIZE_1
+1 (pienin)
+;
+MSG_SET_FSIZE_3
+3 (normaali)
+;
+MSG_SET_FSIZE_7
+7 (suurin)
+;
+MSG_SET_FLH_SIZE
+Koko
+;
+MSG_SET_FLH_FONTFACE
+Kirjasimen nimi ja koko
+;
+MSG_SET_SLH_TAG
+Tag
+;
+MSG_SET_SLH_STYLE
+Piirtotaso
+;
+MSG_SET_CAVERIFY_ALWAYS
+Aina
+;
+MSG_SET_CAVERIFY_ONCE
+Kerran istunnon aikana
+;
+MSG_SET_CAVERIFY_NEVER
+Ei koskaan
+;
+MSG_SET_LPAL_OFF
+Pois
+;
+MSG_SET_LPAL_COLOURS
+Värit
+;
+MSG_SET_LPAL_GRAY
+Harmaasävy
+;
+MSG_SET_MACT_DEFAULT
+Oletus
+;
+MSG_SET_MACT_INTERNAL
+Sisäinen (I)
+;
+MSG_SET_MACT_PLUGIN
+AWeb Plugin (A)
+;
+MSG_SET_MACT_EXTERNAL
+Ulk. ohjelma (E)
+;
+MSG_SET_MACT_EXTPIPE
+Ulk. +/PIPE (P)
+;
+MSG_SET_MACT_SAVEDISK
+Tallenna levylle (S)
+;
+MSG_SET_MACT_ABBREV
+ IAEPS
+;
+MSG_SET_COOKIES_NEVER
+Ei koskaan
+;
+MSG_SET_COOKIES_ASK
+Kysy ensin
+;
+MSG_SET_COOKIES_QUIET
+Aina (hiljainen)
+;
+MSG_SET_PUPTYPE_IMAGE
+Kuvaponnahdusvalikko
+;
+MSG_SET_PUPTYPE_LINK
+Linkkiponnahdusvalikko
+;
+MSG_SET_PUPTYPE_FRAME
+Frameponnahdusvalikko
+;
+MSG_SET_MENUTYPE_MENU
+Valikko
+;
+MSG_SET_MENUTYPE_ITEM
+Kohde
+;
+MSG_SET_MENUTYPE_SUB
+Ali
+;
+MSG_SET_MENULABEL_MENU
+VALIKKO
+;
+MSG_SET_MENULABEL_ITEM
+Kohde
+;
+MSG_SET_JS_OFF
+Pois
+;
+MSG_SET_JS_11
+Fastidious
+;
+MSG_SET_JS_ALL
+Omnivorous
+;
+MSG_SET_PAGE
+Sivu
+;
+MSG_SET_SAVE
+Talleta
+;
+MSG_SET_USE
+Käytä
+;
+MSG_SET_CANCEL
+Peru
+;
+MSG_SET_TEST
+_Testaa
+;
+MSG_SET_FONT_FONT
+Kirjasin
+;
+MSG_SET_FONT_FONTTYPE
+Kirjasin t_yyppi
+;
+MSG_SET_FONT_SETALL
+Aseta kaikki tähän kirjasinnimeen
+;
+MSG_SET_FONT_FONTTYPE2
+Kirjasin tyyppi
+;
+MSG_SET_FONT_ALIAS
+A_lias
+;
+MSG_SET_FONT_ADD
+Lisää
+;
+MSG_SET_FONT_DEL
+Poista
+;
+MSG_SET_APP_CHGCOLOUR
+Vaihda väri
+;
+MSG_SET_APP_SCREENPENS
+Käytä ruudun teksti ja taustakyniä
+;
+MSG_SET_BROPT_HTMLMODE
+HTML-tila
+;
+MSG_SET_BROPT_ULLINKS
+Alleviivatut linkit
+;
+MSG_SET_BROPT_CYCLETOLIST
+Näytä kiertokentät listana
+;
+MSG_SET_BROPT_DOCOLORS
+Käytä taustaa ja värejä
+;
+MSG_SET_BROPT_POPUPLABEL
+Ponnahdusvalikon aktivointi
+;
+MSG_SET_BROPT_POPUPSHIFT
+S_HIFT näppäin
+;
+MSG_SET_BROPT_POPUPALT
+_ALT näppäin
+;
+MSG_SET_BROPT_POPUPCONTROL
+CT_RL näppäin
+;
+MSG_SET_BROPT_POPUPMIDBUTTON
+Keskimmäinen hiirenpainike
+;
+MSG_SET_BROPT_DOBGSOUND
+Käytä taustaääniä
+;
+MSG_SET_BROPT_BLINK
+Vilkku (0.1 s)
+;
+MSG_SET_BROPT_POPUPRBUTTON
+Oikea hiirenpainike
+;
+MSG_SET_BROPT_JAVASCRIPT
+Käytä _JavaSkriptiä
+;
+MSG_SET_BROPT_FRAMES
+Käytä _frameja
+;
+MSG_SET_BROPT_INCTABLE
+Kasvava taulukko näyttö
+;
+MSG_SET_BROPT_NOMINALFRAME
+Nimellinen framekorkeus
+;
+MSG_SET_BROPT_JSERRORS
+Näytä Javaskripti virheet
+;
+MSG_SET_BROPT_NOBANNERS
+Estä mainosikkunat
+;
+MSG_SET_BROPT_TOOLTIPS
+Näytä kuvien vihjeet
+;
+MSG_SET_BROPT_HANDPOINTER
+Käsiosoitin linkkien yllä
+;
+MSG_SET_BROPT_JSWATCH
+Varoita epäilyttävästä Javaskriptistä
+;
+MSG_SET_SCREEN_OPENON
+Avauskohde
+;
+MSG_SET_SCREEN_NAME
+Ruudun nimi
+;
+MSG_SET_SCREEN_MODE
+Näyttötila
+;
+MSG_SET_SCREEN_PALETTE
+Lataa levitetty värikartta
+;
+MSG_SET_PALL_PENLABEL
+Kynäasetukset
+;
+MSG_SET_PALL_PEN
+Kynä
+;
+MSG_SET_PALL_PALLETTELABEL
+Muuta värikartta
+;
+MSG_SET_PALL_PALLPEN
+Kynä
+;
+MSG_SET_PALL_CHGCOLOUR
+Muuta väri
+;
+MSG_SET_NETWORK_IMGLOAD
+Kuvien lataus
+;
+MSG_SET_NETWORK_MAXCONN
+Yhteyksien enimmäismäärä
+;
+MSG_SET_NETWORK_HOMEPAGE
+Kotisivu
+;
+MSG_SET_NETWORK_LOCALINDEX
+Paikallinen hakemisto
+;
+MSG_SET_NETWORK_STARTHOME
+Aloita kotisivulta
+;
+MSG_SET_NETWORK_ANONYMOUS
+Estä suosittelut selatessa
+;
+MSG_SET_NETWORK_IGNORE
+Älä välitä palvelimen MIME-tyypeistä
+;
+MSG_SET_NETWORK_MAXDISK
+levy luvut
+;
+MSG_SET_NETWORK_COOKIES
+Käytä evästeitä
+;
+MSG_SET_NETWORK_NOCOOKIELABEL
+Ei evästeitä alueille
+;
+MSG_SET_NETWORK_NOCOOKIEADD
+Lisää
+;
+MSG_SET_NETWORK_NOCOOKIEDEL
+Poista
+;
+MSG_SET_NETWORK_FORMWARN
+Varoita ennen turvattoman kaavakkeen lähetystä
+;
+MSG_SET_NETWORK_AUTOSEARCHURL
+Etsi URL automaattisesti
+;
+MSG_SET_NETWORK_AUTOSEARCH
+Automaattinen etsintä päälle
+;
+MSG_SET_NETWORK_SPAMBLOCK
+Aktivoi roskasuodatin uutisia lähetettäessä
+;
+MSG_SET_NETWORK_FTPEMAILADDR
+Käytä sähköpostiosoitetta FTP anonyymisalasanana
+;
+MSG_SET_NETWORK_SPOOFID
+Esitä olevasi
+;
+MSG_SET_NETWORK_CONTANIM
+Jatkuva animaatio
+;
+MSG_SET_NETWORK_SPOOFID_EXPL
+(Valitse listasta tai\n\
+ kirjoita selaimen ID)
+;
+MSG_SET_NETWORK_RESTRICT_IMAGES
+Rajoita kuvat samaan isäntään
+;
+MSG_SET_PROXY_TYPE
+T_yyppi
+;
+MSG_SET_PROXY_NAME
+_Proxy
+;
+MSG_SET_PROXY_LIMITED
+Rajoitettu proxykäyttö
+;
+MSG_SET_PROXY_NOPROXYLABEL
+Ei proxya näille osoitteille
+;
+MSG_SET_PROXY_NOPROXYADD
+Lisää
+;
+MSG_SET_PROXY_NOPROXYDEL
+Poista
+;
+MSG_SET_PROXY_PASSIVEFTP
+Passii_vi FTP
+;
+MSG_SET_NWPRG_TYPE
+T_yyppi
+;
+MSG_SET_NWPRG_CMD
+Käsky
+;
+MSG_SET_NWPRG_ARGS
+Määritteet
+;
+MSG_SET_PROGRAM_SAVEPATH
+Tallennuspolku
+;
+MSG_SET_PROGRAM_OVERLAP
+Vierityksen ylitys (pikseliä)
+;
+MSG_SET_PROGRAM_ALLOW
+Salli shell-käskyt linkeissä
+;
+MSG_SET_PROGRAM_HOTCLOSE
+Pikalistakehoitin sulkeutuu itse
+;
+MSG_SET_PROGRAM_HOTREQ
+Pikalistapainike antaa kehoitteen
+;
+MSG_SET_PROGRAM_WHISCLOSE
+Historiaikkuna sulkeutuu itse
+;
+MSG_SET_PROGRAM_SAVEICONS
+Luo ikonit
+;
+MSG_SET_PROGRAM_AAHOTLIST
+Avaa pikalista automaattisesti
+;
+MSG_SET_PROGRAM_AAWINHIS
+Avsa historiaikkuna automaattisesti
+;
+MSG_SET_PROGRAM_AANETSTAT
+Avaa verkontila-ikkuna automaattisesti
+;
+MSG_SET_PROGRAM_DRAGGING
+Salli vetäminen
+;
+MSG_SET_PROGRAM_CENTERREQS
+Keskitä kehoittimet
+;
+MSG_SET_EDITOR_LABEL
+Muokkain
+;
+MSG_SET_EDITOR_CMD
+Käsky
+;
+MSG_SET_EDITOR_ARGS
+Määritteet
+;
+MSG_SET_VIEWER_LABEL
+HTML-lähdekoodin näyttäjä
+;
+MSG_SET_VIEWER_CMD
+Käsky
+;
+MSG_SET_VIEWER_ARGS
+Määritteet
+;
+MSG_SET_CONSOLE
+Konsoli
+;
+MSG_SET_PRPROGRAMS_TYPE
+T_yyppi
+;
+MSG_SET_IMGVIEWER_LABEL
+Kuvanäyttäjä
+;
+MSG_SET_STARTUP_LABEL
+Skripti joka ajetaan käynnistyessä
+;
+MSG_SET_SHUTDOWN_LABEL
+Skripti joka ajetaan suljettaessa
+;
+MSG_SET_CACHE_TEMPPATH
+Temp-polku
+;
+MSG_DUMMY_2
+
+;
+MSG_SET_CACHE_DOCMEM
+_Muisti (kB)
+;
+MSG_SET_CACHE_DOCDISK
+Levy (kB)
+;
+MSG_DUMMY_3
+
+;
+MSG_DUMMY_4
+
+;
+MSG_DUMMY_5
+
+;
+MSG_DUMMY_6
+
+;
+MSG_DUMMY_7
+
+;
+MSG_SET_CACHE_CACHEPATH
+Puskurimuisti_polku
+;
+MSG_SET_CACHE_SIZELABEL
+Puskurinkoko
+;
+MSG_SET_CACHE_FREELABEL
+Pidä vapaan vähintään
+;
+MSG_SET_CACHE_CHIP
+Grafiikkamuistia (kB)
+;
+MSG_SET_CACHE_FAST
+Muuta muistia (kB)
+;
+MSG_SET_CACHE_VERIFY
+_Varmista puskurikopio
+;
+MSG_SET_CACHE_FASTRESPONSE
+Nopea vastaus
+;
+MSG_SET_CACHE_NOCACHELABEL
+Älä puskuroi näitä osoitteita
+;
+MSG_SET_CACHE_NOCACHEADD
+Lisää
+;
+MSG_SET_CACHE_NOCACHEDEL
+Poista
+;
+MSG_SET_MIME_TYPE
+T_yyppi
+;
+MSG_SET_MIME_ADD
+Lisää
+;
+MSG_SET_MIME_DEL
+Poista
+;
+MSG_SET_MIME_EXTENSIONS
+Päätteet
+;
+MSG_SET_MIME_CMD
+Käsky
+;
+MSG_SET_MIME_ARGS
+Määritteet
+;
+MSG_SET_MIME_NAME
+Nimi
+;
+MSG_SET_MIME_ACTION
+Toiminto
+;
+MSG_SET_COLOUR_TITLE
+valitse väri
+;
+MSG_SET_COLOUR_CANCEL
+Peru
+;
+MSG_SET_COLOUR_OK
+Ok
+;
+MSG_SET_COLOUR_RED
+R
+;
+MSG_SET_COLOUR_GREEN
+G
+;
+MSG_SET_COLOUR_BLUE
+B
+;
+MSG_SET_AREXX_SORT
+Lajittele
+;
+MSG_SET_AREXX_ADD
+Lisää
+;
+MSG_SET_AREXX_DEL
+Poista
+;
+MSG_SET_AREXX_TITLE
+Nimi
+;
+MSG_DUMMY_9
+
+;
+MSG_DUMMY_10
+
+;
+MSG_SET_MENUS_INVALID
+EPÄKELPO
+;
+MSG_SET_MENUS_TYPE
+T_yyppi
+;
+MSG_SET_MENUS_COMMAND
+Käsky
+;
+MSG_SET_STYLE_FIXED
+Kiinteä leveys
+;
+MSG_SET_STYLE_ABSSIZE
+Absoluuttinen koko
+;
+MSG_SET_STYLE_RELSIZE
+Suhteellinen koko
+;
+MSG_SET_STYLE_NORMAL
+_Normaali
+;
+MSG_SET_STYLE_BOLD
+Paksunnettu
+;
+MSG_SET_STYLE_ITALIC
+Kursiivi
+;
+MSG_SET_STYLE_UNDERLINED
+Alleviivattu
+;
+MSG_SET_BUTTON_SORT
+Lajittele
+;
+MSG_SET_BUTTON_ADD
+Lisää
+;
+MSG_SET_BUTTON_DEL
+Poista
+;
+MSG_SET_BUTTON_LABEL
+Nimi
+;
+MSG_SET_BUTTON_CMD
+Käsky
+;
+MSG_SET_POPUP_TYPE
+T_yyppi
+;
+MSG_SET_POPUP_SORT
+Lajittele
+;
+MSG_SET_POPUP_ADD
+Lisää
+;
+MSG_SET_POPUP_DEL
+Poista
+;
+MSG_SET_POPUP_TITLE
+Nimi
+;
+MSG_SET_POPUP_CMD
+Käsky
+;
+MSG_SET_POPUP_SHOWIF
+Näytä jos kohde
+;
+MSG_SET_POPUP_INMEM
+on muistissa
+;
+MSG_SET_POPUP_NOTINMEM
+ei ole muistissa
+;
+MSG_SET_GUIOPT_SHOWBUTTONS
+Näytä käyttäjäpainikkeet
+;
+MSG_SET_GUIOPT_SHOWNAV
+Näytä suunnistuspainikkeet
+;
+MSG_SET_MAIL_TAB_ADDRESS
+Osoite
+;
+MSG_SET_MAIL_TAB_MAIL
+Sähköposti
+;
+MSG_SET_MAIL_TAB_NEWS
+Uutiset
+;
+MSG_SET_MAIL_TAB_OPTIONS
+Valinnat
+;
+MSG_SET_MAIL_ADDRESS
+Sähköpostiosoite
+;
+MSG_SET_MAIL_REALNAME
+Oikea nimi
+;
+MSG_SET_MAIL_REPLYTO
+Vastausosoite
+;
+MSG_SET_MAIL_ORGANIZATION
+Järjestö
+;
+MSG_SET_MAIL_SIGNATURE
+Allekirjoitustiedosto
+;
+MSG_SET_MAIL_SMTPHOST
+Postipalvelin (SMTP)
+;
+MSG_SET_MAIL_MAILQUOTEHDR
+Lainauksen merkki
+;
+MSG_SET_MAIL_EXTMAILER
+Käytä ulkoista postittajaa
+;
+MSG_SET_MAIL_EXTMCOMMAND
+Käsky
+;
+MSG_SET_MAIL_EXTMARGS
+Määritteet
+;
+MSG_SET_MAIL_NNTPHOST
+Uutispalvelin (NNTP)
+;
+MSG_SET_MAIL_NEWSQUOTEHDR
+Lainauksen merkki
+;
+MSG_SET_MAIL_NEWSUSER
+Uutiskäyttäjätunnus
+;
+MSG_SET_MAIL_NEWSPASSWORD
+Uutissalasana
+;
+MSG_SET_MAIL_EXTNEWS
+Käytä ulkoista uutislukijaa
+;
+MSG_SET_MAIL_EXTNCOMMAND
+Käsky
+;
+MSG_SET_MAIL_EXTNARGS
+Määritteet
+;
+MSG_SET_MAIL_MAXARTICLES
+Artikkelien enimmäismäärä
+;
+MSG_SET_MAIL_SORTED
+Lajittele artikkelit
+;
+MSG_SET_MAIL_FRAMED
+Jaa ruutu
+;
+MSG_SET_MAIL_LONGHDRS
+Pitkät viitetiedot
+;
+MSG_SET_MAIL_PROPFONT
+Suhteellinen kirjasin
+;
+MSG_SET_MAIL_NEWSBYNUMBER
+Hae numeron perusteella
+;
+MSG_SET_KEYS_KEY
+Näppäin
+;
+MSG_SET_KEYS_COMMAND
+Käsky
+;
+MSG_SET_KEYS_ENTER
+Enter
+;
+MSG_SET_KEYS_TAB
+Tab
+;
+MSG_SET_KEYS_BS
+Askelpalautin
+;
+MSG_SET_KEYS_SPACE
+Välilyönti
+;
+MSG_SET_KEYS_UP
+Ylös
+;
+MSG_SET_KEYS_LEFT
+Vasen
+;
+MSG_SET_KEYS_RIGHT
+Oikea
+;
+MSG_SET_KEYS_DOWN
+Alas
+;
+MSG_SET_KEYS_NUM
+Num
+;
+MSG_SET_KEYS_SHIFT
+Vaihto
+;
+MSG_SET_KEYS_WHEELUP
+Rulla ylös
+;
+MSG_SET_KEYS_WHEELDOWN
+Rulla alas
+;
+MSG_SET_NAVS_BUTTON
+Painike
+;
+MSG_SET_NAVS_COMMAND
+Käsky
+;
+MSG_SET_NAVS_BACK
+Takaisin
+;
+MSG_SET_NAVS_FORWARD
+Eteenpäin
+;
+MSG_SET_NAVS_HOME
+Koti
+;
+MSG_SET_NAVS_ADDHOT
+Lisää pikalistaan
+;
+MSG_SET_NAVS_HOTLIST
+Näytä pikalista
+;
+MSG_SET_NAVS_CANCEL
+Peru
+;
+MSG_SET_NAVS_NETSTATUS
+Verkon tila
+;
+MSG_SET_NAVS_SEARCH
+Etsi
+;
+MSG_SET_NAVS_RELOAD
+Lataa uudelleen
+;
+MSG_SET_NAVS_LOADIMAGES
+Lataa kuvat
+;
+MSG_SET_PROJECT_MENU
+Projekti
+;
+MSG_SET_PROJECT_OPEN
+O/Avaa...
+;
+MSG_SET_PROJECT_SAVEAS
+A/Talleta nimellä...
+;
+MSG_SET_PROJECT_QUIT
+Q/Lopeta asetukset
+;
+MSG_SET_EDIT_MENU
+Muokkaa
+;
+MSG_SET_EDIT_DEFAULTS
+D/Palauta oletukset
+;
+MSG_SET_EDIT_LASTSAVED
+L/Viimeksi tallennettu
+;
+MSG_SET_EDIT_RESTORE
+R/Palauta
+;
+MSG_SET_WINDOWS_MENU
+Ikkunat
+;
+MSG_SET_WINDOWS_BROWSER
+Selainasetukset...
+;
+MSG_SET_WINDOWS_PROGRAM
+Ohjelma-asetukset...
+;
+MSG_SET_WINDOWS_NETWORK
+Verkkoasetukset...
+;
+MSG_SET_WINDOWS_CLASSACT
+ClassAct-asetukset...
+;
+MSG_SET_WINDOWS_SNAPSHOT
+Lukitse paikat
+;
+MSG_SET_WINDOWS_GUI
+GUI-asetukset...
+;

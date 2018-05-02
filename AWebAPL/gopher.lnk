@@ -1,0 +1,9 @@
+FROM     gopher.o
+TO       aweblib/gopher.aweblib
+NODEBUG
+LIB      lib:scnb.lib
+MAP      gopher.map
+NOICONS
+
+DEFINE   @__chkabort=@__dummy
+

@@ -1,0 +1,3 @@
+.key lang/a
+FlexCat aweb.cd ct/<lang>/aweb.ct newctfile ct/<lang>/aweb.ct
+FlexCat awebcfg.cd ct/<lang>/awebcfg.ct newctfile ct/<lang>/awebcfg.ct

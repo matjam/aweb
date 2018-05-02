@@ -1,0 +1,91 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+Network settings: Cache
+</title>
+<meta name="keywords" content="memory,disk,chip,fast">
+</head>
+<body background=../awebbg.iff>
+<h1><img src=../aweb.iff alt=(logo) width=192 height=93>&nbsp; Network settings: Cache</h1>
+
+<h2><a name=cachedir>Cache path</a></h2>
+AWeb uses a <a href=../cache.html>cache</a> on your harddisk to store
+objects. It will use the directory you configure here as its
+<a href=../cache.html#cachedir>cache directory</a>. Note that you should
+create a new directory, or use an empty one for AWebs cache. Don't use
+the cache directory for anything else but AWebs cache.
+<p>
+Type the full path name, or click the <img src=../popdrawer.iff alt=Drawer
+width=20 height=21> button to pop up a standard drawer requester.
+<p>
+Note that if you change this setting it does not become active when you
+<b>Use</b> or <b>Save</b> the settings. In order to avoid an inconsistent
+cache, AWeb will continue to use the current cache directory until you
+quit AWeb. The next time you start AWeb the new directory will be used.
+
+<h2>Verify cache copy</h2>
+Use this chooser to set the <a href=../cache.html#verify>verification
+mode</a>. <em>Once per session</em> is the recommended setting.
+
+<h2>Fast response</h2>
+Check this checkbox if you want <a href=../cache.html#fast>fast response</a>
+from the cache.
+
+<h2><a name=cache>Cache size</a></h2>
+Use these two gadgets to set the maximum size to use for the cache in memory
+and on your harddisk.
+<p>
+All sizes should be given in kB.
+
+<h2>Minimum free memory</h2>
+These two gadgets determine the minimum amount of chip and fast
+memory that AWeb should leave free. If there is less memory free than
+what is set here, AWeb will flush objects from memory. Usually these
+objects remain on your harddisk.
+<p>
+If you specify more memory than can possibly be freed (e.g. a non-zero
+fast memory limit on a machine with no fast memory), AWeb will continuously
+flush all documents and images. So be careful what you enter here.
+<p>
+Sizes are in kB.
+
+<h2><a name=nocache>Do not cache these sites</a></h2>
+If this list contains <em>site names</em> (also known as <em>locations</em> or 
+<em>host names</em>), then documents and images from these sites will not
+be stored in the cache.
+<p>
+Use the <b>Add</b> button to add a new entry, and the <b>Del</b> button to
+delete the currently selected entry. Double-click on an entry to edit
+the name <em>in place</em>.
+<p>
+You may type simple host names, or use pattern matching. If a string contains
+pattern matching characters, it's matched against the full url, not only the
+host name. This enables you to selectively cache or not cache files from a
+server.
+
+<p>
+<hr>
+<a href=nwproxy.html><img src=../back.gif width=32 height=16 alt="<-" border=0>Proxy</a> &nbsp;
+<a href=settings.html><img src=../up.gif width=32 height=20 alt="^" border=0>Settings requesters</a> &nbsp;
+<a href=nwprivacy.html><img src=../next.gif width=32 height=16 alt="-&gt;" border=0>Privacy</a>
+
+</body>
+</html>

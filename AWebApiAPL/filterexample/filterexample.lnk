@@ -1,0 +1,5 @@
+FROM     startup.o filterexample.o
+TO       filterexample.awebplugin
+NODEBUG
+LIB      lib:sc.lib
+MAP      filterexample.map

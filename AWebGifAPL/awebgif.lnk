@@ -1,0 +1,7 @@
+FROM     startup.o awebgif.o gifsource.o gifcopy.o
+TO       awebgif.awebplugin
+NODEBUG
+LIB      lib:debug.lib lib:amiga.lib
+LIB      lib:sc.lib
+MAP      awebgif.map
+NOICONS

@@ -1,0 +1,74 @@
+<!--
+/**********************************************************************
+ * 
+ * This file is part of the AWeb-II distribution
+ *
+ * Copyright (C) 2002 Yvon Rozijn
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the AWeb Public License as included in this
+ * distribution.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * AWeb Public License for more details.
+ *
+ **********************************************************************/
+-->
+<html>
+<head>
+<title>
+About MIME types
+</title>
+</head>
+<body background=awebbg.iff>
+<h1><img src=aweb.iff alt=(logo) width=192 height=93>&nbsp; About MIME types</h1>
+
+MIME (Multipurpose Internet Mail Extensions) is a mechanism for specifying
+and describing the format of Internet message bodies. It was primarily
+designed for e-mail, but MIME types are used also to identify the type of
+data in the HTTP protocol, the most widely used protocol on the World Wide
+Web.
+<p>
+For a browser like AWeb, the MIME type of a document determines whether
+the file should be displayed in the browser window, or be processed by
+some other program.
+<p>
+A MIME type consists of a <em>type</em> and a <em>subtype</em>. The
+<em>type</em> describes the major class of data, like text or image. The
+<em>subtype</em> is used for a subdivision of the major type into different
+formats, like GIF or JPEG images.
+<p>
+According to RFC 1521, the following official MIME types are defined:
+<dl>
+<dt><b>TEXT/HTML</b>
+<dd>This is a document in the HTML hypertext format. Virtually all pages
+on the Web are in this format.
+<p>
+<dt><b>TEXT/PLAIN</b>
+<dd>This type is used for plain text documents (normally in ASCII).
+<p>
+<dt><b>APPLICATION/OCTET-STREAM</b>
+<dd>This describes a binary file. The file could be processed by some
+application. An example of this would be an LHA archive.
+<p>
+<dt><b>APPLICATION/POSTSCRIPT</b>
+<dd>The document is in PostScript format.
+<p>
+<dt><b>IMAGE/GIF</b>
+<dt><b>IMAGE/JPEG</b>
+<dd>These are images, in GIF and JPEG format.
+<p>
+<dt><b>AUDIO/BASIC</b>
+<dd>This type is used for audio data encoded using 8-bit ISDN mu-law [PCM].
+<p>
+<dt><b>VIDEO/MPEG</b>
+<dd>This is an animation in MPEG format.
+</dl>
+In addition to these official types and subtypes, it is allowed to define
+extension MIME types and subtypes. These should start with <b>X-</b> to
+avoid collisions with future official MIME types.
+
+</body>
+</html>
